@@ -25,41 +25,7 @@
 
 <body>
     <div id="map"></div>
-    <script>
-        var stockholm = { lat: 59.33258, lng: 18.0649 };
-        function initMap() {
-            var map = new google.maps.Map(document.getElementById('map'), {
-                center: stockholm,
-                zoom: 4
-            });
-
-            var labels = "ABCDEFGHIKLMNOPQRSTUVWXYZ";
-
-            var markers = locations.map(function (location, i) {
-                var marker = new google.maps.Marker({
-                    position: location,
-                    label: labels[i % labels.length]
-                });
-                marker.addListener("click", function(){
-                    window.open("https://www.google.com/")
-                })
-                return marker;
-            });
-
-            var markerClusters = new MarkerClusterer(map, markers,
-                { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
-        }
-
-        var locations = [
-            { lat: 59.33258, lng: 18.0649 },
-            { lat: 58.33258, lng: 19.0649 },
-            { lat: 57.33258, lng: 20.0649 },
-            { lat: 56.33258, lng: 21.0649 },
-            { lat: 55.33258, lng: 22.0649 },
-            { lat: 54.33258, lng: 23.0649 },
-            { lat: 53.33258, lng: 24.0649 }
-        ];
-    </script>
+    <script src="asset/js/mapControl.js"></script>
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
     </script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCM2a0hPrkSvDSRBULaiByNBgnqJcVaaqk&callback=initMap">
