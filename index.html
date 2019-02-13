@@ -2,10 +2,12 @@
 <html>
 
 <head>
-    <title>Simple Map</title>
+    <title>Demo</title>
     <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
     <link href="asset/css/map.css" rel="stylesheet">
+    <link href="asset/css/filter.css" rel="stylesheet">
+    <link href="asset/css/switch.css" rel="stylesheet">
     <!-- <style >
         /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
@@ -24,12 +26,65 @@
 </head>
 
 <body>
-    <div id="map"></div>
+    <div class="header">
+        <div class="container">
+            <p>Switch compare mode
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </p>
+        </div>
+    </div>
+    <div class="filter">
+        <!-- The following elements are only for display test,
+            if there are numbers of developers,
+            should use javascript to generate list elements 
+            in asset/js/filterControl.js -->
+        <p class="title">Developers</p>
+        <ul>
+            <div class="showAll">Show all</div>
+            <div class="filter_container">
+                <div class="img_div">
+                    <img src="asset/img/hammer_res1.png">
+                </div>
+                <div class="type_text">Alex</div>
+            </div>
+            <div class="filter_container">
+                <div class="img_div">
+                    <img src="asset/img/hammer_res1.png">
+                </div>
+                <div class="type_text">Bill</div>
+            </div>
+            <div class="filter_container">
+                <div class="img_div">
+                    <img src="asset/img/hammer_res1.png">
+                </div>
+                <div class="type_text">Cien</div>
+            </div>
+            <div class="filter_container">
+                <div class="img_div">
+                    <img src="asset/img/hammer_res1.png">
+                </div>
+                <div class="type_text">Demetrius</div>
+            </div>
+            <div class="filter_container">
+                <div class="img_div">
+                    <img src="asset/img/hammer_res1.png">
+                </div>
+                <div class="type_text">Elena</div>
+            </div>
+        </ul>
+    </div>
+    <script src="asset/js/filterControl.js"></script>
+    <div id="map" class="gm"></div>
     <script src="asset/js/mapControl.js"></script>
-    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
-    </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCM2a0hPrkSvDSRBULaiByNBgnqJcVaaqk&callback=initMap">
-    </script>
+    <script
+        src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
+        </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCM2a0hPrkSvDSRBULaiByNBgnqJcVaaqk&callback=initMap">
+        </script>
 </body>
 
 </html>

@@ -4,7 +4,16 @@
     function initMap() {
         var map = new google.maps.Map(document.getElementById('map'), {
             center: stockholm,
-            zoom: 15
+            zoom: 15,
+            mapTypeControl: true,
+            mapTypeControlOptions:{
+                style: google.maps.MapTypeControlStyle.HORIZONTIAL_BAR,
+                position: google.maps.ControlPosition.RIGHT_TOP,
+                mapTypeIds: ["roadmap", "terrain", "hybrid", "satellite", ]
+            },
+            fullscreenControl: false,
+            streetViewControl: false
+            
         });
 
         var labels = "ABCDEFGHIKLMNOPQRSTUVWXYZ";
