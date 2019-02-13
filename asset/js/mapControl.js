@@ -41,7 +41,8 @@
 
         polygon.addListener("click", function(){
             // some events here
-            alert("polygon clicked!");
+            // alert("polygon clicked!");
+            document.getElementById("modal_button").click();
         });
         polygon.setMap(map);
 

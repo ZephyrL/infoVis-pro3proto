@@ -3,18 +3,20 @@
 }
 
 .header {
-    height: 10%
+    height: 8%
 }
 
-.header div{
+.header div {
     position: relative;
+    display: flex;
     left: 75%;
     width: 25%;
-    padding: 0; 
+    padding: 0;
 }
 
-.header p{
+.header p {
     font-weight: bold;
+    vertical-align: middle;
 }
 
 html, body {
