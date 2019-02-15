@@ -19,6 +19,18 @@
     vertical-align: middle;
 }
 
+.building {
+    width: 30%;
+    height: 80%;
+    padding: 10px;
+}
+
+.information {
+    width: 60%;
+    height: 90%;
+    
+}
+
 html, body {
     height: 100%;
     margin: 0;
