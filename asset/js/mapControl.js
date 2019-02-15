@@ -1,19 +1,20 @@
 {
     var stockholm = { lat: 59.35300, lng: 18.0950 };
-    
+
     function initMap() {
         var map = new google.maps.Map(document.getElementById('map'), {
             center: stockholm,
             zoom: 15,
             mapTypeControl: true,
-            mapTypeControlOptions:{
+            mapTypeId: "satellite",
+            mapTypeControlOptions: {
                 style: google.maps.MapTypeControlStyle.HORIZONTIAL_BAR,
                 position: google.maps.ControlPosition.RIGHT_TOP,
-                mapTypeIds: ["roadmap", "terrain", "hybrid", "satellite", ]
+                mapTypeIds: ["roadmap", "terrain", "hybrid", "satellite",]
             },
             fullscreenControl: false,
             streetViewControl: false
-            
+
         });
 
         var labels = "ABCDEFGHIKLMNOPQRSTUVWXYZ";
@@ -39,7 +40,7 @@
             fillOpacity: 0.3
         });
 
-        polygon.addListener("click", function(){
+        polygon.addListener("click", function () {
             // some events here
             // alert("polygon clicked!");
             document.getElementById("modal_button").click();
