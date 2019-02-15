@@ -9,110 +9,123 @@
     <link href="asset/css/filter.css" rel="stylesheet">
     <link href="asset/css/switch.css" rel="stylesheet">
     <link href="asset/css/modal.css" rel="stylesheet">
-    <!-- <style >
-        /* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
-        #map {
-            height: 100%;
-        }
-
-        /* Optional: Makes the sample page fill the window. */
-        html,
-        body {
-            height: 100%;
-            margin: 0;
-            padding: 0;
-        }
-    </style> -->
+    <link href="asset/css/frontpage.css" , rel="stylesheet">
 </head>
 
 <body>
     <!-- three.js module -->
     <script src="asset/js/three.js"></script>
+    <!-- jQuery module -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <!-- underscore.js -->
+    <script type="text/javascript" src="asset/js/underscore.js"></script>
 
-    <!-- header segment -->
-    <div class="header">
-        <div class="switchcontainer">
-            <p>Switch compare mode
-                <label class="switch">
-                    <input type="checkbox">
-                    <span class="slider round"></span>
-                </label>
-            </p>
+    <div class="container">
+        <!-- front page -->
+        <section class="background">
+            <div class="content-wrapper">
+                <p class="content-title">Stockholm Royal Seaport</p>
+                <p class="content-subtitle">Scroll down to start adventure</p>
+            </div>
+        </section>
+        <!-- page of main content -->
+        <div id="map_container" style="display: none">
+            <!-- header blank segment -->
+            <div class="header">
+                <!-- switch button -->
+                <div class="switch_container">
+                    <p>Switch compare mode
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                    </p>
+                </div>
+            </div>
+
+            <!-- filter on the left -->
+            <div class="filter">
+                <!-- The following elements are only for display test,
+                    if there are numbers of developers,
+                    should use javascript to generate list elements 
+                    in asset/js/filterControl.js -->
+                <p class="title">Developers</p>
+                <ul>
+                    <div class="showAll">Show all</div>
+                    <!-- one element of the list -->
+                    <div class="filter_container">
+                        <div class="img_div">
+                            <img src="asset/img/hammer_res1.png">
+                        </div>
+                        <div class="type_text">Alex</div>
+                    </div>
+                    <!-- another element -->
+                    <div class="filter_container">
+                        <div class="img_div">
+                            <img src="asset/img/hammer_res1.png">
+                        </div>
+                        <div class="type_text">Bill</div>
+                    </div>
+                    <div class="filter_container">
+                        <div class="img_div">
+                            <img src="asset/img/hammer_res1.png">
+                        </div>
+                        <div class="type_text">Cien</div>
+                    </div>
+                    <div class="filter_container">
+                        <div class="img_div">
+                            <img src="asset/img/hammer_res1.png">
+                        </div>
+                        <div class="type_text">Demetrius</div>
+                    </div>
+                    <div class="filter_container">
+                        <div class="img_div">
+                            <img src="asset/img/hammer_res1.png">
+                        </div>
+                        <div class="type_text">Elena</div>
+                    </div>
+                </ul>
+            </div>
+            <script src="asset/js/filterControl.js"></script>
+
+            <!-- google map element -->
+            <div id="map" class="gm"></div>
+            <script src="asset/js/mapControl.js"></script>
+
+            <!-- modal window -->
+            <a class="button" id="modal_button" href="#popup">Open Modal</a>
+            <div class="popup" id="popup">
+                <div class="popup-inner">
+                    <!-- three.js canvas element -->
+                    <div id="canvas" class="building"> </div>
+                    <script src="asset/js/3dbuilding.js"></script>
+                    
+                    <!-- box to show information, maybe charts -->
+                    <div class="information"></div>
+
+                    <!-- close button -->
+                    <a class="popup__close" href="#">X</a>
+                </div>
+            </div>
         </div>
+
+        <!-- background of the main page -->
+        <section class="background">
+            <div class="content-wrapper">
+                <!-- <p class="content-title"></p>
+                <p class="content-subtitle"></p> -->
+            </div>
+        </section>
+        <!-- <section class="background">
+            <div class="content-wrapper">
+                <p class="content-title">Etiam consequat lectus.</p>
+                <p class="content-subtitle">Nullam tristique urna sed tellus ornare congue. Etiam vitae erat at nibh
+                    aliquam dapibus.</p>
+            </div>
+        </section> -->
     </div>
+    <script src="asset/js/frontPage.js"></script>
 
-    <!-- filter on the left -->
-    <div class="filter">
-        <!-- The following elements are only for display test,
-            if there are numbers of developers,
-            should use javascript to generate list elements 
-            in asset/js/filterControl.js -->
-        <p class="title">Developers</p>
-        <ul>
-            <div class="showAll">Show all</div>
-            <div class="filter_container">
-                <div class="img_div">
-                    <img src="asset/img/hammer_res1.png">
-                </div>
-                <div class="type_text">Alex</div>
-            </div>
-            <div class="filter_container">
-                <div class="img_div">
-                    <img src="asset/img/hammer_res1.png">
-                </div>
-                <div class="type_text">Bill</div>
-            </div>
-            <div class="filter_container">
-                <div class="img_div">
-                    <img src="asset/img/hammer_res1.png">
-                </div>
-                <div class="type_text">Cien</div>
-            </div>
-            <div class="filter_container">
-                <div class="img_div">
-                    <img src="asset/img/hammer_res1.png">
-                </div>
-                <div class="type_text">Demetrius</div>
-            </div>
-            <div class="filter_container">
-                <div class="img_div">
-                    <img src="asset/img/hammer_res1.png">
-                </div>
-                <div class="type_text">Elena</div>
-            </div>
-        </ul>
-    </div>
-    <script src="asset/js/filterControl.js"></script>
-
-    <!-- google map element -->
-    <div id="map" class="gm"></div>
-    <script src="asset/js/mapControl.js"></script>
-
-    <!-- modal window -->
-    <a class="button" id="modal_button" href="#popup">Open Modal</a>
-    <div class="popup" id="popup">
-        <div class="popup-inner">
-            <!-- <div class="popup__photo">
-                <img src="https://images.unsplash.com/photo-1515224526905-51c7d77c7bb8?ixlib=rb-0.3.5&s=9980646201037d28700d826b1bd096c4&auto=format&fit=crop&w=700&q=80"
-                    alt="">
-            </div>
-            <div class="popup__text">
-                <h1>Lorem ipsum dolor sit amet</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ex velit, viverra non vulputate
-                    vitae, blandit vitae nisl. Nullam fermentum orci et erat viverra bibendum. Aliquam sed varius
-                    nibh, vitae mattis purus. Mauris elementum sapien non ullamcorper vulputate. Orci varius natoque
-                    penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed eget felis sit amet eros
-                    viverra pulvinar.</p>
-            </div> -->
-
-            <!-- three.js canvas element -->
-            <div id="canvas" class="building"> </div>
-            <script src="asset/js/3dbuilding.js"></script>
-            <div class="information"></div>
-            <a class="popup__close" href="#">X</a>
-        </div>
-    </div>
 
     <!-- import google map apis -->
     <script

@@ -1,5 +1,6 @@
 {
     var stockholm = { lat: 59.35300, lng: 18.0950 };
+    // var stockholm = { lat: 59.355954, lng: 18.086862};
 
     function initMap() {
         var map = new google.maps.Map(document.getElementById('map'), {
@@ -14,7 +15,6 @@
             },
             fullscreenControl: false,
             streetViewControl: false
-
         });
 
         var labels = "ABCDEFGHIKLMNOPQRSTUVWXYZ";

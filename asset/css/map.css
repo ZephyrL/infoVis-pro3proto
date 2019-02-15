@@ -1,9 +1,22 @@
-#map {
+#map_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    z-index: 2;
+}
+
+#map_container #map {
+    position: absolute;
+    top: 10%;
+    left: 0%;
     height: 90%;
+    width: 100%;
+    z-index: 3;
 }
 
 .header {
-    height: 8%
+    height: 8%;
+    width: 100%;
 }
 
 .header div {
@@ -28,7 +41,6 @@
 .information {
     width: 60%;
     height: 90%;
-    
 }
 
 html, body {
