@@ -1,0 +1,110 @@
+"data" : []
+
+"phase" : {
+	"name" : "",
+	"stage" : "", 
+	"boundary" : [
+		{
+			"lat" : 0.0,
+			"lng" : 0.0
+		}
+	],
+	"yearProjectStart" : 1970,
+	"yearOccupancy" : 1970,
+	"apartments" : []
+}
+
+"apartment" : {
+	"name" : "",
+	"developer" : "",
+	"totalApartments" : 0,
+	"coordinates" : {
+		"longitude" : 0.0,
+		"latitude" : 0.0		
+	},
+	"area" : 0,
+	"requirements" : {
+		"bbr" : 0,
+		"energy" : 0,
+		"gsi" : 0.0,
+		"bicycleParking" : 0.0,
+		"carParking" : 0.0,
+		"electiralChargingPoint" : 0,
+		"constructionWaste" : 0,
+		"distanceToVWC"	: 0,
+		"distanceToRecycling" : 0,	
+		"indoorEnvironment" : 0
+	},
+	"energy" : {
+        "operation" : {},
+        "construction" : {},
+        "design" : {}
+	},
+	"greenStructure" :	{
+		"co2emissions" : 0.0,
+        "operation" : {},
+        "construction" : {},
+		"design" : {},
+		"courtyard" : 0,
+		"roofs" : 0
+	},
+	"transport" : {
+		"operation" : {},
+        "construction" : {},
+		"design" : {},
+		"totalBicycleParking" : 0,
+		"bicycleParkingIndoor" : 0,
+		"bicycleParkingOutdoor" : 0,
+		"carParkingSpace" : 0.0,
+		"totalcarParkingSpace" : 0,
+		"electiralChargingPoint" : 0,
+		"totalElectiralChargingPoint" : 0
+	},
+	"construction" : {
+		"constructionWaste" : 0.0,
+		"energyRecovery" : 0.0,
+		"materialRecycling" : 0.0,
+		"reuse" : 0.0,
+		"mixed" : 0.0,
+		"landsFill" : 0.0,
+		"notSpecified" : 0
+	},
+	"waste" : {
+		"distanceToVWC"	: 0,
+		"distanceToRecycling" : 0,	
+		"operation" : {},
+        "construction" : {},
+		"design" : {}
+	},
+	"materials" : {
+		"assessment" : "yes",
+		"deveations" : 0
+	},
+	"indoorEnvironment" : {
+		"class" : "silver"
+	}
+}
+
+"energy" : {
+	"total" : 0.0,
+	"districtHeating" : 0.0,
+	"electricityHeating" : 0.0,
+	"districtHotWater" : 0.0,
+	"electricityHotWater" : 0.0,
+	"propertyElectricity" : 0.0,
+	"localElectricity" : 0.0,
+	"localHeating" : 0.0,
+	"regionalEnergy" : 0.0
+}
+
+"greenStructure" : {
+	"gsi" : 0.0
+}
+
+"transport" : {
+	"bicycleParking" : 0.0
+}
+
+"recyclingRoom" : {
+	"size" : 0.0
+}
