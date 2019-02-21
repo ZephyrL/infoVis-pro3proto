@@ -79,6 +79,36 @@
   background-color: #eee;
 }
 
+#myUL li ::after click {
+    background-color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: transparent;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: darkslategrey;
+  display: block
+}
+
+#myUL li:hover:not(.header) {
+  background-color: #eee;
+}
+
 #myUL li :after:active click {
     background-color: white;
 }
