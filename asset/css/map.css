@@ -41,7 +41,19 @@
 .information {
     width: 90%;
     height: 90%;
-    padding : 10px;
+    padding: 10px;
+}
+
+.imgBox {
+    position: absolute;
+    top: 90%;
+    left: 30%;
+    display: inline-block;
+}
+
+#r2gbar {
+    z-index: 4;
+    position: relative;
 }
 
 html, body {
