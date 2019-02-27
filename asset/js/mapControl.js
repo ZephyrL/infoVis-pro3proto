@@ -258,4 +258,29 @@
     var locations = [
         { lat: 59.358263, lng: 18.090405 },
     ];
+
+    //<script type="text/javascript" src="data.json"></script>
+// <script type="text/javascript" src="javascrip.js"></script>
+
+
+    function place_buildings(map, coord){
+        var image = 'https://commons.wikimedia.org/wiki/File:Home_icon_black.png';
+        var marker = [];
+        for(i = 0 ; i < coord.length; i++) { //Let coord represent the coordinates of buildings.
+            if (coord.hasOwnProperty('latitude') || coord.hasOwnProperty('longitude'))
+                marker[i] = new google.maps.Marker({
+                    position: c,
+                    map: map,
+                    icon: image,
+                    shape: 'default'
+                });
+
+            marker.addListener('click', function(){
+                //Do some work when icon is clicked, maybe pop-up?
+            });
+
+        }
+        return marker;
+    }
+
 }
