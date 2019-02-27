@@ -79,36 +79,6 @@
   background-color: #eee;
 }
 
-#myUL li ::after click {
-    background-color: white;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-
-#myUL {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-#myUL li {
-  border: 1px solid #ddd;
-  margin-top: -1px; /* Prevent double borders */
-  background-color: transparent;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 18px;
-  color: darkslategrey;
-  display: block
-}
-
-#myUL li:hover:not(.header) {
-  background-color: #eee;
-}
-
 #myUL li :after:active click {
     background-color: white;
 }
@@ -118,16 +88,6 @@
     overflow: hidden;
 }
 
-.dropdown .dropbtn {
-    font-size: 16px;
-    border: 1px solid #ddd;
-    outline: none;
-    color: darkslategrey;
-    padding: 14px 16px;
-    background-color: transparent;
-    font-family: inherit;
-    margin:0;
-}
 
 .dropdown-content {
     display: none;
