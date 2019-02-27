@@ -41,21 +41,6 @@
                 buildingPolygonSeaport.setMap(map);
             } 
 
-        })
-
-        var labels = "ABCDEFGHIKLMNOPQRSTUVWXYZ";
-
-        var markers = locations.map(function (location, i) {
-            var marker = new google.maps.Marker({
-                position: location,
-                label: labels[i % labels.length]
-            });
-
-            marker.addListener("click", function () {
-                // some events here
-                // window.open("https://www.google.com/")
-            })
-            return marker;
         });
 
         var districtPolygon = new google.maps.Polygon({
