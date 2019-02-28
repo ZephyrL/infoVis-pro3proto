@@ -1,5 +1,5 @@
 {
-    var stockholm = { lat: 59.356739, lng: 18.098526 };
+    var stockholm = { lat: 59.356739, lng: 18.091526 };
     // var stockholm = { lat: 59.355954, lng: 18.086862};
 
     function initMap() {
@@ -19,6 +19,47 @@
             heading: 45
         });
 
+                // polygon names
+                Popup = createPopupClass();
+                nameSeaport = new Popup(
+                    new google.maps.LatLng(59.356205, 18.096201),
+                    document.getElementById('Seaport')
+                );
+                nameBrofastet = new Popup(
+                    new google.maps.LatLng(59.359973, 18.094811),
+                    document.getElementById('Brofastet')
+                );
+                nameGasklockan = new Popup(
+                    new google.maps.LatLng(59.356200, 18.090155),
+                    document.getElementById('Gasklockan')
+                );
+                nameNorra1 = new Popup(
+                    new google.maps.LatLng(59.357021, 18.086668),
+                    document.getElementById('Norra1')
+                );
+                nameNorra2 = new Popup(
+                    new google.maps.LatLng(59.358722, 18.090021),
+                    document.getElementById('Norra2')
+                );
+                nameGasverket = new Popup(
+                    new google.maps.LatLng(59.358393, 18.093309),
+                    document.getElementById('Gasverket')
+                );
+                nameVastra = new Popup(
+                    new google.maps.LatLng(59.354373, 18.088567),
+                    document.getElementById('Vastra')
+                );
+        
+        
+                nameSeaport.setMap(map);
+                nameBrofastet.setMap(map);
+                nameGasklockan.setMap(map);
+                nameNorra1.setMap(map);
+                nameNorra2.setMap(map);
+                nameGasverket.setMap(map);
+                nameVastra.setMap(map);
+      
+        // map zoome change listener
         google.maps.event.addListener(map, "zoom_changed", function () {
             // alert("zoom changed");
             var zoomLevel = map.getZoom();
@@ -32,8 +73,8 @@
                 //buildingPolygonVastra.setMap(null);
                 //buildingPolygonSeaport.setMap(null);
             }
-            if(zoomLevel > 15 && zoomLevel <= 18) {
-                //districtPolygon.setMap(null);
+            if (zoomLevel > 15 && zoomLevel <= 18) {
+                districtPolygon.setMap(null);
                 buildingPolygonBrofastet.setMap(map);
                 buildingPolygonGasklockan.setMap(map);
                 buildingPolygonNorra1.setMap(map);
@@ -50,7 +91,8 @@
             strokeColor: "#FFFFFF",
             strokeOpacity: 0.7,
             fillColor: "#FFFFFF",
-            fillOpacity: 0.3
+            fillOpacity: 0.3,
+            name: "Stockholm Royal Seaport"
         });
 
         districtPolygon.addListener("click", function () {
@@ -59,13 +101,13 @@
             map.setZoom(16);
         });
 
-
         var buildingPolygonBrofastet = new google.maps.Polygon({
             paths: brofastet,
             strokeColor: "#FFFFFF",
             strokeOpacity: 0.7,
             fillColor: "FFFFFF",
-            fillOpacity: 0.3
+            fillOpacity: 0.3,
+            name: "Brofastet"
         });
 
         var buildingPolygonGasklockan = new google.maps.Polygon({
@@ -73,7 +115,8 @@
             strokeColor: "#FFFFFF",
             strokeOpacity: 0.7,
             fillColor: "FFFFFF",
-            fillOpacity: 0.3
+            fillOpacity: 0.3,
+            name: "Gasklockan"
         });
 
         var buildingPolygonNorra1 = new google.maps.Polygon({
@@ -81,7 +124,8 @@
             strokeColor: "#FFFFFF",
             strokeOpacity: 0.7,
             fillColor: "FFFFFF",
-            fillOpacity: 0.3
+            fillOpacity: 0.3,
+            name: "Norra1"
         });
 
         var buildingPolygonNorra2 = new google.maps.Polygon({
@@ -89,7 +133,8 @@
             strokeColor: "#FFFFFF",
             strokeOpacity: 0.7,
             fillColor: "FFFFFF",
-            fillOpacity: 0.3
+            fillOpacity: 0.3,
+            name: "Norra2"
         });
 
         var buildingPolygonGasverket = new google.maps.Polygon({
@@ -97,7 +142,8 @@
             strokeColor: "#FFFFFF",
             strokeOpacity: 0.7,
             fillColor: "FFFFFF",
-            fillOpacity: 0.3
+            fillOpacity: 0.3,
+            name: "Gasverket"
         });
 
         var buildingPolygonVastra = new google.maps.Polygon({
@@ -105,7 +151,8 @@
             strokeColor: "#FFFFFF",
             strokeOpacity: 0.7,
             fillColor: "FFFFFF",
-            fillOpacity: 0.3
+            fillOpacity: 0.3,
+            name: "Vastra"
         });
 
         var buildingPolygonSeaport = new google.maps.Polygon({
@@ -113,12 +160,89 @@
             strokeColor: "#808080",
             strokeOpacity: 0.7,
             fillColor: "808080",
-            fillOpacity: 0.3
+            fillOpacity: 0.3,
+            name: "Seaport"
         });
 
-        function listener(){
+        function polygonClickListener() {
             document.getElementById("modal_button").click();
         };
+
+        buildingPolygonBrofastet.addListener("click", polygonClickListener);
+        buildingPolygonGasklockan.addListener("click", polygonClickListener);
+        buildingPolygonNorra1.addListener("click", polygonClickListener);
+        buildingPolygonNorra2.addListener("click", polygonClickListener);
+        buildingPolygonGasverket.addListener("click", polygonClickListener);
+        buildingPolygonVastra.addListener("click", polygonClickListener);
+        // the gray area are under planning, if you are gonna show some info about it,
+        // I suggest to make another listener for it
+        // buildingPolygonSeaport.addListener("click", polygonClickListener);
+
+        // name of phase should disappear when put mouse on it
+        function polygonMouseOverListener() {
+            var name = this.name;
+            switch (name) {
+                case "Brofastet":
+                    nameBrofastet.setMap(null);
+                    break;
+                case "Gasklockan":
+                    nameGasklockan.setMap(null);
+                    break;
+                case "Gasverket":
+                    nameGasverket.setMap(null);
+                    break;
+                case "Norra1":
+                    nameNorra1.setMap(null);
+                    break;
+                case "Norra2":
+                    nameNorra2.setMap(null);
+                    break;
+                case "Vastra":
+                    nameVastra.setMap(null);
+                    break;
+            }
+        }
+
+        buildingPolygonBrofastet.addListener("mouseover", polygonMouseOverListener);
+        buildingPolygonGasklockan.addListener("mouseover", polygonMouseOverListener);
+        buildingPolygonNorra1.addListener("mouseover", polygonMouseOverListener);
+        buildingPolygonNorra2.addListener("mouseover", polygonMouseOverListener);
+        buildingPolygonGasverket.addListener("mouseover", polygonMouseOverListener);
+        buildingPolygonVastra.addListener("mouseover", polygonMouseOverListener);
+        // buildingPolygonSeaport.addListener("mouseover", polygonMouseOverListener);
+
+        function polygonMouseOutListener(){
+                        var name = this.name;
+            switch (name) {
+                case "Brofastet":
+                    nameBrofastet.setMap(map);
+                    break;
+                case "Gasklockan":
+                    nameGasklockan.setMap(map);
+                    break;
+                case "Gasverket":
+                    nameGasverket.setMap(map);
+                    break;
+                case "Norra1":
+                    nameNorra1.setMap(map);
+                    break;
+                case "Norra2":
+                    nameNorra2.setMap(map);
+                    break;
+                case "Vastra":
+                    nameVastra.setMap(map);
+                    break;
+            }
+        }
+
+        buildingPolygonBrofastet.addListener("mouseout", polygonMouseOutListener);
+        buildingPolygonGasklockan.addListener("mouseout", polygonMouseOutListener);
+        buildingPolygonNorra1.addListener("mouseout", polygonMouseOutListener);
+        buildingPolygonNorra2.addListener("mouseout", polygonMouseOutListener);
+        buildingPolygonGasverket.addListener("mouseout", polygonMouseOutListener);
+        buildingPolygonVastra.addListener("mouseout", polygonMouseOutListener);
+        // buildingPolygonSeaport.addListener("mouseout", polygonMouseOutListener);
+
         //districtPolygon.setMap(map);
         buildingPolygonBrofastet.setMap(map);
         buildingPolygonGasklockan.setMap(map);
@@ -130,57 +254,10 @@
 
 
 
-        
-        buildingPolygonBrofastet.addListener("click", listener);
-        buildingPolygonGasklockan.addListener("click", listener);
-        buildingPolygonNorra1.addListener("click", listener);
-        buildingPolygonNorra2.addListener("click", listener);
-        buildingPolygonGasverket.addListener("click", listener);
-        buildingPolygonVastra.addListener("click", listener);
-        buildingPolygonSeaport.addListener("click", listener);
 
         // var markerClusters = new MarkerClusterer(map, markers,
         //     { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
 
-        // polygon names
-        Popup = createPopupClass();
-        nameSeaport = new Popup(
-            new google.maps.LatLng(59.356205, 18.096201),
-            document.getElementById('seaport')
-        );
-        nameBrofastet = new Popup(
-            new google.maps.LatLng(59.360000, 18.094000),
-            document.getElementById('brofastet')
-        );
-        nameGasklockan = new Popup(
-            new google.maps.LatLng(59.356200, 18.090155),
-            document.getElementById('gasklockan')
-        );
-        nameNorra1 = new Popup(
-            new google.maps.LatLng(59.357021, 18.086668),
-            document.getElementById('norra1')
-        );
-        nameNorra2 = new Popup(
-            new google.maps.LatLng(59.358722, 18.090021),
-            document.getElementById('norra2')
-        );
-        nameGasverket = new Popup(
-            new google.maps.LatLng(59.358393, 18.093309),
-            document.getElementById('gasverket')
-        );
-        nameVastra = new Popup(
-            new google.maps.LatLng(59.354373, 18.088567),
-            document.getElementById('vastra')
-        );
-
-
-        nameSeaport.setMap(map);
-        nameBrofastet.setMap(map);
-        nameGasklockan.setMap(map);
-        nameNorra1.setMap(map);
-        nameNorra2.setMap(map);
-        nameGasverket.setMap(map);
-        nameVastra.setMap(map);
 
     }
 
@@ -293,9 +370,6 @@
 
     ]
 
-    var locations = [
-        { lat: 59.358263, lng: 18.090405 },
-    ];
 }
 
 /**
