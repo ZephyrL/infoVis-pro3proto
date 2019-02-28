@@ -1,11 +1,11 @@
 {
-    var stockholm = { lat: 59.35300, lng: 18.0950 };
+    var stockholm = { lat: 59.356739, lng: 18.088526 };
     // var stockholm = { lat: 59.355954, lng: 18.086862};
 
     function initMap() {
         var map = new google.maps.Map(document.getElementById('map'), {
             center: stockholm,
-            zoom: 15,
+            zoom: 16,
             mapTypeControl: true,
             mapTypeId: "satellite",
             mapTypeControlOptions: {
@@ -24,16 +24,16 @@
             var zoomLevel = map.getZoom();
             if (zoomLevel >= 14 && zoomLevel <= 15) {
                 districtPolygon.setMap(map);
-                buildingPolygonBrofastet.setMap(null);
-                buildingPolygonGasklockan.setMap(null);
-                buildingPolygonNorra1.setMap(null);
-                buildingPolygonNorra2.setMap(null);
-                buildingPolygonGasverket.setMap(null);
-                buildingPolygonVastra.setMap(null);
-                buildingPolygonSeaport.setMap(null);
+                //buildingPolygonBrofastet.setMap(null);
+                //buildingPolygonGasklockan.setMap(null);
+                //buildingPolygonNorra1.setMap(null);
+                //buildingPolygonNorra2.setMap(null);
+                //buildingPolygonGasverket.setMap(null);
+                //buildingPolygonVastra.setMap(null);
+                //buildingPolygonSeaport.setMap(null);
             }
-            if (zoomLevel > 15 && zoomLevel <= 18) {
-                districtPolygon.setMap(null);
+            if(zoomLevel > 15 && zoomLevel <= 18) {
+                //districtPolygon.setMap(null);
                 buildingPolygonBrofastet.setMap(map);
                 buildingPolygonGasklockan.setMap(map);
                 buildingPolygonNorra1.setMap(map);
@@ -43,21 +43,6 @@
                 buildingPolygonSeaport.setMap(map);
             }
 
-        })
-
-        var labels = "ABCDEFGHIKLMNOPQRSTUVWXYZ";
-
-        var markers = locations.map(function (location, i) {
-            var marker = new google.maps.Marker({
-                position: location,
-                label: labels[i % labels.length]
-            });
-
-            marker.addListener("click", function () {
-                // some events here
-                // window.open("https://www.google.com/")
-            })
-            return marker;
         });
 
         var districtPolygon = new google.maps.Polygon({
@@ -74,10 +59,6 @@
             map.setZoom(16);
         });
 
-        function listener() {
-            document.getElementById("modal_button").click();
-        };
-        districtPolygon.setMap(map);
 
         var buildingPolygonBrofastet = new google.maps.Polygon({
             paths: brofastet,
@@ -135,7 +116,21 @@
             fillOpacity: 0.3
         });
 
+        function listener(){
+            document.getElementById("modal_button").click();
+        };
+        //districtPolygon.setMap(map);
+        buildingPolygonBrofastet.setMap(map);
+        buildingPolygonGasklockan.setMap(map);
+        buildingPolygonGasverket.setMap(map);
+        buildingPolygonNorra1.setMap(map);
+        buildingPolygonNorra2.setMap(map);
+        buildingPolygonSeaport.setMap(map);
+        buildingPolygonVastra.setMap(map);
 
+
+
+        
         buildingPolygonBrofastet.addListener("click", listener);
         buildingPolygonGasklockan.addListener("click", listener);
         buildingPolygonNorra1.addListener("click", listener);
