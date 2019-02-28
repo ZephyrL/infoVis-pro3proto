@@ -72,7 +72,8 @@
   text-decoration: none;
   font-size: 18px;
   color: darkslategrey;
-  display: block
+  display: block;
+    width: 200px;
 }
 
 #myUL li:hover:not(.header) {
@@ -96,7 +97,9 @@
     padding: 14px 16px;
     background-color: transparent;
     font-family: inherit;
-    margin:0;
+    margin:-1;
+    width: 190px;
+    text-align: left;
 }
 
 .dropdown-content {
