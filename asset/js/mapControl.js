@@ -1,5 +1,5 @@
 {
-    var stockholm = { lat: 59.356739, lng: 18.088526 };
+    var stockholm = { lat: 59.356739, lng: 18.098526 };
     // var stockholm = { lat: 59.355954, lng: 18.086862};
 
     function initMap() {
@@ -139,8 +139,8 @@
         buildingPolygonVastra.addListener("click", listener);
         buildingPolygonSeaport.addListener("click", listener);
 
-        var markerClusters = new MarkerClusterer(map, markers,
-            { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
+        // var markerClusters = new MarkerClusterer(map, markers,
+        //     { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
 
         // polygon names
         Popup = createPopupClass();
