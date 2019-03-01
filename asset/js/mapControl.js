@@ -168,6 +168,13 @@
             document.getElementById("modal_button").click();
         };
 
+        window.onclick = function(event) {
+            if (event.target.id == 'popup') {
+                document.getElementById('modal_close').click();
+            }
+        }
+
+
         buildingPolygonBrofastet.addListener("click", polygonClickListener);
         buildingPolygonGasklockan.addListener("click", polygonClickListener);
         buildingPolygonNorra1.addListener("click", polygonClickListener);
