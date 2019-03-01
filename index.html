@@ -7,7 +7,6 @@
     <meta charset="utf-8">
     <link href="asset/css/map.css" rel="stylesheet">
     <link href="asset/css/filter.css" rel="stylesheet">
-    <link href="asset/css/switch.css" rel="stylesheet">
     <link href="asset/css/modal.css" rel="stylesheet">
     <link href="asset/css/frontpage.css" , rel="stylesheet">
 </head>
@@ -49,12 +48,52 @@
                     if there are numbers of developers,
                     should use javascript to generate list elements 
                     in asset/js/filterControl.js -->
-                <p class="title">Categories</p>
+                    <p class="title">Categories</p>
                     <ul id="myUL">
-                        <li id="energy">Energy use</li>
-                        <li id="green">Green structure</li>
-                        <li id="transports">Transtports</li>
-                        <li id="waste">Waste</li>
+                        <div class="dropdown">
+                            <button class="dropbtn">Energy use
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="#">Energy 1</a>
+                                <a href="#">Energy 2</a>
+                                <a href="#">Energy 3</a>
+                                <a href="#">Energy 4</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="dropbtn">Green structure
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="#">Green 1</a>
+                                <a href="#">Green 2</a>
+                                <a href="#">Green 3</a>
+                                <a href="#">Green 4</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="dropbtn">Transports
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="#">Transport 1</a>
+                                <a href="#">Transport 2</a>
+                                <a href="#">Transport 3</a>
+                                <a href="#">Transport 4</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="dropbtn">Waste
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="#">Waste 1</a>
+                                <a href="#">Waste 2</a>
+                                <a href="#">Waste 3</a>
+                                <a href="#">Waste 4</a>
+                            </div>
+                        </div>
                         <div class="dropdown">
                             <button class="dropbtn">Developers
                                 <i class="fa fa-caret-down"></i>
@@ -67,14 +106,34 @@
                             </div>
                         </div>
                     </ul>
-                
-                
             </div>
             <script src="asset/js/filterControl.js"></script>
 
             <!-- google map element -->
             <div id="map" class="gm"></div>
             <script src="asset/js/mapControl.js"></script>
+
+            <div id="Seaport">
+                Stockholm Royal Seaport
+            </div>
+            <div id="Brofastet">
+                Brofastet
+            </div>
+            <div id="Gasklockan">
+                Gasklockan
+            </div>
+            <div id="Norra1">
+                Norra1
+            </div>
+            <div id="Norra2">
+                Norra2
+            </div>
+            <div id="Gasverket">
+                Gasverket
+            </div>
+            <div id="Vastra">
+                Vastra
+            </div>
             <!-- TODO: initialize polygons -->
             <!-- <script type="text/javascript" src="asset/js/global.js"></script> -->
 
