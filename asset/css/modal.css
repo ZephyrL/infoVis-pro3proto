@@ -37,7 +37,7 @@ html, body {
 	visibility: hidden;
 }
 
-.popup {
+.modal {
 	display: flex;
 	align-items: center;
     justify-content: flex-end;
@@ -52,10 +52,11 @@ html, body {
 	visibility: hidden;
 	opacity: 0;
 	overflow: hidden;
-	transition: 0.64s ease-in-out;
+	border-radius: 10px;
+	transition: 0.2s ease-in-out;
 }
 
-.popup-inner {
+.modal-inner {
 	position: absolute;
 	top: 20%;
 	left: 70%;
@@ -68,8 +69,9 @@ html, body {
 	width: 20%;
 	height: 60%;
 	background-color: #fff;
+	border-radius: 10px;
 	/* transform: rotate(32deg); */
-	transition: 0.64s ease-in-out;
+	transition: 0.2s ease-in-out;
 }
 
 .popup__photo {
@@ -109,12 +111,12 @@ html, body {
 	line-height: 1.5;
 }
 
-.popup:target {
+.modal:target {
 	visibility: visible;
 	opacity: 1;
 }
 
-.popup:target .popup-inner {
+.modal:target .modal-inner {
 	bottom: 0;
 	right: 0;
 	transform: rotate(0);

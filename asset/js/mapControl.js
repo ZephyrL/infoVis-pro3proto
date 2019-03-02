@@ -19,46 +19,42 @@
             heading: 45
         });
 
-                // polygon names
-                Popup = createPopupClass();
-                nameSeaport = new Popup(
-                    new google.maps.LatLng(59.356205, 18.096201),
-                    document.getElementById('Seaport')
-                );
-                nameBrofastet = new Popup(
-                    new google.maps.LatLng(59.359973, 18.094811),
-                    document.getElementById('Brofastet')
-                );
-                nameGasklockan = new Popup(
-                    new google.maps.LatLng(59.356200, 18.090155),
-                    document.getElementById('Gasklockan')
-                );
-                nameNorra1 = new Popup(
-                    new google.maps.LatLng(59.357021, 18.086668),
-                    document.getElementById('Norra1')
-                );
-                nameNorra2 = new Popup(
-                    new google.maps.LatLng(59.358722, 18.090021),
-                    document.getElementById('Norra2')
-                );
-                nameGasverket = new Popup(
-                    new google.maps.LatLng(59.358393, 18.093309),
-                    document.getElementById('Gasverket')
-                );
-                nameVastra = new Popup(
-                    new google.maps.LatLng(59.354373, 18.088567),
-                    document.getElementById('Vastra')
-                );
-        
-        
-                nameSeaport.setMap(map);
-                nameBrofastet.setMap(map);
-                nameGasklockan.setMap(map);
-                nameNorra1.setMap(map);
-                nameNorra2.setMap(map);
-                nameGasverket.setMap(map);
-                nameVastra.setMap(map);
-      
+        // polygon names
+        Popup = createPopupClass();
+        nameSeaport = new Popup(
+            new google.maps.LatLng(59.356205, 18.096201),
+            document.getElementById('Seaport')
+        );
+        nameBrofastet = new Popup(
+            new google.maps.LatLng(59.359973, 18.094811),
+            document.getElementById('Brofastet')
+        );
+        nameGasklockan = new Popup(
+            new google.maps.LatLng(59.356200, 18.090155),
+            document.getElementById('Gasklockan')
+        );
+        nameNorra1 = new Popup(
+            new google.maps.LatLng(59.357021, 18.086668),
+            document.getElementById('Norra1')
+        );
+        nameNorra2 = new Popup(
+            new google.maps.LatLng(59.358722, 18.090021),
+            document.getElementById('Norra2')
+        );
+        nameGasverket = new Popup(
+            new google.maps.LatLng(59.358393, 18.093309),
+            document.getElementById('Gasverket')
+        );
+        nameVastra = new Popup(
+            new google.maps.LatLng(59.354373, 18.088567),
+            document.getElementById('Vastra')
+        );
+
+        buildingNames = [nameBrofastet, nameGasklockan, nameNorra1, nameNorra2, nameGasverket, nameVastra];
+        buildingNames.forEach(element => {
+            element.setMap(map);
+        });
+
         // map zoome change listener
         google.maps.event.addListener(map, "zoom_changed", function () {
             // alert("zoom changed");
@@ -164,19 +160,14 @@
             name: "Seaport"
         });
 
+        buildingPolygons = [buildingPolygonBrofastet, buildingPolygonGasklockan,
+            buildingPolygonNorra1, buildingPolygonNorra2,
+            buildingPolygonGasverket, buildingPolygonVastra]
+
+        // TODO: do something when click the polygons, e.g. show a large modal window
         function polygonClickListener() {
             document.getElementById("modal_button").click();
         };
-
-        buildingPolygonBrofastet.addListener("click", polygonClickListener);
-        buildingPolygonGasklockan.addListener("click", polygonClickListener);
-        buildingPolygonNorra1.addListener("click", polygonClickListener);
-        buildingPolygonNorra2.addListener("click", polygonClickListener);
-        buildingPolygonGasverket.addListener("click", polygonClickListener);
-        buildingPolygonVastra.addListener("click", polygonClickListener);
-        // the gray area are under planning, if you are gonna show some info about it,
-        // I suggest to make another listener for it
-        // buildingPolygonSeaport.addListener("click", polygonClickListener);
 
         // name of phase should disappear when put mouse on it
         function polygonMouseOverListener() {
@@ -203,16 +194,9 @@
             }
         }
 
-        buildingPolygonBrofastet.addListener("mouseover", polygonMouseOverListener);
-        buildingPolygonGasklockan.addListener("mouseover", polygonMouseOverListener);
-        buildingPolygonNorra1.addListener("mouseover", polygonMouseOverListener);
-        buildingPolygonNorra2.addListener("mouseover", polygonMouseOverListener);
-        buildingPolygonGasverket.addListener("mouseover", polygonMouseOverListener);
-        buildingPolygonVastra.addListener("mouseover", polygonMouseOverListener);
-        // buildingPolygonSeaport.addListener("mouseover", polygonMouseOverListener);
-
-        function polygonMouseOutListener(){
-                        var name = this.name;
+        // polygon name reappear on mouse out
+        function polygonMouseOutListener() {
+            var name = this.name;
             switch (name) {
                 case "Brofastet":
                     nameBrofastet.setMap(map);
@@ -235,25 +219,73 @@
             }
         }
 
-        buildingPolygonBrofastet.addListener("mouseout", polygonMouseOutListener);
-        buildingPolygonGasklockan.addListener("mouseout", polygonMouseOutListener);
-        buildingPolygonNorra1.addListener("mouseout", polygonMouseOutListener);
-        buildingPolygonNorra2.addListener("mouseout", polygonMouseOutListener);
-        buildingPolygonGasverket.addListener("mouseout", polygonMouseOutListener);
-        buildingPolygonVastra.addListener("mouseout", polygonMouseOutListener);
-        // buildingPolygonSeaport.addListener("mouseout", polygonMouseOutListener);
-
-        //districtPolygon.setMap(map);
-        buildingPolygonBrofastet.setMap(map);
-        buildingPolygonGasklockan.setMap(map);
-        buildingPolygonGasverket.setMap(map);
-        buildingPolygonNorra1.setMap(map);
-        buildingPolygonNorra2.setMap(map);
+        buildingPolygons.forEach(element => {
+            element.addListener("click", polygonClickListener);
+            element.addListener("mouseover", polygonMouseOverListener);
+            element.addListener("mouseout", polygonMouseOutListener);
+            element.setMap(map);
+        });
+        
         buildingPolygonSeaport.setMap(map);
-        buildingPolygonVastra.setMap(map);
+
+        // the gray area are under planning, if you are gonna show some info about it,
+        // I suggest to make another listener for it
+        // buildingPolygonSeaport.addListener("click", polygonClickListener);
+
+        building.forEach(function (item) {
+            var marker = new google.maps.Marker({
+                position: new google.maps.LatLng(item.lat, item.lng),
+                icon: "asset/img/house-blue-res.png",
+                title: item.building,
+                developer: item.developer,
+                phase: item.phase,
+                map: map
+            });
+
+            var contentString = '<div id="infoWindowContent">' +
+                '<div id="siteNotice">' +
+                '</div>' +
+                '<h1 id="firstHeading" class="firstHeading">' +
+                item.building + '</h1>' +
+                '<div id="bodyContent">' +
+                '<p><b>' + item.building +
+                '</b>, developed by <b>' + item.developer + '</b>, ' +
+                'is a part of construction in <b>' + item.phase + '</b> ' +
+                'finishing construction on <b>July 2017</b>, ' +  // TODO: use real date of construction
+                'and is now in operation.</p>' +
+                '<p>Click to see more infomation</p>'
+            '</div>' +
+                '</div>';
 
 
+            var infoWindow = new google.maps.InfoWindow({
+                content: contentString,
+                maxWidth: 300
+            })
 
+            marker.addListener('mouseover', function () {
+                infoWindow.open(map, marker);
+                buildingNames.forEach(element => {
+                    element.setMap(null);
+                });
+            })
+
+            marker.addListener('click', function () {
+                // this.setIcon("asset/img/house-green.png");
+                // TODO: this is the function to change icon (color), 
+                // and what really need to do here is to pop up new window
+                // and show detailed information of building
+                // trigger popup(this);
+
+            })
+
+            marker.addListener('mouseout', function () {
+                infoWindow.close();
+                buildingNames.forEach(element => {
+                    element.setMap(map);
+                });
+            })
+        })
 
         // var markerClusters = new MarkerClusterer(map, markers,
         //     { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
