@@ -136,6 +136,8 @@ selectData = function (phaseName) {
         magenta1: "rgba(255,0,255,1)",
         magenta2: "rgba(255,0,255,0.7)",
         magenta3: "rgba(255,0,255,0.4)",
+
+        gray: "rgba(128,128,128,1)"
     }
 
     var operation = new Object;
@@ -206,10 +208,10 @@ selectData = function (phaseName) {
     // CO2 emission
     co2.name = "CO2 emission"
     co2.children = []
-    // var co2emission = 0
+    var co2emission = 0
     array.forEach(element => {
         if (element.co2 != "NA") {
-            // co2emission += element.co2;
+            co2emission += element.co2;
             var temp = new Object;
             temp.name = element.building;
             temp.value = element.co2;
@@ -217,7 +219,7 @@ selectData = function (phaseName) {
             co2.children.push(temp);
         }
     });
-    co2.value = 1;
+    co2.value = co2emission;
     co2.color = COLOR.magenta1
 
     // green structure
@@ -483,7 +485,7 @@ selectData = function (phaseName) {
     waste.children.push(distVWC)
     waste.children.push(distRecycle)
 
-
+    data.color = COLOR.gray
     data.children.push(energyUse)
     data.children.push(co2)
     data.children.push(greenStructure)

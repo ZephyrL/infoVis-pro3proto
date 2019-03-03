@@ -57,14 +57,28 @@
                 <p class="title">Categories</p>
                 <ul id="myUL">
                     <div class="dropdown">
+                        <p class="dropbtn" id="clear-filter"><b>Clear Filter
+                            </b></p>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">Stage of phase
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a id="stage-operation" href="#">Operation</a>
+                            <a id="stage-construction" href="#">Construction</a>
+                            <a id="stage-design" href="#">Design</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
                         <button class="dropbtn">Energy use
                             <i class="fa fa-caret-down"></i>
                         </button>
                         <div class="dropdown-content">
-                            <a href="#">Energy 1</a>
-                            <a href="#">Energy 2</a>
-                            <a href="#">Energy 3</a>
-                            <a href="#">Energy 4</a>
+                            <a id="energy-total" href="#">Total use</a>
+                            <a id="energy-heating" href="#">Heating</a>
+                            <a id="energy-hotwater" href="#">Hot water</a>
+                            <a id="energy-appliance" href="#">Appliance</a>
                         </div>
                     </div>
                     <div class="dropdown">
@@ -72,21 +86,19 @@
                             <i class="fa fa-caret-down"></i>
                         </button>
                         <div class="dropdown-content">
-                            <a href="#">Green 1</a>
-                            <a href="#">Green 2</a>
-                            <a href="#">Green 3</a>
-                            <a href="#">Green 4</a>
+                            <a id="green-courtyard" href="#">Green courtyard</a>
+                            <a id="green-roof" href="#">Green roof</a>
                         </div>
                     </div>
                     <div class="dropdown">
-                        <button class="dropbtn">Transports
+                        <button class="dropbtn">Transportations
                             <i class="fa fa-caret-down"></i>
                         </button>
                         <div class="dropdown-content">
-                            <a href="#">Transport 1</a>
-                            <a href="#">Transport 2</a>
-                            <a href="#">Transport 3</a>
-                            <a href="#">Transport 4</a>
+                            <a id="transport-fulfill" href="#">Fulfillment</a>
+                            <a id="transport-bicycle" href="#">Bicycle slots</a>
+                            <a id="transport-car" href="#">Car parking</a>
+                            <a id="transport-charge" href="#">Electrical charger</a>
                         </div>
                     </div>
                     <div class="dropdown">
@@ -94,21 +106,21 @@
                             <i class="fa fa-caret-down"></i>
                         </button>
                         <div class="dropdown-content">
-                            <a href="#">Waste 1</a>
-                            <a href="#">Waste 2</a>
-                            <a href="#">Waste 3</a>
-                            <a href="#">Waste 4</a>
+                            <a id="waste-total" href="#">Total wastes</a>
+                            <a id="waste-construction" href="#">Construction wastes</a>
+                            <a id="waste-distVWC" href="#">Distance to VWC</a>
+                            <a id="waste-recycle" href="#">Distance to recycle room</a>
                         </div>
                     </div>
                     <div class="dropdown">
-                        <button class="dropbtn">Developers
+                        <button class="dropbtn">Best Developers
                             <i class="fa fa-caret-down"></i>
                         </button>
                         <div class="dropdown-content">
-                            <a href="#">Developer 1</a>
-                            <a href="#">Developer 2</a>
-                            <a href="#">Developer 3</a>
-                            <a href="#">Developer 4</a>
+                            <a id="best-energy" href="#">Less Energy Use</a>
+                            <a id="best-green" href="#">More Green Structure</a>
+                            <a id="best-transport" href="#">Easier Transportations</a>
+                            <a id="best-waste" href="#">Less Wastes</a>
                         </div>
                     </div>
                 </ul>
@@ -150,7 +162,7 @@
                     <div class="modal__chart__small" id="modal-building-chart"></div>
 
                     <!-- close button -->
-                    <a class="modal__close" href="#">X</a>
+                    <a class="modal__close" id="modal-building-close" href="#">X</a>
                 </div>
             </div>
 
@@ -170,7 +182,7 @@
                     <div class="modal__chart__large" id="modal-phase-chart"></div>
 
                     <!-- close button -->
-                    <a class="modal__close" href="#">X</a>
+                    <a class="modal__close" id="modal-phase-close" href="#">X</a>
                 </div>
             </div>
             <script src="asset/js/modalControl.js"></script>

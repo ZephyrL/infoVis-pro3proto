@@ -86,7 +86,7 @@
         var districtPolygon = new google.maps.Polygon({
             paths: coord,
             strokeColor: "#FFFFFF",
-            strokeOpacity: 0.7,
+            strokeOpacity: 0.5,
             // fillColor: "#FFFFFF",
             // fillOpacity: 0.2,
             name: "Stockholm Royal Seaport"
@@ -100,8 +100,8 @@
 
         var buildingPolygonBrofastet = new google.maps.Polygon({
             paths: brofastet,
-            strokeColor: "#FFFFFF",
-            strokeOpacity: 0.7,
+            strokeColor: "#0F0F0F",
+            strokeOpacity: 0.5,
             fillColor: "#FFFFFF",
             fillOpacity: 0.2,
             name: "Brofastet"
@@ -109,8 +109,8 @@
 
         var buildingPolygonGasklocka = new google.maps.Polygon({
             paths: gasklocka,
-            strokeColor: "#FFFFFF",
-            strokeOpacity: 0.7,
+            strokeColor: "#0F0F0F",
+            strokeOpacity: 0.5,
             fillColor: "#FFFFFF",
             fillOpacity: 0.2,
             name: "Gasklocka"
@@ -118,8 +118,8 @@
 
         var buildingPolygonNorra1 = new google.maps.Polygon({
             paths: norra1,
-            strokeColor: "#FFFFFF",
-            strokeOpacity: 0.7,
+            strokeColor: "#0F0F0F",
+            strokeOpacity: 0.5,
             fillColor: "#FFFFFF",
             fillOpacity: 0.2,
             name: "Norra 1"
@@ -127,8 +127,8 @@
 
         var buildingPolygonNorra2 = new google.maps.Polygon({
             paths: norra2,
-            strokeColor: "#FFFFFF",
-            strokeOpacity: 0.7,
+            strokeColor: "#0F0F0F",
+            strokeOpacity: 0.5,
             fillColor: "#FFFFFF",
             fillOpacity: 0.2,
             name: "Norra 2"
@@ -136,8 +136,8 @@
 
         var buildingPolygonGasverket = new google.maps.Polygon({
             paths: gasverket,
-            strokeColor: "#FFFFFF",
-            strokeOpacity: 0.7,
+            strokeColor: "#0F0F0F",
+            strokeOpacity: 0.5,
             fillColor: "#FFFFFF",
             fillOpacity: 0.2,
             name: "Gasverket"
@@ -145,8 +145,8 @@
 
         var buildingPolygonVastra = new google.maps.Polygon({
             paths: vastra,
-            strokeColor: "#FFFFFF",
-            strokeOpacity: 0.7,
+            strokeColor: "#0F0F0F",
+            strokeOpacity: 0.5,
             fillColor: "#FFFFFF",
             fillOpacity: 0.2,
             name: "Vastra"
@@ -155,7 +155,7 @@
         var buildingPolygonSeaport = new google.maps.Polygon({
             paths: seaport,
             strokeColor: "#808080",
-            strokeOpacity: 0.7,
+            strokeOpacity: 0.5,
             fillColor: "#5a5a5a",
             fillOpacity: 0.5,
             name: "Seaport"
@@ -193,7 +193,7 @@
                     nameVastra.setMap(null);
                     break;
             }
-            this.setOptions({fillOpacity: "0"})
+            this.setOptions({ fillOpacity: "0" })
         }
 
         // polygon name reappear on mouse out
@@ -219,7 +219,7 @@
                     nameVastra.setMap(map);
                     break;
             }
-            this.setOptions({fillOpacity: "0.2"})
+            this.setOptions({ fillOpacity: "0.2" })
         }
 
         buildingPolygons.forEach(element => {
@@ -235,10 +235,12 @@
         // I suggest to make another listener for it
         // buildingPolygonSeaport.addListener("click", polygonClickListener);
         markers = []
+
         building.forEach(function (item) {
             var marker = new google.maps.Marker({
                 position: new google.maps.LatLng(item.lat, item.lng),
-                icon: "asset/img/yellow-light.png",
+                color: "yellow",
+                icon: "asset/img/yellow-deep.png",
                 building: item.building,
                 developer: item.developer,
                 phase: item.phase,
@@ -246,19 +248,44 @@
             });
             markers.push(marker);
 
+            var instance
+            alldata.forEach(e => {
+                if (e.building == item.building) {
+                    instance = e;
+                }
+            });
+
+            var stage;
+            var gramma;
+            switch (instance.stage) {
+                case "In operation":
+                    stage = "already in operation"
+                    gramma = ""
+                    break
+                case "Construction":
+                    stage = "still under construction"
+                    gramma = "will "
+                    break
+                case "Design":
+                    stage = "still in design stage"
+                    gramma = "will "
+                    break;
+            }
+
             var contentString = '<div id="infoWindowContent">' +
                 '<div id="siteNotice">' +
                 '</div>' +
                 '<h1 id="firstHeading" class="firstHeading">' +
-                item.building + '</h1>' +
+                instance.building + '</h1>' +
                 '<div id="bodyContent">' +
-                '<p><b>' + item.building +
-                '</b>, developed by <b>' + item.developer + '</b>, ' +
-                'is a part of construction in <b>' + item.phase + '</b> ' +
-                'finishing construction on <b>July 2017</b>, ' +  // TODO: use real date of construction
-                'and is now in operation.</p>' +
-                '<p>Click to see more infomation</p>'
-            '</div>' +
+                '<p><b>' + instance.building +
+                '</b>, developed by <b>' + instance.developer + '</b>, ' +
+                'is a part of construction in <b>' + instance.phase + '</b>, ' +
+                'it start construction in <b>' + instance.yearStart + '</b> ' +
+                gramma + 'finish construction in <b>' + instance.yearOccupy + '</b>, ' +
+                'and it is ' + stage + '.</p>' +
+                '<p>Click to see more infomation</p>' +
+                '</div>' +
                 '</div>';
 
 
@@ -269,6 +296,8 @@
 
             marker.addListener('mouseover', function () {
                 infoWindow.open(map, marker);
+                var color = this.color;
+                this.setIcon("asset/img/" + color + ".png")
                 buildingNames.forEach(element => {
                     element.setMap(null);
                 });
@@ -285,6 +314,8 @@
 
             marker.addListener('mouseout', function () {
                 infoWindow.close();
+                var color = this.color;
+                this.setIcon("asset/img/" + color + "-deep.png")
                 buildingNames.forEach(element => {
                     element.setMap(map);
                 });
@@ -297,13 +328,23 @@
 
     }
 
+    window.onclick = function (event) {
+        if (event.target.id == "modal-large") {
+            document.getElementById("modal-phase-close").click();
+
+        } else if (event.target.id == "modal-small") {
+            document.getElementById("modal-building-close").click();
+        }
+    }
+
     // init icons
     window.onload = function () {
         var bar = document.getElementById("colorbar-houses");
         var width = window.innerWidth * 0.4;
+        icons = []
         building.forEach(element => {
             var icon = document.createElement("img");
-            icon.src = "asset/img/yellow-light.png";
+            icon.src = "asset/img/yellow-deep.png";
             icon.classList = "colorbar-house";
             icon.style.top = "-5px";
             icon.name = element.building;
@@ -333,6 +374,8 @@
                     }
                 });
             })
+
+            icons.push(icon)
         });
     }
 
@@ -515,4 +558,27 @@ function createPopupClass() {
     };
 
     return Popup;
+}
+
+setColor = function (marker, color) {
+    marker.color = color;
+    var newPath = "asset/img/" + color + "-deep.png"
+    marker.setIcon(newPath)
+    document.getElementsByName(marker.building)[0].src = newPath;
+}
+
+setHide = function (marker) {
+    marker.setVisible(false)
+    document.getElementsByName(marker.building)[0].style.visibility="hidden"
+}
+
+setShow = function (marker){
+    marker.setVisible(true)
+    document.getElementsByName(marker.building)[0].style.visibility="visible"
+}
+
+setPosition = function (marker, percent) {
+    var width = window.innerWidth * 0.4;
+    var string = Math.floor(percent * width)-15 + "px"
+    document.getElementsByName(marker.building)[0].style.left = string;
 }

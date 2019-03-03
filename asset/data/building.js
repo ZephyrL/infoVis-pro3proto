@@ -310,7 +310,7 @@ var building = [
 	{
 	  "building": "Stalklockan 1",
 	  "developer": "Oscar Properties",
-	  "phase": "Gasklocka 3 och 4",
+	  "phase": "Gasklocka",
 	  "lat": 59.35568026,
 	  "lng": 18.09019641
 	}
