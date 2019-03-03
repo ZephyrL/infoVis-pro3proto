@@ -122,7 +122,7 @@
             strokeOpacity: 0.7,
             fillColor: "FFFFFF",
             fillOpacity: 0.3,
-            name: "Norra1"
+            name: "Norra 1"
         });
 
         var buildingPolygonNorra2 = new google.maps.Polygon({
@@ -131,7 +131,7 @@
             strokeOpacity: 0.7,
             fillColor: "FFFFFF",
             fillOpacity: 0.3,
-            name: "Norra2"
+            name: "Norra 2"
         });
 
         var buildingPolygonGasverket = new google.maps.Polygon({
