@@ -1,0 +1,5444 @@
+[
+  {
+    "Name": "Norra 1",
+    "Stage": "In operation",
+    "Boundary": [],
+    "YearProjectStart": 2004,
+    "YearOccupancy": 2014,
+    "Area": 4280,
+    "Apartments": [
+      {
+        "Name": "Abisko 5",
+        "Developer": "Reinhold Gustafsson",
+        "TotalApartments": 39,
+        "Coordinates": {
+          "Lat": 6582324.9,
+          "Lng": 154940.8
+        },
+        "Requirement": {
+          "Bbr": 110,
+          "Energy": 55.0,
+          "Gsi": 0.6,
+          "BicycleParking": 2.2,
+          "CarParking": 0.5,
+          "ElectiralChargingPoint": 0,
+          "ConstructionWaste": 20,
+          "DistanceToVWC": 30,
+          "DistanceToRecycling": 50.0,
+          "IndoorEnvironment": "Gold"
+        },
+        "Energy": {
+          "Operation": {
+            "Total": 33.9,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Construction": {
+            "Total": 49.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Design": {
+            "Total": 0.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          }
+        },
+        "GreenStructure": {
+          "Co2emissions": 9.8082192,
+          "Courtyard": 259.0,
+          "Roofs": 850.0,
+          "Operation": {
+            "Gsi": 0.34
+          },
+          "Construction": {
+            "Gsi": 0.34
+          },
+          "Design": {
+            "Gsi": 0.0
+          }
+        },
+        "Transport": {
+          "TotalBicycleParking": 39.0,
+          "BicycleParkingIndoor": 0.0,
+          "BicycleParkingOutdoor": 0.0,
+          "CarParkingSpace": 0.5,
+          "TotalcarParkingSpace": 20.0,
+          "ElectiralChargingPoint": 0.0,
+          "TotalElectiralChargingPoint": 0.0,
+          "Operation": {
+            "BicycleParking": 1.0
+          },
+          "Construction": {
+            "BicycleParking": 1.0
+          },
+          "Design": {
+            "BicycleParking": 0.0
+          }
+        },
+        "Construction": {
+          "ConstructionWaste": 37.0,
+          "EnergyRecovery": 0.0,
+          "MaterialRecycling": 0.0,
+          "Reuse": 0.0,
+          "Mixed": 0.0,
+          "LandsFill": 0.0,
+          "NotSpecified": 0.0
+        },
+        "Waste": {
+          "distanceToVWC": 0.0,
+          "distanceToRecycling": 0.0,
+          "Operation": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Construction": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Design": {
+            "RecyclingRoomSize": 0.0
+          }
+        },
+        "Material": {
+          "Assessment": "yes",
+          "Deveations": 0.0
+        },
+        "IndoorEnvironment": {
+          "LivingClass": "NA"
+        }
+      },
+      {
+        "Name": "Abisko 4",
+        "Developer": "Lennart Ericsson",
+        "TotalApartments": 26,
+        "Coordinates": {
+          "Lat": 6582332.3,
+          "Lng": 154901.0
+        },
+        "Requirement": {
+          "Bbr": 110,
+          "Energy": 55.0,
+          "Gsi": 0.6,
+          "BicycleParking": 2.2,
+          "CarParking": 0.5,
+          "ElectiralChargingPoint": 0,
+          "ConstructionWaste": 20,
+          "DistanceToVWC": 30,
+          "DistanceToRecycling": 50.0,
+          "IndoorEnvironment": "Gold"
+        },
+        "Energy": {
+          "Operation": {
+            "Total": 85.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Construction": {
+            "Total": 60.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Design": {
+            "Total": 0.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          }
+        },
+        "GreenStructure": {
+          "Co2emissions": 18.777928,
+          "Courtyard": 259.0,
+          "Roofs": 0.0,
+          "Operation": {
+            "Gsi": 0.34
+          },
+          "Construction": {
+            "Gsi": 0.34
+          },
+          "Design": {
+            "Gsi": 0.0
+          }
+        },
+        "Transport": {
+          "TotalBicycleParking": 57.0,
+          "BicycleParkingIndoor": 0.0,
+          "BicycleParkingOutdoor": 0.0,
+          "CarParkingSpace": 0.7,
+          "TotalcarParkingSpace": 18.0,
+          "ElectiralChargingPoint": 0.0,
+          "TotalElectiralChargingPoint": 0.0,
+          "Operation": {
+            "BicycleParking": 2.2
+          },
+          "Construction": {
+            "BicycleParking": 2.2
+          },
+          "Design": {
+            "BicycleParking": 0.0
+          }
+        },
+        "Construction": {
+          "ConstructionWaste": 34.0,
+          "EnergyRecovery": 0.0,
+          "MaterialRecycling": 0.0,
+          "Reuse": 0.0,
+          "Mixed": 0.0,
+          "LandsFill": 0.0,
+          "NotSpecified": 0.0
+        },
+        "Waste": {
+          "distanceToVWC": 0.0,
+          "distanceToRecycling": 0.0,
+          "Operation": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Construction": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Design": {
+            "RecyclingRoomSize": 0.0
+          }
+        },
+        "Material": {
+          "Assessment": "yes",
+          "Deveations": 0.0
+        },
+        "IndoorEnvironment": {
+          "LivingClass": "NA"
+        }
+      },
+      {
+        "Name": "Abisko 2",
+        "Developer": "Erik Wallin",
+        "TotalApartments": 42,
+        "Coordinates": {
+          "Lat": 6582371.5,
+          "Lng": 154928.0
+        },
+        "Requirement": {
+          "Bbr": 110,
+          "Energy": 55.0,
+          "Gsi": 0.6,
+          "BicycleParking": 2.2,
+          "CarParking": 0.5,
+          "ElectiralChargingPoint": 0,
+          "ConstructionWaste": 20,
+          "DistanceToVWC": 30,
+          "DistanceToRecycling": 50.0,
+          "IndoorEnvironment": "Gold"
+        },
+        "Energy": {
+          "Operation": {
+            "Total": 67.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Construction": {
+            "Total": 72.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Design": {
+            "Total": 0.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          }
+        },
+        "GreenStructure": {
+          "Co2emissions": 20.4538672,
+          "Courtyard": 259.0,
+          "Roofs": 0.0,
+          "Operation": {
+            "Gsi": 0.34
+          },
+          "Construction": {
+            "Gsi": 0.34
+          },
+          "Design": {
+            "Gsi": 0.0
+          }
+        },
+        "Transport": {
+          "TotalBicycleParking": 92.0,
+          "BicycleParkingIndoor": 0.0,
+          "BicycleParkingOutdoor": 0.0,
+          "CarParkingSpace": 0.52,
+          "TotalcarParkingSpace": 22.0,
+          "ElectiralChargingPoint": 0.0,
+          "TotalElectiralChargingPoint": 0.0,
+          "Operation": {
+            "BicycleParking": 2.2
+          },
+          "Construction": {
+            "BicycleParking": 2.2
+          },
+          "Design": {
+            "BicycleParking": 0.0
+          }
+        },
+        "Construction": {
+          "ConstructionWaste": 31.0,
+          "EnergyRecovery": 0.0,
+          "MaterialRecycling": 0.0,
+          "Reuse": 0.0,
+          "Mixed": 0.0,
+          "LandsFill": 0.0,
+          "NotSpecified": 0.0
+        },
+        "Waste": {
+          "distanceToVWC": 0.0,
+          "distanceToRecycling": 0.0,
+          "Operation": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Construction": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Design": {
+            "RecyclingRoomSize": 0.0
+          }
+        },
+        "Material": {
+          "Assessment": "yes",
+          "Deveations": 0.0
+        },
+        "IndoorEnvironment": {
+          "LivingClass": "NA"
+        }
+      },
+      {
+        "Name": "Abisko 1",
+        "Developer": "Järntorget",
+        "TotalApartments": 34,
+        "Coordinates": {
+          "Lat": 6582408.1,
+          "Lng": 154909.0
+        },
+        "Requirement": {
+          "Bbr": 110,
+          "Energy": 55.0,
+          "Gsi": 0.6,
+          "BicycleParking": 2.2,
+          "CarParking": 0.5,
+          "ElectiralChargingPoint": 0,
+          "ConstructionWaste": 20,
+          "DistanceToVWC": 30,
+          "DistanceToRecycling": 50.0,
+          "IndoorEnvironment": "Gold"
+        },
+        "Energy": {
+          "Operation": {
+            "Total": 60.3,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Construction": {
+            "Total": 72.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Design": {
+            "Total": 0.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          }
+        },
+        "GreenStructure": {
+          "Co2emissions": 19.51722864,
+          "Courtyard": 259.0,
+          "Roofs": 0.0,
+          "Operation": {
+            "Gsi": 0.34
+          },
+          "Construction": {
+            "Gsi": 0.34
+          },
+          "Design": {
+            "Gsi": 0.0
+          }
+        },
+        "Transport": {
+          "TotalBicycleParking": 68.0,
+          "BicycleParkingIndoor": 0.0,
+          "BicycleParkingOutdoor": 0.0,
+          "CarParkingSpace": 0.67,
+          "TotalcarParkingSpace": 23.0,
+          "ElectiralChargingPoint": 0.0,
+          "TotalElectiralChargingPoint": 0.0,
+          "Operation": {
+            "BicycleParking": 2.0
+          },
+          "Construction": {
+            "BicycleParking": 2.0
+          },
+          "Design": {
+            "BicycleParking": 0.0
+          }
+        },
+        "Construction": {
+          "ConstructionWaste": 29.0,
+          "EnergyRecovery": 0.0,
+          "MaterialRecycling": 0.0,
+          "Reuse": 0.0,
+          "Mixed": 0.0,
+          "LandsFill": 0.0,
+          "NotSpecified": 0.0
+        },
+        "Waste": {
+          "distanceToVWC": 0.0,
+          "distanceToRecycling": 0.0,
+          "Operation": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Construction": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Design": {
+            "RecyclingRoomSize": 0.0
+          }
+        },
+        "Material": {
+          "Assessment": "yes",
+          "Deveations": 0.0
+        },
+        "IndoorEnvironment": {
+          "LivingClass": "NA"
+        }
+      },
+      {
+        "Name": "Abisko 3",
+        "Developer": "Viktor Hanson",
+        "TotalApartments": 30,
+        "Coordinates": {
+          "Lat": 6582368.3,
+          "Lng": 154874.0
+        },
+        "Requirement": {
+          "Bbr": 110,
+          "Energy": 55.0,
+          "Gsi": 0.6,
+          "BicycleParking": 2.2,
+          "CarParking": 0.5,
+          "ElectiralChargingPoint": 0,
+          "ConstructionWaste": 20,
+          "DistanceToVWC": 30,
+          "DistanceToRecycling": 50.0,
+          "IndoorEnvironment": "Gold"
+        },
+        "Energy": {
+          "Operation": {
+            "Total": 57.4,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Construction": {
+            "Total": 66.4,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Design": {
+            "Total": 0.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          }
+        },
+        "GreenStructure": {
+          "Co2emissions": 14.28316344,
+          "Courtyard": 259.0,
+          "Roofs": 0.0,
+          "Operation": {
+            "Gsi": 0.34
+          },
+          "Construction": {
+            "Gsi": 0.34
+          },
+          "Design": {
+            "Gsi": 0.0
+          }
+        },
+        "Transport": {
+          "TotalBicycleParking": 66.0,
+          "BicycleParkingIndoor": 0.0,
+          "BicycleParkingOutdoor": 0.0,
+          "CarParkingSpace": 0.5,
+          "TotalcarParkingSpace": 15.0,
+          "ElectiralChargingPoint": 0.0,
+          "TotalElectiralChargingPoint": 0.0,
+          "Operation": {
+            "BicycleParking": 2.2
+          },
+          "Construction": {
+            "BicycleParking": 2.2
+          },
+          "Design": {
+            "BicycleParking": 0.0
+          }
+        },
+        "Construction": {
+          "ConstructionWaste": 44.0,
+          "EnergyRecovery": 0.0,
+          "MaterialRecycling": 0.0,
+          "Reuse": 0.0,
+          "Mixed": 0.0,
+          "LandsFill": 0.0,
+          "NotSpecified": 0.0
+        },
+        "Waste": {
+          "distanceToVWC": 0.0,
+          "distanceToRecycling": 0.0,
+          "Operation": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Construction": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Design": {
+            "RecyclingRoomSize": 0.0
+          }
+        },
+        "Material": {
+          "Assessment": "yes",
+          "Deveations": 0.0
+        },
+        "IndoorEnvironment": {
+          "LivingClass": "NA"
+        }
+      },
+      {
+        "Name": "Garphyttan 3",
+        "Developer": "Seniorgården",
+        "TotalApartments": 69,
+        "Coordinates": {
+          "Lat": 6582395.9,
+          "Lng": 154842.2
+        },
+        "Requirement": {
+          "Bbr": 110,
+          "Energy": 55.0,
+          "Gsi": 0.6,
+          "BicycleParking": 2.2,
+          "CarParking": 0.5,
+          "ElectiralChargingPoint": 0,
+          "ConstructionWaste": 20,
+          "DistanceToVWC": 30,
+          "DistanceToRecycling": 50.0,
+          "IndoorEnvironment": "Gold"
+        },
+        "Energy": {
+          "Operation": {
+            "Total": 55.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Construction": {
+            "Total": 62.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Design": {
+            "Total": 0.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          }
+        },
+        "GreenStructure": {
+          "Co2emissions": 27.316146,
+          "Courtyard": 845.0,
+          "Roofs": 1700.0,
+          "Operation": {
+            "Gsi": 0.6
+          },
+          "Construction": {
+            "Gsi": 0.6
+          },
+          "Design": {
+            "Gsi": 0.0
+          }
+        },
+        "Transport": {
+          "TotalBicycleParking": 152.0,
+          "BicycleParkingIndoor": 0.0,
+          "BicycleParkingOutdoor": 0.0,
+          "CarParkingSpace": 0.55,
+          "TotalcarParkingSpace": 38.0,
+          "ElectiralChargingPoint": 13.0,
+          "TotalElectiralChargingPoint": 5.0,
+          "Operation": {
+            "BicycleParking": 2.2
+          },
+          "Construction": {
+            "BicycleParking": 2.2
+          },
+          "Design": {
+            "BicycleParking": 0.0
+          }
+        },
+        "Construction": {
+          "ConstructionWaste": 32.0,
+          "EnergyRecovery": 0.0,
+          "MaterialRecycling": 0.0,
+          "Reuse": 0.0,
+          "Mixed": 0.0,
+          "LandsFill": 0.0,
+          "NotSpecified": 0.0
+        },
+        "Waste": {
+          "distanceToVWC": 0.0,
+          "distanceToRecycling": 0.0,
+          "Operation": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Construction": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Design": {
+            "RecyclingRoomSize": 0.0
+          }
+        },
+        "Material": {
+          "Assessment": "yes",
+          "Deveations": 0.0
+        },
+        "IndoorEnvironment": {
+          "LivingClass": "NA"
+        }
+      },
+      {
+        "Name": "Garphyttan 1; 2",
+        "Developer": "NCC",
+        "TotalApartments": 123,
+        "Coordinates": {
+          "Lat": 6582454.2,
+          "Lng": 154876.1
+        },
+        "Requirement": {
+          "Bbr": 110,
+          "Energy": 55.0,
+          "Gsi": 0.6,
+          "BicycleParking": 2.2,
+          "CarParking": 0.5,
+          "ElectiralChargingPoint": 0,
+          "ConstructionWaste": 20,
+          "DistanceToVWC": 30,
+          "DistanceToRecycling": 50.0,
+          "IndoorEnvironment": "Gold"
+        },
+        "Energy": {
+          "Operation": {
+            "Total": 66.3,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Construction": {
+            "Total": 70.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Design": {
+            "Total": 0.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          }
+        },
+        "GreenStructure": {
+          "Co2emissions": 56.58821688,
+          "Courtyard": 845.0,
+          "Roofs": 0.0,
+          "Operation": {
+            "Gsi": 0.6
+          },
+          "Construction": {
+            "Gsi": 0.6
+          },
+          "Design": {
+            "Gsi": 0.0
+          }
+        },
+        "Transport": {
+          "TotalBicycleParking": 185.0,
+          "BicycleParkingIndoor": 0.0,
+          "BicycleParkingOutdoor": 0.0,
+          "CarParkingSpace": 0.5,
+          "TotalcarParkingSpace": 62.0,
+          "ElectiralChargingPoint": 5.0,
+          "TotalElectiralChargingPoint": 3.0,
+          "Operation": {
+            "BicycleParking": 1.5
+          },
+          "Construction": {
+            "BicycleParking": 1.5
+          },
+          "Design": {
+            "BicycleParking": 0.0
+          }
+        },
+        "Construction": {
+          "ConstructionWaste": 49.0,
+          "EnergyRecovery": 0.0,
+          "MaterialRecycling": 0.0,
+          "Reuse": 0.0,
+          "Mixed": 0.0,
+          "LandsFill": 0.0,
+          "NotSpecified": 0.0
+        },
+        "Waste": {
+          "distanceToVWC": 0.0,
+          "distanceToRecycling": 0.0,
+          "Operation": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Construction": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Design": {
+            "RecyclingRoomSize": 0.0
+          }
+        },
+        "Material": {
+          "Assessment": "yes",
+          "Deveations": 0.0
+        },
+        "IndoorEnvironment": {
+          "LivingClass": "NA"
+        }
+      },
+      {
+        "Name": "Gotska sandön 2",
+        "Developer": "Familjebostäder",
+        "TotalApartments": 109,
+        "Coordinates": {
+          "Lat": 6582390.1,
+          "Lng": 155005.4
+        },
+        "Requirement": {
+          "Bbr": 110,
+          "Energy": 55.0,
+          "Gsi": 0.6,
+          "BicycleParking": 2.2,
+          "CarParking": 0.5,
+          "ElectiralChargingPoint": 0,
+          "ConstructionWaste": 20,
+          "DistanceToVWC": 30,
+          "DistanceToRecycling": 50.0,
+          "IndoorEnvironment": "Gold"
+        },
+        "Energy": {
+          "Operation": {
+            "Total": 89.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Construction": {
+            "Total": 53.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Design": {
+            "Total": 0.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          }
+        },
+        "GreenStructure": {
+          "Co2emissions": 72.0524064,
+          "Courtyard": 345.0,
+          "Roofs": 0.0,
+          "Operation": {
+            "Gsi": 0.31
+          },
+          "Construction": {
+            "Gsi": 0.31
+          },
+          "Design": {
+            "Gsi": 0.0
+          }
+        },
+        "Transport": {
+          "TotalBicycleParking": 199.0,
+          "BicycleParkingIndoor": 0.0,
+          "BicycleParkingOutdoor": 0.0,
+          "CarParkingSpace": 0.55,
+          "TotalcarParkingSpace": 60.0,
+          "ElectiralChargingPoint": 0.0,
+          "TotalElectiralChargingPoint": 0.0,
+          "Operation": {
+            "BicycleParking": 1.8
+          },
+          "Construction": {
+            "BicycleParking": 0.0
+          },
+          "Design": {
+            "BicycleParking": 0.0
+          }
+        },
+        "Construction": {
+          "ConstructionWaste": 49.0,
+          "EnergyRecovery": 0.0,
+          "MaterialRecycling": 0.0,
+          "Reuse": 0.0,
+          "Mixed": 0.0,
+          "LandsFill": 0.0,
+          "NotSpecified": 0.0
+        },
+        "Waste": {
+          "distanceToVWC": 0.0,
+          "distanceToRecycling": 0.0,
+          "Operation": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Construction": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Design": {
+            "RecyclingRoomSize": 0.0
+          }
+        },
+        "Material": {
+          "Assessment": "yes",
+          "Deveations": 0.0
+        },
+        "IndoorEnvironment": {
+          "LivingClass": "NA"
+        }
+      },
+      {
+        "Name": "Gotska sandön 1",
+        "Developer": "SBC Bo",
+        "TotalApartments": 69,
+        "Coordinates": {
+          "Lat": 6582399.1,
+          "Lng": 154959.8
+        },
+        "Requirement": {
+          "Bbr": 110,
+          "Energy": 55.0,
+          "Gsi": 0.6,
+          "BicycleParking": 2.2,
+          "CarParking": 0.5,
+          "ElectiralChargingPoint": 0,
+          "ConstructionWaste": 20,
+          "DistanceToVWC": 30,
+          "DistanceToRecycling": 50.0,
+          "IndoorEnvironment": "Gold"
+        },
+        "Energy": {
+          "Operation": {
+            "Total": 75.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Construction": {
+            "Total": 66.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Design": {
+            "Total": 0.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          }
+        },
+        "GreenStructure": {
+          "Co2emissions": 38.60805,
+          "Courtyard": 345.0,
+          "Roofs": 0.0,
+          "Operation": {
+            "Gsi": 0.31
+          },
+          "Construction": {
+            "Gsi": 0.31
+          },
+          "Design": {
+            "Gsi": 0.0
+          }
+        },
+        "Transport": {
+          "TotalBicycleParking": 126.0,
+          "BicycleParkingIndoor": 0.0,
+          "BicycleParkingOutdoor": 0.0,
+          "CarParkingSpace": 0.55,
+          "TotalcarParkingSpace": 38.0,
+          "ElectiralChargingPoint": 0.0,
+          "TotalElectiralChargingPoint": 0.0,
+          "Operation": {
+            "BicycleParking": 1.8
+          },
+          "Construction": {
+            "BicycleParking": 2.0
+          },
+          "Design": {
+            "BicycleParking": 0.0
+          }
+        },
+        "Construction": {
+          "ConstructionWaste": 49.0,
+          "EnergyRecovery": 0.0,
+          "MaterialRecycling": 0.0,
+          "Reuse": 0.0,
+          "Mixed": 0.0,
+          "LandsFill": 0.0,
+          "NotSpecified": 0.0
+        },
+        "Waste": {
+          "distanceToVWC": 0.0,
+          "distanceToRecycling": 0.0,
+          "Operation": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Construction": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Design": {
+            "RecyclingRoomSize": 0.0
+          }
+        },
+        "Material": {
+          "Assessment": "yes",
+          "Deveations": 0.0
+        },
+        "IndoorEnvironment": {
+          "LivingClass": "NA"
+        }
+      },
+      {
+        "Name": "Skuleskogen 2",
+        "Developer": "Svenska Hus 1",
+        "TotalApartments": 31,
+        "Coordinates": {
+          "Lat": 6582536.9,
+          "Lng": 154948.7
+        },
+        "Requirement": {
+          "Bbr": 110,
+          "Energy": 55.0,
+          "Gsi": 0.6,
+          "BicycleParking": 2.2,
+          "CarParking": 0.5,
+          "ElectiralChargingPoint": 0,
+          "ConstructionWaste": 20,
+          "DistanceToVWC": 30,
+          "DistanceToRecycling": 50.0,
+          "IndoorEnvironment": "Gold"
+        },
+        "Energy": {
+          "Operation": {
+            "Total": 70.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Construction": {
+            "Total": 68.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Design": {
+            "Total": 0.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          }
+        },
+        "GreenStructure": {
+          "Co2emissions": 48.630764,
+          "Courtyard": 396.0,
+          "Roofs": 0.0,
+          "Operation": {
+            "Gsi": 0.38
+          },
+          "Construction": {
+            "Gsi": 0.38
+          },
+          "Design": {
+            "Gsi": 0.0
+          }
+        },
+        "Transport": {
+          "TotalBicycleParking": 284.0,
+          "BicycleParkingIndoor": 0.0,
+          "BicycleParkingOutdoor": 0.0,
+          "CarParkingSpace": 0.47,
+          "TotalcarParkingSpace": 61.0,
+          "ElectiralChargingPoint": 0.0,
+          "TotalElectiralChargingPoint": 0.0,
+          "Operation": {
+            "BicycleParking": 1.0
+          },
+          "Construction": {
+            "BicycleParking": 2.2
+          },
+          "Design": {
+            "BicycleParking": 0.0
+          }
+        },
+        "Construction": {
+          "ConstructionWaste": 30.0,
+          "EnergyRecovery": 0.0,
+          "MaterialRecycling": 0.0,
+          "Reuse": 0.0,
+          "Mixed": 0.0,
+          "LandsFill": 0.0,
+          "NotSpecified": 0.0
+        },
+        "Waste": {
+          "distanceToVWC": 0.0,
+          "distanceToRecycling": 0.0,
+          "Operation": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Construction": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Design": {
+            "RecyclingRoomSize": 0.0
+          }
+        },
+        "Material": {
+          "Assessment": "yes",
+          "Deveations": 0.0
+        },
+        "IndoorEnvironment": {
+          "LivingClass": "NA"
+        }
+      }
+    ]
+  },
+  {
+    "Name": "Västra",
+    "Stage": "In operation",
+    "Boundary": [],
+    "YearProjectStart": 2004,
+    "YearOccupancy": 2017,
+    "Area": 8285,
+    "Apartments": [
+      {
+        "Name": "Tyresta 1",
+        "Developer": "Borätt",
+        "TotalApartments": 75,
+        "Coordinates": {
+          "Lat": 6582136.2,
+          "Lng": 155055.0
+        },
+        "Requirement": {
+          "Bbr": 110,
+          "Energy": 55.0,
+          "Gsi": 0.6,
+          "BicycleParking": 2.2,
+          "CarParking": 0.5,
+          "ElectiralChargingPoint": 0,
+          "ConstructionWaste": 20,
+          "DistanceToVWC": 30,
+          "DistanceToRecycling": 50.0,
+          "IndoorEnvironment": "Gold"
+        },
+        "Energy": {
+          "Operation": {
+            "Total": 0.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Construction": {
+            "Total": 59.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Design": {
+            "Total": 75.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          }
+        },
+        "GreenStructure": {
+          "Co2emissions": 48.630764,
+          "Courtyard": 137.5,
+          "Roofs": 1550.0,
+          "Operation": {
+            "Gsi": 0.22
+          },
+          "Construction": {
+            "Gsi": 0.22
+          },
+          "Design": {
+            "Gsi": 0.0
+          }
+        },
+        "Transport": {
+          "TotalBicycleParking": 188.0,
+          "BicycleParkingIndoor": 0.0,
+          "BicycleParkingOutdoor": 0.0,
+          "CarParkingSpace": 0.56,
+          "TotalcarParkingSpace": 42.0,
+          "ElectiralChargingPoint": 14.0,
+          "TotalElectiralChargingPoint": 6.0,
+          "Operation": {
+            "BicycleParking": 2.5
+          },
+          "Construction": {
+            "BicycleParking": 2.2
+          },
+          "Design": {
+            "BicycleParking": 2.2
+          }
+        },
+        "Construction": {
+          "ConstructionWaste": 26.4,
+          "EnergyRecovery": 12.48,
+          "MaterialRecycling": 7.54,
+          "Reuse": 5.2,
+          "Mixed": 0.0,
+          "LandsFill": 0.52,
+          "NotSpecified": 0.0
+        },
+        "Waste": {
+          "distanceToVWC": 0.0,
+          "distanceToRecycling": 0.0,
+          "Operation": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Construction": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Design": {
+            "RecyclingRoomSize": 0.0
+          }
+        },
+        "Material": {
+          "Assessment": "yes",
+          "Deveations": 0.0
+        },
+        "IndoorEnvironment": {
+          "LivingClass": "NA"
+        }
+      },
+      {
+        "Name": "Tyresta 2",
+        "Developer": "JM (Tyresta)",
+        "TotalApartments": 83,
+        "Coordinates": {
+          "Lat": 6582090.6,
+          "Lng": 155082.5
+        },
+        "Requirement": {
+          "Bbr": 110,
+          "Energy": 55.0,
+          "Gsi": 0.6,
+          "BicycleParking": 2.2,
+          "CarParking": 0.5,
+          "ElectiralChargingPoint": 0,
+          "ConstructionWaste": 20,
+          "DistanceToVWC": 30,
+          "DistanceToRecycling": 50.0,
+          "IndoorEnvironment": "Gold"
+        },
+        "Energy": {
+          "Operation": {
+            "Total": 0.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Construction": {
+            "Total": 55.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Design": {
+            "Total": 75.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          }
+        },
+        "GreenStructure": {
+          "Co2emissions": 28.896296,
+          "Courtyard": 137.5,
+          "Roofs": 1550.0,
+          "Operation": {
+            "Gsi": 0.22
+          },
+          "Construction": {
+            "Gsi": 0.22
+          },
+          "Design": {
+            "Gsi": 0.0
+          }
+        },
+        "Transport": {
+          "TotalBicycleParking": 208.0,
+          "BicycleParkingIndoor": 0.0,
+          "BicycleParkingOutdoor": 0.0,
+          "CarParkingSpace": 0.5,
+          "TotalcarParkingSpace": 42.0,
+          "ElectiralChargingPoint": 14.0,
+          "TotalElectiralChargingPoint": 6.0,
+          "Operation": {
+            "BicycleParking": 2.5
+          },
+          "Construction": {
+            "BicycleParking": 2.2
+          },
+          "Design": {
+            "BicycleParking": 2.2
+          }
+        },
+        "Construction": {
+          "ConstructionWaste": 26.4,
+          "EnergyRecovery": 12.48,
+          "MaterialRecycling": 7.54,
+          "Reuse": 5.2,
+          "Mixed": 0.0,
+          "LandsFill": 0.52,
+          "NotSpecified": 0.0
+        },
+        "Waste": {
+          "distanceToVWC": 0.0,
+          "distanceToRecycling": 0.0,
+          "Operation": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Construction": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Design": {
+            "RecyclingRoomSize": 0.0
+          }
+        },
+        "Material": {
+          "Assessment": "yes",
+          "Deveations": 0.0
+        },
+        "IndoorEnvironment": {
+          "LivingClass": "NA"
+        }
+      },
+      {
+        "Name": "Kosterhavet 1; 2",
+        "Developer": "ByggVesta",
+        "TotalApartments": 204,
+        "Coordinates": {
+          "Lat": 6582037.1,
+          "Lng": 155088.9
+        },
+        "Requirement": {
+          "Bbr": 110,
+          "Energy": 55.0,
+          "Gsi": 0.6,
+          "BicycleParking": 2.2,
+          "CarParking": 0.5,
+          "ElectiralChargingPoint": 0,
+          "ConstructionWaste": 20,
+          "DistanceToVWC": 30,
+          "DistanceToRecycling": 50.0,
+          "IndoorEnvironment": "Gold"
+        },
+        "Energy": {
+          "Operation": {
+            "Total": 68.4,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Construction": {
+            "Total": 60.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Design": {
+            "Total": 54.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          }
+        },
+        "GreenStructure": {
+          "Co2emissions": 55.843008,
+          "Courtyard": 607.0,
+          "Roofs": 0.0,
+          "Operation": {
+            "Gsi": 0.18
+          },
+          "Construction": {
+            "Gsi": 0.58
+          },
+          "Design": {
+            "Gsi": 0.0
+          }
+        },
+        "Transport": {
+          "TotalBicycleParking": 510.0,
+          "BicycleParkingIndoor": 0.0,
+          "BicycleParkingOutdoor": 0.0,
+          "CarParkingSpace": 0.56,
+          "TotalcarParkingSpace": 114.0,
+          "ElectiralChargingPoint": 0.0,
+          "TotalElectiralChargingPoint": 0.0,
+          "Operation": {
+            "BicycleParking": 2.5
+          },
+          "Construction": {
+            "BicycleParking": 2.5
+          },
+          "Design": {
+            "BicycleParking": 2.5
+          }
+        },
+        "Construction": {
+          "ConstructionWaste": 51.5,
+          "EnergyRecovery": 12.36,
+          "MaterialRecycling": 4.12,
+          "Reuse": 10.3,
+          "Mixed": 24.72,
+          "LandsFill": 0.0,
+          "NotSpecified": 0.0
+        },
+        "Waste": {
+          "distanceToVWC": 0.0,
+          "distanceToRecycling": 0.0,
+          "Operation": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Construction": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Design": {
+            "RecyclingRoomSize": 0.0
+          }
+        },
+        "Material": {
+          "Assessment": "yes",
+          "Deveations": 0.0
+        },
+        "IndoorEnvironment": {
+          "LivingClass": "NA"
+        }
+      },
+      {
+        "Name": "Färnebofjärden 1",
+        "Developer": "Einar Mattsson",
+        "TotalApartments": 77,
+        "Coordinates": {
+          "Lat": 6582040.3,
+          "Lng": 154963.8
+        },
+        "Requirement": {
+          "Bbr": 110,
+          "Energy": 55.0,
+          "Gsi": 0.6,
+          "BicycleParking": 2.2,
+          "CarParking": 0.5,
+          "ElectiralChargingPoint": 0,
+          "ConstructionWaste": 20,
+          "DistanceToVWC": 30,
+          "DistanceToRecycling": 50.0,
+          "IndoorEnvironment": "Gold"
+        },
+        "Energy": {
+          "Operation": {
+            "Total": 70.6,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Construction": {
+            "Total": 55.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Design": {
+            "Total": 55.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          }
+        },
+        "GreenStructure": {
+          "Co2emissions": 25.416248,
+          "Courtyard": 134.5,
+          "Roofs": 1500.0,
+          "Operation": {
+            "Gsi": 0.32
+          },
+          "Construction": {
+            "Gsi": 0.32
+          },
+          "Design": {
+            "Gsi": 0.0
+          }
+        },
+        "Transport": {
+          "TotalBicycleParking": 154.0,
+          "BicycleParkingIndoor": 0.0,
+          "BicycleParkingOutdoor": 0.0,
+          "CarParkingSpace": 0.5,
+          "TotalcarParkingSpace": 39.0,
+          "ElectiralChargingPoint": 0.0,
+          "TotalElectiralChargingPoint": 0.0,
+          "Operation": {
+            "BicycleParking": 2.0
+          },
+          "Construction": {
+            "BicycleParking": 2.0
+          },
+          "Design": {
+            "BicycleParking": 2.0
+          }
+        },
+        "Construction": {
+          "ConstructionWaste": 35.8,
+          "EnergyRecovery": 15.824,
+          "MaterialRecycling": 9.936,
+          "Reuse": 5.152,
+          "Mixed": 5.52,
+          "LandsFill": 0.368,
+          "NotSpecified": 0.0
+        },
+        "Waste": {
+          "distanceToVWC": 0.0,
+          "distanceToRecycling": 0.0,
+          "Operation": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Construction": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Design": {
+            "RecyclingRoomSize": 0.0
+          }
+        },
+        "Material": {
+          "Assessment": "yes",
+          "Deveations": 0.0
+        },
+        "IndoorEnvironment": {
+          "LivingClass": "NA"
+        }
+      },
+      {
+        "Name": "Färnebofjärden 2",
+        "Developer": "Järntorget",
+        "TotalApartments": 56,
+        "Coordinates": {
+          "Lat": 6582069.9,
+          "Lng": 154925.1
+        },
+        "Requirement": {
+          "Bbr": 110,
+          "Energy": 55.0,
+          "Gsi": 0.6,
+          "BicycleParking": 2.2,
+          "CarParking": 0.5,
+          "ElectiralChargingPoint": 0,
+          "ConstructionWaste": 20,
+          "DistanceToVWC": 30,
+          "DistanceToRecycling": 50.0,
+          "IndoorEnvironment": "Gold"
+        },
+        "Energy": {
+          "Operation": {
+            "Total": 66.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Construction": {
+            "Total": 61.5,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Design": {
+            "Total": 70.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          }
+        },
+        "GreenStructure": {
+          "Co2emissions": 63.66102912,
+          "Courtyard": 134.5,
+          "Roofs": 750.0,
+          "Operation": {
+            "Gsi": 0.32
+          },
+          "Construction": {
+            "Gsi": 0.32
+          },
+          "Design": {
+            "Gsi": 0.0
+          }
+        },
+        "Transport": {
+          "TotalBicycleParking": 123.0,
+          "BicycleParkingIndoor": 0.0,
+          "BicycleParkingOutdoor": 0.0,
+          "CarParkingSpace": 0.5,
+          "TotalcarParkingSpace": 28.0,
+          "ElectiralChargingPoint": 0.0,
+          "TotalElectiralChargingPoint": 0.0,
+          "Operation": {
+            "BicycleParking": 2.2
+          },
+          "Construction": {
+            "BicycleParking": 2.2
+          },
+          "Design": {
+            "BicycleParking": 2.2
+          }
+        },
+        "Construction": {
+          "ConstructionWaste": 25.0,
+          "EnergyRecovery": 0.0,
+          "MaterialRecycling": 0.0,
+          "Reuse": 0.0,
+          "Mixed": 0.0,
+          "LandsFill": 0.0,
+          "NotSpecified": 25.0
+        },
+        "Waste": {
+          "distanceToVWC": 0.0,
+          "distanceToRecycling": 0.0,
+          "Operation": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Construction": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Design": {
+            "RecyclingRoomSize": 0.0
+          }
+        },
+        "Material": {
+          "Assessment": "yes",
+          "Deveations": 0.0
+        },
+        "IndoorEnvironment": {
+          "LivingClass": "NA"
+        }
+      },
+      {
+        "Name": "Tresticklan 2",
+        "Developer": "HSB",
+        "TotalApartments": 70,
+        "Coordinates": {
+          "Lat": 6582106.0,
+          "Lng": 154941.5
+        },
+        "Requirement": {
+          "Bbr": 110,
+          "Energy": 55.0,
+          "Gsi": 0.6,
+          "BicycleParking": 2.2,
+          "CarParking": 0.5,
+          "ElectiralChargingPoint": 0,
+          "ConstructionWaste": 20,
+          "DistanceToVWC": 30,
+          "DistanceToRecycling": 50.0,
+          "IndoorEnvironment": "Gold"
+        },
+        "Energy": {
+          "Operation": {
+            "Total": 0.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Construction": {
+            "Total": 69.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Design": {
+            "Total": 69.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          }
+        },
+        "GreenStructure": {
+          "Co2emissions": 32.62522016,
+          "Courtyard": 166.0,
+          "Roofs": 400.0,
+          "Operation": {
+            "Gsi": 0.38
+          },
+          "Construction": {
+            "Gsi": 0.38
+          },
+          "Design": {
+            "Gsi": 0.0
+          }
+        },
+        "Transport": {
+          "TotalBicycleParking": 140.0,
+          "BicycleParkingIndoor": 0.0,
+          "BicycleParkingOutdoor": 0.0,
+          "CarParkingSpace": 0.5,
+          "TotalcarParkingSpace": 35.0,
+          "ElectiralChargingPoint": 29.0,
+          "TotalElectiralChargingPoint": 6.0,
+          "Operation": {
+            "BicycleParking": 2.0
+          },
+          "Construction": {
+            "BicycleParking": 2.0
+          },
+          "Design": {
+            "BicycleParking": 2.0
+          }
+        },
+        "Construction": {
+          "ConstructionWaste": 25.0,
+          "EnergyRecovery": 11.75,
+          "MaterialRecycling": 5.5,
+          "Reuse": 6.25,
+          "Mixed": 1.25,
+          "LandsFill": 0.25,
+          "NotSpecified": 0.0
+        },
+        "Waste": {
+          "distanceToVWC": 0.0,
+          "distanceToRecycling": 0.0,
+          "Operation": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Construction": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Design": {
+            "RecyclingRoomSize": 0.0
+          }
+        },
+        "Material": {
+          "Assessment": "yes",
+          "Deveations": 0.0
+        },
+        "IndoorEnvironment": {
+          "LivingClass": "NA"
+        }
+      },
+      {
+        "Name": "Tresticklan 1",
+        "Developer": "JM (Tresticklan)",
+        "TotalApartments": 64,
+        "Coordinates": {
+          "Lat": 6582143.1,
+          "Lng": 154965.4
+        },
+        "Requirement": {
+          "Bbr": 110,
+          "Energy": 55.0,
+          "Gsi": 0.6,
+          "BicycleParking": 2.2,
+          "CarParking": 0.5,
+          "ElectiralChargingPoint": 0,
+          "ConstructionWaste": 20,
+          "DistanceToVWC": 30,
+          "DistanceToRecycling": 50.0,
+          "IndoorEnvironment": "Gold"
+        },
+        "Energy": {
+          "Operation": {
+            "Total": 0.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Construction": {
+            "Total": 52.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Design": {
+            "Total": 72.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          }
+        },
+        "GreenStructure": {
+          "Co2emissions": 26.8856016,
+          "Courtyard": 166.0,
+          "Roofs": 1400.0,
+          "Operation": {
+            "Gsi": 0.38
+          },
+          "Construction": {
+            "Gsi": 0.38
+          },
+          "Design": {
+            "Gsi": 0.0
+          }
+        },
+        "Transport": {
+          "TotalBicycleParking": 141.0,
+          "BicycleParkingIndoor": 0.0,
+          "BicycleParkingOutdoor": 0.0,
+          "CarParkingSpace": 0.5,
+          "TotalcarParkingSpace": 32.0,
+          "ElectiralChargingPoint": 30.0,
+          "TotalElectiralChargingPoint": 6.0,
+          "Operation": {
+            "BicycleParking": 2.2
+          },
+          "Construction": {
+            "BicycleParking": 2.2
+          },
+          "Design": {
+            "BicycleParking": 2.2
+          }
+        },
+        "Construction": {
+          "ConstructionWaste": 23.0,
+          "EnergyRecovery": 10.81,
+          "MaterialRecycling": 4.83,
+          "Reuse": 5.29,
+          "Mixed": 1.84,
+          "LandsFill": 0.23,
+          "NotSpecified": 0.0
+        },
+        "Waste": {
+          "distanceToVWC": 0.0,
+          "distanceToRecycling": 0.0,
+          "Operation": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Construction": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Design": {
+            "RecyclingRoomSize": 0.0
+          }
+        },
+        "Material": {
+          "Assessment": "yes",
+          "Deveations": 0.0
+        },
+        "IndoorEnvironment": {
+          "LivingClass": "NA"
+        }
+      },
+      {
+        "Name": "Norra Kvill 1; Padjelanta 1; 2",
+        "Developer": "Primula",
+        "TotalApartments": 88,
+        "Coordinates": {
+          "Lat": 6582162.7,
+          "Lng": 155104.8
+        },
+        "Requirement": {
+          "Bbr": 110,
+          "Energy": 55.0,
+          "Gsi": 0.6,
+          "BicycleParking": 2.2,
+          "CarParking": 0.5,
+          "ElectiralChargingPoint": 0,
+          "ConstructionWaste": 20,
+          "DistanceToVWC": 30,
+          "DistanceToRecycling": 50.0,
+          "IndoorEnvironment": "Gold"
+        },
+        "Energy": {
+          "Operation": {
+            "Total": 0.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Construction": {
+            "Total": 65.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Design": {
+            "Total": 55.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          }
+        },
+        "GreenStructure": {
+          "Co2emissions": 38.961598,
+          "Courtyard": 1132.0,
+          "Roofs": 600.0,
+          "Operation": {
+            "Gsi": 0.62
+          },
+          "Construction": {
+            "Gsi": 0.62
+          },
+          "Design": {
+            "Gsi": 0.62
+          }
+        },
+        "Transport": {
+          "TotalBicycleParking": 97.0,
+          "BicycleParkingIndoor": 0.0,
+          "BicycleParkingOutdoor": 0.0,
+          "CarParkingSpace": 0.5,
+          "TotalcarParkingSpace": 44.0,
+          "ElectiralChargingPoint": 0.0,
+          "TotalElectiralChargingPoint": 0.0,
+          "Operation": {
+            "BicycleParking": 1.1
+          },
+          "Construction": {
+            "BicycleParking": 1.1
+          },
+          "Design": {
+            "BicycleParking": 1.1
+          }
+        },
+        "Construction": {
+          "ConstructionWaste": 48.6,
+          "EnergyRecovery": 27.216,
+          "MaterialRecycling": 7.29,
+          "Reuse": 10.692,
+          "Mixed": 3.402,
+          "LandsFill": 0.486,
+          "NotSpecified": 0.0
+        },
+        "Waste": {
+          "distanceToVWC": 0.0,
+          "distanceToRecycling": 0.0,
+          "Operation": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Construction": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Design": {
+            "RecyclingRoomSize": 0.0
+          }
+        },
+        "Material": {
+          "Assessment": "yes",
+          "Deveations": 0.0
+        },
+        "IndoorEnvironment": {
+          "LivingClass": "NA"
+        }
+      },
+      {
+        "Name": "Muddus 1",
+        "Developer": "SKB",
+        "TotalApartments": 105,
+        "Coordinates": {
+          "Lat": 6582045.6,
+          "Lng": 155014.7
+        },
+        "Requirement": {
+          "Bbr": 110,
+          "Energy": 55.0,
+          "Gsi": 0.6,
+          "BicycleParking": 2.2,
+          "CarParking": 0.5,
+          "ElectiralChargingPoint": 0,
+          "ConstructionWaste": 20,
+          "DistanceToVWC": 30,
+          "DistanceToRecycling": 50.0,
+          "IndoorEnvironment": "Gold"
+        },
+        "Energy": {
+          "Operation": {
+            "Total": 0.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Construction": {
+            "Total": 53.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Design": {
+            "Total": 55.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          }
+        },
+        "GreenStructure": {
+          "Co2emissions": 41.38134,
+          "Courtyard": 330.0,
+          "Roofs": 2200.0,
+          "Operation": {
+            "Gsi": 0.58
+          },
+          "Construction": {
+            "Gsi": 0.58
+          },
+          "Design": {
+            "Gsi": 0.58
+          }
+        },
+        "Transport": {
+          "TotalBicycleParking": 231.0,
+          "BicycleParkingIndoor": 0.0,
+          "BicycleParkingOutdoor": 0.0,
+          "CarParkingSpace": 0.48,
+          "TotalcarParkingSpace": 50.0,
+          "ElectiralChargingPoint": 8.0,
+          "TotalElectiralChargingPoint": 4.0,
+          "Operation": {
+            "BicycleParking": 2.2
+          },
+          "Construction": {
+            "BicycleParking": 2.24
+          },
+          "Design": {
+            "BicycleParking": 2.2
+          }
+        },
+        "Construction": {
+          "ConstructionWaste": 37.5,
+          "EnergyRecovery": 15.75,
+          "MaterialRecycling": 7.875,
+          "Reuse": 6.0,
+          "Mixed": 7.125,
+          "LandsFill": 0.75,
+          "NotSpecified": 0.0
+        },
+        "Waste": {
+          "distanceToVWC": 0.0,
+          "distanceToRecycling": 0.0,
+          "Operation": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Construction": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Design": {
+            "RecyclingRoomSize": 0.0
+          }
+        },
+        "Material": {
+          "Assessment": "yes",
+          "Deveations": 0.0
+        },
+        "IndoorEnvironment": {
+          "LivingClass": "NA"
+        }
+      },
+      {
+        "Name": "Töfsingdalen 1",
+        "Developer": "Stockholmshem",
+        "TotalApartments": 141,
+        "Coordinates": {
+          "Lat": 6582188.1,
+          "Lng": 155040.1
+        },
+        "Requirement": {
+          "Bbr": 110,
+          "Energy": 55.0,
+          "Gsi": 0.6,
+          "BicycleParking": 2.2,
+          "CarParking": 0.5,
+          "ElectiralChargingPoint": 0,
+          "ConstructionWaste": 20,
+          "DistanceToVWC": 30,
+          "DistanceToRecycling": 50.0,
+          "IndoorEnvironment": "Gold"
+        },
+        "Energy": {
+          "Operation": {
+            "Total": 0.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Construction": {
+            "Total": 54.6,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Design": {
+            "Total": 55.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          }
+        },
+        "GreenStructure": {
+          "Co2emissions": 53.06124096,
+          "Courtyard": 388.0,
+          "Roofs": 1100.0,
+          "Operation": {
+            "Gsi": 0.31
+          },
+          "Construction": {
+            "Gsi": 0.31
+          },
+          "Design": {
+            "Gsi": 0.0
+          }
+        },
+        "Transport": {
+          "TotalBicycleParking": 282.0,
+          "BicycleParkingIndoor": 0.0,
+          "BicycleParkingOutdoor": 0.0,
+          "CarParkingSpace": 0.5,
+          "TotalcarParkingSpace": 71.0,
+          "ElectiralChargingPoint": 13.0,
+          "TotalElectiralChargingPoint": 9.0,
+          "Operation": {
+            "BicycleParking": 2.0
+          },
+          "Construction": {
+            "BicycleParking": 2.0
+          },
+          "Design": {
+            "BicycleParking": 2.0
+          }
+        },
+        "Construction": {
+          "ConstructionWaste": 52.8,
+          "EnergyRecovery": 23.232,
+          "MaterialRecycling": 15.84,
+          "Reuse": 8.976,
+          "Mixed": 3.168,
+          "LandsFill": 1.056,
+          "NotSpecified": 0.0
+        },
+        "Waste": {
+          "distanceToVWC": 0.0,
+          "distanceToRecycling": 0.0,
+          "Operation": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Construction": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Design": {
+            "RecyclingRoomSize": 0.0
+          }
+        },
+        "Material": {
+          "Assessment": "yes",
+          "Deveations": 0.0
+        },
+        "IndoorEnvironment": {
+          "LivingClass": "NA"
+        }
+      },
+      {
+        "Name": "Björnlandet 1",
+        "Developer": "Svenska Bostäder (Björnlandet)",
+        "TotalApartments": 158,
+        "Coordinates": {
+          "Lat": 6582302.6,
+          "Lng": 155036.4
+        },
+        "Requirement": {
+          "Bbr": 110,
+          "Energy": 55.0,
+          "Gsi": 0.6,
+          "BicycleParking": 2.2,
+          "CarParking": 0.5,
+          "ElectiralChargingPoint": 0,
+          "ConstructionWaste": 20,
+          "DistanceToVWC": 30,
+          "DistanceToRecycling": 50.0,
+          "IndoorEnvironment": "Gold"
+        },
+        "Energy": {
+          "Operation": {
+            "Total": 0.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Construction": {
+            "Total": 69.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Design": {
+            "Total": 71.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          }
+        },
+        "GreenStructure": {
+          "Co2emissions": 76.4215296,
+          "Courtyard": 554.0,
+          "Roofs": 500.0,
+          "Operation": {
+            "Gsi": 0.39
+          },
+          "Construction": {
+            "Gsi": 0.39
+          },
+          "Design": {
+            "Gsi": 0.6
+          }
+        },
+        "Transport": {
+          "TotalBicycleParking": 348.0,
+          "BicycleParkingIndoor": 0.0,
+          "BicycleParkingOutdoor": 0.0,
+          "CarParkingSpace": 0.5,
+          "TotalcarParkingSpace": 79.0,
+          "ElectiralChargingPoint": 1.0,
+          "TotalElectiralChargingPoint": 1.0,
+          "Operation": {
+            "BicycleParking": 2.2
+          },
+          "Construction": {
+            "BicycleParking": 0.0
+          },
+          "Design": {
+            "BicycleParking": 0.0
+          }
+        },
+        "Construction": {
+          "ConstructionWaste": 28.3,
+          "EnergyRecovery": 10.471,
+          "MaterialRecycling": 5.66,
+          "Reuse": 5.66,
+          "Mixed": 5.943,
+          "LandsFill": 0.283,
+          "NotSpecified": 0.0
+        },
+        "Waste": {
+          "distanceToVWC": 0.0,
+          "distanceToRecycling": 0.0,
+          "Operation": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Construction": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Design": {
+            "RecyclingRoomSize": 0.0
+          }
+        },
+        "Material": {
+          "Assessment": "yes",
+          "Deveations": 0.0
+        },
+        "IndoorEnvironment": {
+          "LivingClass": "NA"
+        }
+      },
+      {
+        "Name": "Söderåsen 1",
+        "Developer": "Svenska Bostäder (Söderåsen)",
+        "TotalApartments": 142,
+        "Coordinates": {
+          "Lat": 6582190.2,
+          "Lng": 154964.3
+        },
+        "Requirement": {
+          "Bbr": 110,
+          "Energy": 55.0,
+          "Gsi": 0.6,
+          "BicycleParking": 2.2,
+          "CarParking": 0.5,
+          "ElectiralChargingPoint": 0,
+          "ConstructionWaste": 20,
+          "DistanceToVWC": 30,
+          "DistanceToRecycling": 50.0,
+          "IndoorEnvironment": "Gold"
+        },
+        "Energy": {
+          "Operation": {
+            "Total": 81.4,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Construction": {
+            "Total": 72.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Design": {
+            "Total": 72.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          }
+        },
+        "GreenStructure": {
+          "Co2emissions": 34.1531424,
+          "Courtyard": 100.0,
+          "Roofs": 0.0,
+          "Operation": {
+            "Gsi": 0.18
+          },
+          "Construction": {
+            "Gsi": 0.18
+          },
+          "Design": {
+            "Gsi": 0.0
+          }
+        },
+        "Transport": {
+          "TotalBicycleParking": 256.0,
+          "BicycleParkingIndoor": 0.0,
+          "BicycleParkingOutdoor": 0.0,
+          "CarParkingSpace": 0.5,
+          "TotalcarParkingSpace": 71.0,
+          "ElectiralChargingPoint": 0.0,
+          "TotalElectiralChargingPoint": 0.0,
+          "Operation": {
+            "BicycleParking": 1.8
+          },
+          "Construction": {
+            "BicycleParking": 1.6
+          },
+          "Design": {
+            "BicycleParking": 1.7
+          }
+        },
+        "Construction": {
+          "ConstructionWaste": 27.0,
+          "EnergyRecovery": 13.77,
+          "MaterialRecycling": 6.75,
+          "Reuse": 5.13,
+          "Mixed": 0.81,
+          "LandsFill": 0.27,
+          "NotSpecified": 0.0
+        },
+        "Waste": {
+          "distanceToVWC": 0.0,
+          "distanceToRecycling": 0.0,
+          "Operation": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Construction": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Design": {
+            "RecyclingRoomSize": 0.0
+          }
+        },
+        "Material": {
+          "Assessment": "yes",
+          "Deveations": 0.0
+        },
+        "IndoorEnvironment": {
+          "LivingClass": "NA"
+        }
+      }
+    ]
+  },
+  {
+    "Name": "Norra 2",
+    "Stage": "In operation",
+    "Boundary": [],
+    "YearProjectStart": 2010,
+    "YearOccupancy": 2017,
+    "Area": 6794,
+    "Apartments": [
+      {
+        "Name": "Stora Sjöfallet 1",
+        "Developer": "Bonava",
+        "TotalApartments": 64,
+        "Coordinates": {
+          "Lat": 6582576.1,
+          "Lng": 154994.0
+        },
+        "Requirement": {
+          "Bbr": 90,
+          "Energy": 55.0,
+          "Gsi": 0.6,
+          "BicycleParking": 2.2,
+          "CarParking": 0.5,
+          "ElectiralChargingPoint": 0,
+          "ConstructionWaste": 20,
+          "DistanceToVWC": 30,
+          "DistanceToRecycling": 50.0,
+          "IndoorEnvironment": "Gold"
+        },
+        "Energy": {
+          "Operation": {
+            "Total": 0.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Construction": {
+            "Total": 54.4,
+            "DistrictHeating": 32.3,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 15.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 10.7,
+            "LocalElectricity": 3.6,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Design": {
+            "Total": 52.0,
+            "DistrictHeating": 21.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 20.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 14.0,
+            "LocalElectricity": 3.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          }
+        },
+        "GreenStructure": {
+          "Co2emissions": 26.29624494,
+          "Courtyard": 390.5,
+          "Roofs": 550.0,
+          "Operation": {
+            "Gsi": 0.6
+          },
+          "Construction": {
+            "Gsi": 0.61
+          },
+          "Design": {
+            "Gsi": 0.62
+          }
+        },
+        "Transport": {
+          "TotalBicycleParking": 152.0,
+          "BicycleParkingIndoor": 152.0,
+          "BicycleParkingOutdoor": 0.0,
+          "CarParkingSpace": 0.59,
+          "TotalcarParkingSpace": 38.0,
+          "ElectiralChargingPoint": 26.0,
+          "TotalElectiralChargingPoint": 10.0,
+          "Operation": {
+            "BicycleParking": 0.0
+          },
+          "Construction": {
+            "BicycleParking": 2.38
+          },
+          "Design": {
+            "BicycleParking": 2.2
+          }
+        },
+        "Construction": {
+          "ConstructionWaste": 38.11,
+          "EnergyRecovery": 17.9117,
+          "MaterialRecycling": 6.0976,
+          "Reuse": 5.7165,
+          "Mixed": 8.0031,
+          "LandsFill": 0.3811,
+          "NotSpecified": 0.0
+        },
+        "Waste": {
+          "distanceToVWC": 30.0,
+          "distanceToRecycling": 30.0,
+          "Operation": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Construction": {
+            "RecyclingRoomSize": 21.0
+          },
+          "Design": {
+            "RecyclingRoomSize": 0.0
+          }
+        },
+        "Material": {
+          "Assessment": "yes",
+          "Deveations": 1.0
+        },
+        "IndoorEnvironment": {
+          "LivingClass": "Silver"
+        }
+      },
+      {
+        "Name": "Stora Sjöfallet 4",
+        "Developer": "SSM",
+        "TotalApartments": 46,
+        "Coordinates": {
+          "Lat": 6582586.7,
+          "Lng": 155033.2
+        },
+        "Requirement": {
+          "Bbr": 90,
+          "Energy": 55.0,
+          "Gsi": 0.6,
+          "BicycleParking": 2.2,
+          "CarParking": 0.5,
+          "ElectiralChargingPoint": 0,
+          "ConstructionWaste": 20,
+          "DistanceToVWC": 30,
+          "DistanceToRecycling": 50.0,
+          "IndoorEnvironment": "Gold"
+        },
+        "Energy": {
+          "Operation": {
+            "Total": 38.94,
+            "DistrictHeating": 9.99,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 25.06,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 8.64,
+            "LocalElectricity": 4.75,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Construction": {
+            "Total": 54.0,
+            "DistrictHeating": 14.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 25.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 15.0,
+            "LocalElectricity": 4.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Design": {
+            "Total": 54.0,
+            "DistrictHeating": 14.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 25.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 15.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          }
+        },
+        "GreenStructure": {
+          "Co2emissions": 6.595275903,
+          "Courtyard": 390.5,
+          "Roofs": 950.0,
+          "Operation": {
+            "Gsi": 0.6
+          },
+          "Construction": {
+            "Gsi": 0.61
+          },
+          "Design": {
+            "Gsi": 0.62
+          }
+        },
+        "Transport": {
+          "TotalBicycleParking": 116.0,
+          "BicycleParkingIndoor": 116.0,
+          "BicycleParkingOutdoor": 0.0,
+          "CarParkingSpace": 0.24,
+          "TotalcarParkingSpace": 11.0,
+          "ElectiralChargingPoint": 9.0,
+          "TotalElectiralChargingPoint": 1.0,
+          "Operation": {
+            "BicycleParking": 2.52
+          },
+          "Construction": {
+            "BicycleParking": 3.48
+          },
+          "Design": {
+            "BicycleParking": 0.0
+          }
+        },
+        "Construction": {
+          "ConstructionWaste": 43.6,
+          "EnergyRecovery": 18.312,
+          "MaterialRecycling": 11.336,
+          "Reuse": 7.412,
+          "Mixed": 5.232,
+          "LandsFill": 1.308,
+          "NotSpecified": 0.0
+        },
+        "Waste": {
+          "distanceToVWC": 0.0,
+          "distanceToRecycling": 0.0,
+          "Operation": {
+            "RecyclingRoomSize": 14.0
+          },
+          "Construction": {
+            "RecyclingRoomSize": 14.0
+          },
+          "Design": {
+            "RecyclingRoomSize": 0.0
+          }
+        },
+        "Material": {
+          "Assessment": "yes",
+          "Deveations": 0.0
+        },
+        "IndoorEnvironment": {
+          "LivingClass": "Gold"
+        }
+      },
+      {
+        "Name": "Stora Sjöfallet 2",
+        "Developer": "Viktor Hanson",
+        "TotalApartments": 30,
+        "Coordinates": {
+          "Lat": 6582627.0,
+          "Lng": 155022.6
+        },
+        "Requirement": {
+          "Bbr": 90,
+          "Energy": 55.0,
+          "Gsi": 0.6,
+          "BicycleParking": 2.2,
+          "CarParking": 0.5,
+          "ElectiralChargingPoint": 0,
+          "ConstructionWaste": 20,
+          "DistanceToVWC": 30,
+          "DistanceToRecycling": 50.0,
+          "IndoorEnvironment": "Gold"
+        },
+        "Energy": {
+          "Operation": {
+            "Total": 71.8,
+            "DistrictHeating": 44.4,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 22.4,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 12.5,
+            "LocalElectricity": 3.0,
+            "LocalHeating": 4.5,
+            "RegionalEnergy": 0.0
+          },
+          "Construction": {
+            "Total": 53.9,
+            "DistrictHeating": 30.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 17.5,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 9.6,
+            "LocalElectricity": 3.2,
+            "LocalHeating": 4.5,
+            "RegionalEnergy": 0.0
+          },
+          "Design": {
+            "Total": 54.9,
+            "DistrictHeating": 30.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 17.5,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 10.0,
+            "LocalElectricity": 2.6,
+            "LocalHeating": 4.5,
+            "RegionalEnergy": 0.0
+          }
+        },
+        "GreenStructure": {
+          "Co2emissions": 17.70203943,
+          "Courtyard": 390.5,
+          "Roofs": 250.0,
+          "Operation": {
+            "Gsi": 0.6
+          },
+          "Construction": {
+            "Gsi": 0.61
+          },
+          "Design": {
+            "Gsi": 0.62
+          }
+        },
+        "Transport": {
+          "TotalBicycleParking": 74.0,
+          "BicycleParkingIndoor": 34.0,
+          "BicycleParkingOutdoor": 40.0,
+          "CarParkingSpace": 0.67,
+          "TotalcarParkingSpace": 20.0,
+          "ElectiralChargingPoint": 15.0,
+          "TotalElectiralChargingPoint": 3.0,
+          "Operation": {
+            "BicycleParking": 2.47
+          },
+          "Construction": {
+            "BicycleParking": 2.47
+          },
+          "Design": {
+            "BicycleParking": 2.2
+          }
+        },
+        "Construction": {
+          "ConstructionWaste": 35.04,
+          "EnergyRecovery": 25.488,
+          "MaterialRecycling": 3.54,
+          "Reuse": 1.416,
+          "Mixed": 4.602,
+          "LandsFill": 0.0,
+          "NotSpecified": 0.0
+        },
+        "Waste": {
+          "distanceToVWC": 5.0,
+          "distanceToRecycling": 0.0,
+          "Operation": {
+            "RecyclingRoomSize": 12.0
+          },
+          "Construction": {
+            "RecyclingRoomSize": 12.0
+          },
+          "Design": {
+            "RecyclingRoomSize": 0.0
+          }
+        },
+        "Material": {
+          "Assessment": "yes",
+          "Deveations": 2.0
+        },
+        "IndoorEnvironment": {
+          "LivingClass": "Gold"
+        }
+      },
+      {
+        "Name": "Stora Sjöfallet 3",
+        "Developer": "Wallenstam",
+        "TotalApartments": 127,
+        "Coordinates": {
+          "Lat": 6582626.4,
+          "Lng": 155078.3
+        },
+        "Requirement": {
+          "Bbr": 90,
+          "Energy": 55.0,
+          "Gsi": 0.6,
+          "BicycleParking": 2.2,
+          "CarParking": 0.5,
+          "ElectiralChargingPoint": 0,
+          "ConstructionWaste": 20,
+          "DistanceToVWC": 30,
+          "DistanceToRecycling": 50.0,
+          "IndoorEnvironment": "Gold"
+        },
+        "Energy": {
+          "Operation": {
+            "Total": 85.4,
+            "DistrictHeating": 57.9,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 19.4,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 8.1,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Construction": {
+            "Total": 53.43,
+            "DistrictHeating": 25.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 18.8,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 9.63,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 2.0
+          },
+          "Design": {
+            "Total": 49.0,
+            "DistrictHeating": 23.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 16.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 10.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 2.0
+          }
+        },
+        "GreenStructure": {
+          "Co2emissions": 50.33009672,
+          "Courtyard": 390.5,
+          "Roofs": 1700.0,
+          "Operation": {
+            "Gsi": 0.6
+          },
+          "Construction": {
+            "Gsi": 0.61
+          },
+          "Design": {
+            "Gsi": 0.62
+          }
+        },
+        "Transport": {
+          "TotalBicycleParking": 268.0,
+          "BicycleParkingIndoor": 268.0,
+          "BicycleParkingOutdoor": 0.0,
+          "CarParkingSpace": 0.39,
+          "TotalcarParkingSpace": 49.0,
+          "ElectiralChargingPoint": 12.0,
+          "TotalElectiralChargingPoint": 6.0,
+          "Operation": {
+            "BicycleParking": 2.11
+          },
+          "Construction": {
+            "BicycleParking": 2.11
+          },
+          "Design": {
+            "BicycleParking": 2.2
+          }
+        },
+        "Construction": {
+          "ConstructionWaste": 46.26,
+          "EnergyRecovery": 19.91,
+          "MaterialRecycling": 13.89,
+          "Reuse": 1.85,
+          "Mixed": 10.19,
+          "LandsFill": 0.93,
+          "NotSpecified": 0.0
+        },
+        "Waste": {
+          "distanceToVWC": 40.0,
+          "distanceToRecycling": 45.0,
+          "Operation": {
+            "RecyclingRoomSize": 55.0
+          },
+          "Construction": {
+            "RecyclingRoomSize": 55.0
+          },
+          "Design": {
+            "RecyclingRoomSize": 0.0
+          }
+        },
+        "Material": {
+          "Assessment": "yes",
+          "Deveations": 6.0
+        },
+        "IndoorEnvironment": {
+          "LivingClass": "Gold"
+        }
+      },
+      {
+        "Name": "Domarudden 2",
+        "Developer": "Wallenstam förskola",
+        "TotalApartments": 0,
+        "Coordinates": {
+          "Lat": 6582584.6,
+          "Lng": 155099.5
+        },
+        "Requirement": {
+          "Bbr": 98,
+          "Energy": 64.0,
+          "Gsi": 0.6,
+          "BicycleParking": 2.2,
+          "CarParking": 0.5,
+          "ElectiralChargingPoint": 0,
+          "ConstructionWaste": 20,
+          "DistanceToVWC": 30,
+          "DistanceToRecycling": 50.0,
+          "IndoorEnvironment": "Gold"
+        },
+        "Energy": {
+          "Operation": {
+            "Total": 97.93,
+            "DistrictHeating": 79.4,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 2.63,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 15.9,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Construction": {
+            "Total": 64.0,
+            "DistrictHeating": 43.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 5.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 16.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 2.0
+          },
+          "Design": {
+            "Total": 64.0,
+            "DistrictHeating": 38.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 9.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 16.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 2.0
+          }
+        },
+        "GreenStructure": {
+          "Co2emissions": 5.340995808,
+          "Courtyard": 0.0,
+          "Roofs": 0.0,
+          "Operation": {
+            "Gsi": 0.0
+          },
+          "Construction": {
+            "Gsi": 0.0
+          },
+          "Design": {
+            "Gsi": 0.0
+          }
+        },
+        "Transport": {
+          "TotalBicycleParking": 5.0,
+          "BicycleParkingIndoor": 5.0,
+          "BicycleParkingOutdoor": 0.0,
+          "CarParkingSpace": 0.0,
+          "TotalcarParkingSpace": 0.0,
+          "ElectiralChargingPoint": 0.0,
+          "TotalElectiralChargingPoint": 0.0,
+          "Operation": {
+            "BicycleParking": 0.0
+          },
+          "Construction": {
+            "BicycleParking": 0.0
+          },
+          "Design": {
+            "BicycleParking": 0.0
+          }
+        },
+        "Construction": {
+          "ConstructionWaste": 81.0,
+          "EnergyRecovery": 38.07,
+          "MaterialRecycling": 20.25,
+          "Reuse": 4.05,
+          "Mixed": 17.82,
+          "LandsFill": 0.81,
+          "NotSpecified": 0.0
+        },
+        "Waste": {
+          "distanceToVWC": 4.0,
+          "distanceToRecycling": 4.0,
+          "Operation": {
+            "RecyclingRoomSize": 11.6
+          },
+          "Construction": {
+            "RecyclingRoomSize": 11.6
+          },
+          "Design": {
+            "RecyclingRoomSize": 0.0
+          }
+        },
+        "Material": {
+          "Assessment": "yes",
+          "Deveations": 2.0
+        },
+        "IndoorEnvironment": {
+          "LivingClass": "Gold"
+        }
+      },
+      {
+        "Name": "Hornslandet 1",
+        "Developer": "Stockholmshem",
+        "TotalApartments": 159,
+        "Coordinates": {
+          "Lat": 6582649.2,
+          "Lng": 155136.1
+        },
+        "Requirement": {
+          "Bbr": 90,
+          "Energy": 55.0,
+          "Gsi": 0.6,
+          "BicycleParking": 2.2,
+          "CarParking": 0.5,
+          "ElectiralChargingPoint": 0,
+          "ConstructionWaste": 20,
+          "DistanceToVWC": 30,
+          "DistanceToRecycling": 50.0,
+          "IndoorEnvironment": "Gold"
+        },
+        "Energy": {
+          "Operation": {
+            "Total": 68.8,
+            "DistrictHeating": 46.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 15.5,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 11.3,
+            "LocalElectricity": 4.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Construction": {
+            "Total": 51.4,
+            "DistrictHeating": 26.5,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 22.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 9.4,
+            "LocalElectricity": 6.5,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Design": {
+            "Total": 51.9,
+            "DistrictHeating": 28.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 21.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 9.4,
+            "LocalElectricity": 6.5,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          }
+        },
+        "GreenStructure": {
+          "Co2emissions": 88.6843097,
+          "Courtyard": 1600.0,
+          "Roofs": 2050.0,
+          "Operation": {
+            "Gsi": 0.62
+          },
+          "Construction": {
+            "Gsi": 0.67
+          },
+          "Design": {
+            "Gsi": 0.68
+          }
+        },
+        "Transport": {
+          "TotalBicycleParking": 372.0,
+          "BicycleParkingIndoor": 294.0,
+          "BicycleParkingOutdoor": 78.0,
+          "CarParkingSpace": 0.5,
+          "TotalcarParkingSpace": 80.0,
+          "ElectiralChargingPoint": 11.0,
+          "TotalElectiralChargingPoint": 4.0,
+          "Operation": {
+            "BicycleParking": 2.34
+          },
+          "Construction": {
+            "BicycleParking": 2.34
+          },
+          "Design": {
+            "BicycleParking": 2.43
+          }
+        },
+        "Construction": {
+          "ConstructionWaste": 37.14,
+          "EnergyRecovery": 16.324,
+          "MaterialRecycling": 5.936,
+          "Reuse": 5.936,
+          "Mixed": 8.533,
+          "LandsFill": 0.371,
+          "NotSpecified": 0.0
+        },
+        "Waste": {
+          "distanceToVWC": 39.0,
+          "distanceToRecycling": 84.0,
+          "Operation": {
+            "RecyclingRoomSize": 57.8
+          },
+          "Construction": {
+            "RecyclingRoomSize": 57.8
+          },
+          "Design": {
+            "RecyclingRoomSize": 0.0
+          }
+        },
+        "Material": {
+          "Assessment": "yes",
+          "Deveations": 0.0
+        },
+        "IndoorEnvironment": {
+          "LivingClass": "Gold"
+        }
+      },
+      {
+        "Name": "Sonfjället 3",
+        "Developer": "Erik Wallin",
+        "TotalApartments": 18,
+        "Coordinates": {
+          "Lat": 6582712.3,
+          "Lng": 155172.1
+        },
+        "Requirement": {
+          "Bbr": 90,
+          "Energy": 55.0,
+          "Gsi": 0.6,
+          "BicycleParking": 2.2,
+          "CarParking": 0.5,
+          "ElectiralChargingPoint": 0,
+          "ConstructionWaste": 20,
+          "DistanceToVWC": 30,
+          "DistanceToRecycling": 50.0,
+          "IndoorEnvironment": "Gold"
+        },
+        "Energy": {
+          "Operation": {
+            "Total": 0.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Construction": {
+            "Total": 48.6,
+            "DistrictHeating": 30.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 12.6,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 9.2,
+            "LocalElectricity": 3.2,
+            "LocalHeating": 10.6,
+            "RegionalEnergy": 0.0
+          },
+          "Design": {
+            "Total": 51.0,
+            "DistrictHeating": 28.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 12.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 14.9,
+            "LocalElectricity": 3.9,
+            "LocalHeating": 4.2,
+            "RegionalEnergy": 0.0
+          }
+        },
+        "GreenStructure": {
+          "Co2emissions": 11.50760925,
+          "Courtyard": 409.0,
+          "Roofs": 350.0,
+          "Operation": {
+            "Gsi": 0.6
+          },
+          "Construction": {
+            "Gsi": 0.64
+          },
+          "Design": {
+            "Gsi": 0.6
+          }
+        },
+        "Transport": {
+          "TotalBicycleParking": 40.0,
+          "BicycleParkingIndoor": 20.0,
+          "BicycleParkingOutdoor": 20.0,
+          "CarParkingSpace": 1.0,
+          "TotalcarParkingSpace": 18.0,
+          "ElectiralChargingPoint": 44.0,
+          "TotalElectiralChargingPoint": 8.0,
+          "Operation": {
+            "BicycleParking": 0.0
+          },
+          "Construction": {
+            "BicycleParking": 2.22
+          },
+          "Design": {
+            "BicycleParking": 1.1
+          }
+        },
+        "Construction": {
+          "ConstructionWaste": 45.47,
+          "EnergyRecovery": 25.935,
+          "MaterialRecycling": 5.46,
+          "Reuse": 0.0,
+          "Mixed": 13.65,
+          "LandsFill": 0.0,
+          "NotSpecified": 0.0
+        },
+        "Waste": {
+          "distanceToVWC": 40.7,
+          "distanceToRecycling": 41.0,
+          "Operation": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Construction": {
+            "RecyclingRoomSize": 13.6
+          },
+          "Design": {
+            "RecyclingRoomSize": 0.0
+          }
+        },
+        "Material": {
+          "Assessment": "yes",
+          "Deveations": 0.0
+        },
+        "IndoorEnvironment": {
+          "LivingClass": "Gold"
+        }
+      },
+      {
+        "Name": "Sonfjället 1",
+        "Developer": "HEBA",
+        "TotalApartments": 72,
+        "Coordinates": {
+          "Lat": 6582666.2,
+          "Lng": 155208.7
+        },
+        "Requirement": {
+          "Bbr": 90,
+          "Energy": 55.0,
+          "Gsi": 0.6,
+          "BicycleParking": 2.2,
+          "CarParking": 0.5,
+          "ElectiralChargingPoint": 0,
+          "ConstructionWaste": 20,
+          "DistanceToVWC": 30,
+          "DistanceToRecycling": 50.0,
+          "IndoorEnvironment": "Gold"
+        },
+        "Energy": {
+          "Operation": {
+            "Total": 62.2,
+            "DistrictHeating": 35.9,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 19.4,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 9.1,
+            "LocalElectricity": 2.2,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Construction": {
+            "Total": 51.0,
+            "DistrictHeating": 24.8,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 20.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 9.1,
+            "LocalElectricity": 2.9,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Design": {
+            "Total": 51.6,
+            "DistrictHeating": 28.2,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 17.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 9.1,
+            "LocalElectricity": 2.7,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          }
+        },
+        "GreenStructure": {
+          "Co2emissions": 32.80671627,
+          "Courtyard": 409.0,
+          "Roofs": 850.0,
+          "Operation": {
+            "Gsi": 0.6
+          },
+          "Construction": {
+            "Gsi": 0.64
+          },
+          "Design": {
+            "Gsi": 0.6
+          }
+        },
+        "Transport": {
+          "TotalBicycleParking": 159.0,
+          "BicycleParkingIndoor": 119.0,
+          "BicycleParkingOutdoor": 40.0,
+          "CarParkingSpace": 0.51,
+          "TotalcarParkingSpace": 37.0,
+          "ElectiralChargingPoint": 11.0,
+          "TotalElectiralChargingPoint": 4.0,
+          "Operation": {
+            "BicycleParking": 2.21
+          },
+          "Construction": {
+            "BicycleParking": 2.33
+          },
+          "Design": {
+            "BicycleParking": 2.2
+          }
+        },
+        "Construction": {
+          "ConstructionWaste": 39.68,
+          "EnergyRecovery": 16.236,
+          "MaterialRecycling": 10.296,
+          "Reuse": 5.544,
+          "Mixed": 7.128,
+          "LandsFill": 0.396,
+          "NotSpecified": 0.0
+        },
+        "Waste": {
+          "distanceToVWC": 29.2,
+          "distanceToRecycling": 29.2,
+          "Operation": {
+            "RecyclingRoomSize": 24.9
+          },
+          "Construction": {
+            "RecyclingRoomSize": 35.6
+          },
+          "Design": {
+            "RecyclingRoomSize": 0.0
+          }
+        },
+        "Material": {
+          "Assessment": "yes",
+          "Deveations": 1.0
+        },
+        "IndoorEnvironment": {
+          "LivingClass": "Gold"
+        }
+      },
+      {
+        "Name": "Sonfjället 2",
+        "Developer": "Skanska",
+        "TotalApartments": 94,
+        "Coordinates": {
+          "Lat": 6582711.8,
+          "Lng": 155232.5
+        },
+        "Requirement": {
+          "Bbr": 90,
+          "Energy": 55.0,
+          "Gsi": 0.6,
+          "BicycleParking": 2.2,
+          "CarParking": 0.5,
+          "ElectiralChargingPoint": 0,
+          "ConstructionWaste": 20,
+          "DistanceToVWC": 30,
+          "DistanceToRecycling": 50.0,
+          "IndoorEnvironment": "Gold"
+        },
+        "Energy": {
+          "Operation": {
+            "Total": 0.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Construction": {
+            "Total": 51.7,
+            "DistrictHeating": 25.5,
+            "ElectricityHeating": 5.4,
+            "DistrictHotWater": 20.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 9.4,
+            "LocalElectricity": 3.2,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Design": {
+            "Total": 52.9,
+            "DistrictHeating": 26.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 20.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 8.9,
+            "LocalElectricity": 2.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          }
+        },
+        "GreenStructure": {
+          "Co2emissions": 36.34910064,
+          "Courtyard": 409.0,
+          "Roofs": 350.0,
+          "Operation": {
+            "Gsi": 0.6
+          },
+          "Construction": {
+            "Gsi": 0.64
+          },
+          "Design": {
+            "Gsi": 0.6
+          }
+        },
+        "Transport": {
+          "TotalBicycleParking": 230.0,
+          "BicycleParkingIndoor": 174.0,
+          "BicycleParkingOutdoor": 56.0,
+          "CarParkingSpace": 0.45,
+          "TotalcarParkingSpace": 42.0,
+          "ElectiralChargingPoint": 10.0,
+          "TotalElectiralChargingPoint": 4.0,
+          "Operation": {
+            "BicycleParking": 2.45
+          },
+          "Construction": {
+            "BicycleParking": 2.45
+          },
+          "Design": {
+            "BicycleParking": 2.2
+          }
+        },
+        "Construction": {
+          "ConstructionWaste": 39.68,
+          "EnergyRecovery": 16.236,
+          "MaterialRecycling": 10.296,
+          "Reuse": 5.544,
+          "Mixed": 7.128,
+          "LandsFill": 0.396,
+          "NotSpecified": 0.0
+        },
+        "Waste": {
+          "distanceToVWC": 27.9,
+          "distanceToRecycling": 11.5,
+          "Operation": {
+            "RecyclingRoomSize": 53.5
+          },
+          "Construction": {
+            "RecyclingRoomSize": 54.0
+          },
+          "Design": {
+            "RecyclingRoomSize": 0.0
+          }
+        },
+        "Material": {
+          "Assessment": "yes",
+          "Deveations": 0.0
+        },
+        "IndoorEnvironment": {
+          "LivingClass": "Silver"
+        }
+      }
+    ]
+  },
+  {
+    "Name": "Brofästet",
+    "Stage": "Construction",
+    "Boundary": [],
+    "YearProjectStart": 2012,
+    "YearOccupancy": 2019,
+    "Area": 0,
+    "Apartments": [
+      {
+        "Name": "Backåkra 4",
+        "Developer": "Besqab",
+        "TotalApartments": 91,
+        "Coordinates": {
+          "Lat": 6582768.0,
+          "Lng": 155395.2
+        },
+        "Requirement": {
+          "Bbr": 90,
+          "Energy": 55.0,
+          "Gsi": 0.6,
+          "BicycleParking": 2.5,
+          "CarParking": 0.5,
+          "ElectiralChargingPoint": 20,
+          "ConstructionWaste": 20,
+          "DistanceToVWC": 30,
+          "DistanceToRecycling": 50.0,
+          "IndoorEnvironment": "Gold"
+        },
+        "Energy": {
+          "Operation": {
+            "Total": 0.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Construction": {
+            "Total": 54.01,
+            "DistrictHeating": 17.57,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 24.49,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 12.1,
+            "LocalElectricity": 2.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Design": {
+            "Total": 56.8,
+            "DistrictHeating": 19.6,
+            "ElectricityHeating": 0.2,
+            "DistrictHotWater": 24.2,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 12.8,
+            "LocalElectricity": 2.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          }
+        },
+        "GreenStructure": {
+          "Co2emissions": 0.0,
+          "Courtyard": 285.0,
+          "Roofs": 465.0,
+          "Operation": {
+            "Gsi": 0.0
+          },
+          "Construction": {
+            "Gsi": 0.63
+          },
+          "Design": {
+            "Gsi": 0.71
+          }
+        },
+        "Transport": {
+          "TotalBicycleParking": 247.0,
+          "BicycleParkingIndoor": 173.0,
+          "BicycleParkingOutdoor": 74.0,
+          "CarParkingSpace": 0.53,
+          "TotalcarParkingSpace": 48.0,
+          "ElectiralChargingPoint": 21.0,
+          "TotalElectiralChargingPoint": 10.0,
+          "Operation": {
+            "BicycleParking": 0.0
+          },
+          "Construction": {
+            "BicycleParking": 2.71
+          },
+          "Design": {
+            "BicycleParking": 2.71
+          }
+        },
+        "Construction": {
+          "ConstructionWaste": 0.0,
+          "EnergyRecovery": 0.0,
+          "MaterialRecycling": 0.0,
+          "Reuse": 0.0,
+          "Mixed": 0.0,
+          "LandsFill": 0.0,
+          "NotSpecified": 0.0
+        },
+        "Waste": {
+          "distanceToVWC": 30.0,
+          "distanceToRecycling": 68.0,
+          "Operation": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Construction": {
+            "RecyclingRoomSize": 49.0
+          },
+          "Design": {
+            "RecyclingRoomSize": 49.0
+          }
+        },
+        "Material": {
+          "Assessment": "yes",
+          "Deveations": 17.0
+        },
+        "IndoorEnvironment": {
+          "LivingClass": "Gold"
+        }
+      },
+      {
+        "Name": "Backåkra 7",
+        "Developer": "Oscar Properties",
+        "TotalApartments": 46,
+        "Coordinates": {
+          "Lat": 6582745.2,
+          "Lng": 155364.0
+        },
+        "Requirement": {
+          "Bbr": 90,
+          "Energy": 55.0,
+          "Gsi": 0.6,
+          "BicycleParking": 2.5,
+          "CarParking": 0.5,
+          "ElectiralChargingPoint": 20,
+          "ConstructionWaste": 20,
+          "DistanceToVWC": 30,
+          "DistanceToRecycling": 50.0,
+          "IndoorEnvironment": "Gold"
+        },
+        "Energy": {
+          "Operation": {
+            "Total": 0.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Construction": {
+            "Total": 0.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Design": {
+            "Total": 51.6,
+            "DistrictHeating": 2.5,
+            "ElectricityHeating": 19.1,
+            "DistrictHotWater": 7.9,
+            "ElectricityHotWater": 13.1,
+            "PropertyElectricity": 9.0,
+            "LocalElectricity": 2.2,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          }
+        },
+        "GreenStructure": {
+          "Co2emissions": 0.0,
+          "Courtyard": 285.0,
+          "Roofs": 465.0,
+          "Operation": {
+            "Gsi": 0.0
+          },
+          "Construction": {
+            "Gsi": 0.63
+          },
+          "Design": {
+            "Gsi": 0.71
+          }
+        },
+        "Transport": {
+          "TotalBicycleParking": 118.0,
+          "BicycleParkingIndoor": 58.0,
+          "BicycleParkingOutdoor": 60.0,
+          "CarParkingSpace": 0.5,
+          "TotalcarParkingSpace": 23.0,
+          "ElectiralChargingPoint": 22.0,
+          "TotalElectiralChargingPoint": 5.0,
+          "Operation": {
+            "BicycleParking": 0.0
+          },
+          "Construction": {
+            "BicycleParking": 0.0
+          },
+          "Design": {
+            "BicycleParking": 2.57
+          }
+        },
+        "Construction": {
+          "ConstructionWaste": 0.0,
+          "EnergyRecovery": 0.0,
+          "MaterialRecycling": 0.0,
+          "Reuse": 0.0,
+          "Mixed": 0.0,
+          "LandsFill": 0.0,
+          "NotSpecified": 0.0
+        },
+        "Waste": {
+          "distanceToVWC": 40.0,
+          "distanceToRecycling": 59.0,
+          "Operation": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Construction": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Design": {
+            "RecyclingRoomSize": 32.2
+          }
+        },
+        "Material": {
+          "Assessment": "yes",
+          "Deveations": 4.0
+        },
+        "IndoorEnvironment": {
+          "LivingClass": "Gold"
+        }
+      },
+      {
+        "Name": "Backåkra 5; 6",
+        "Developer": "Åke Sundvall",
+        "TotalApartments": 2,
+        "Coordinates": {
+          "Lat": 6582725.0,
+          "Lng": 155394.2
+        },
+        "Requirement": {
+          "Bbr": 90,
+          "Energy": 55.0,
+          "Gsi": 0.6,
+          "BicycleParking": 2.5,
+          "CarParking": 0.5,
+          "ElectiralChargingPoint": 20,
+          "ConstructionWaste": 20,
+          "DistanceToVWC": 30,
+          "DistanceToRecycling": 50.0,
+          "IndoorEnvironment": "Gold"
+        },
+        "Energy": {
+          "Operation": {
+            "Total": 0.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Construction": {
+            "Total": 50.0,
+            "DistrictHeating": 22.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 20.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 8.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Design": {
+            "Total": 50.0,
+            "DistrictHeating": 22.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 20.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 8.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          }
+        },
+        "GreenStructure": {
+          "Co2emissions": 0.0,
+          "Courtyard": 285.0,
+          "Roofs": 465.0,
+          "Operation": {
+            "Gsi": 0.0
+          },
+          "Construction": {
+            "Gsi": 0.63
+          },
+          "Design": {
+            "Gsi": 0.71
+          }
+        },
+        "Transport": {
+          "TotalBicycleParking": 8.0,
+          "BicycleParkingIndoor": 4.0,
+          "BicycleParkingOutdoor": 4.0,
+          "CarParkingSpace": 1.0,
+          "TotalcarParkingSpace": 2.0,
+          "ElectiralChargingPoint": 100.0,
+          "TotalElectiralChargingPoint": 2.0,
+          "Operation": {
+            "BicycleParking": 0.0
+          },
+          "Construction": {
+            "BicycleParking": 4.0
+          },
+          "Design": {
+            "BicycleParking": 4.0
+          }
+        },
+        "Construction": {
+          "ConstructionWaste": 0.0,
+          "EnergyRecovery": 0.0,
+          "MaterialRecycling": 0.0,
+          "Reuse": 0.0,
+          "Mixed": 0.0,
+          "LandsFill": 0.0,
+          "NotSpecified": 0.0
+        },
+        "Waste": {
+          "distanceToVWC": 25.0,
+          "distanceToRecycling": 0.0,
+          "Operation": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Construction": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Design": {
+            "RecyclingRoomSize": 0.0
+          }
+        },
+        "Material": {
+          "Assessment": "yes",
+          "Deveations": 1.0
+        },
+        "IndoorEnvironment": {
+          "LivingClass": "Gold"
+        }
+      },
+      {
+        "Name": "Backåkra 2",
+        "Developer": "Stockholmshem",
+        "TotalApartments": 43,
+        "Coordinates": {
+          "Lat": 6582796.0,
+          "Lng": 155325.3
+        },
+        "Requirement": {
+          "Bbr": 90,
+          "Energy": 55.0,
+          "Gsi": 0.6,
+          "BicycleParking": 2.5,
+          "CarParking": 0.5,
+          "ElectiralChargingPoint": 20,
+          "ConstructionWaste": 20,
+          "DistanceToVWC": 30,
+          "DistanceToRecycling": 50.0,
+          "IndoorEnvironment": "Gold"
+        },
+        "Energy": {
+          "Operation": {
+            "Total": 0.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Construction": {
+            "Total": 25.7,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 2.78,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 14.75,
+            "PropertyElectricity": 8.11,
+            "LocalElectricity": 17.1,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Design": {
+            "Total": 27.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 6.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 13.0,
+            "PropertyElectricity": 8.0,
+            "LocalElectricity": 16.4,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          }
+        },
+        "GreenStructure": {
+          "Co2emissions": 0.0,
+          "Courtyard": 300.0,
+          "Roofs": 0.0,
+          "Operation": {
+            "Gsi": 0.0
+          },
+          "Construction": {
+            "Gsi": 0.64
+          },
+          "Design": {
+            "Gsi": 0.61
+          }
+        },
+        "Transport": {
+          "TotalBicycleParking": 139.0,
+          "BicycleParkingIndoor": 122.0,
+          "BicycleParkingOutdoor": 26.0,
+          "CarParkingSpace": 0.49,
+          "TotalcarParkingSpace": 21.0,
+          "ElectiralChargingPoint": 19.0,
+          "TotalElectiralChargingPoint": 4.0,
+          "Operation": {
+            "BicycleParking": 0.0
+          },
+          "Construction": {
+            "BicycleParking": 3.44
+          },
+          "Design": {
+            "BicycleParking": 3.23
+          }
+        },
+        "Construction": {
+          "ConstructionWaste": 0.0,
+          "EnergyRecovery": 0.0,
+          "MaterialRecycling": 0.0,
+          "Reuse": 0.0,
+          "Mixed": 0.0,
+          "LandsFill": 0.0,
+          "NotSpecified": 0.0
+        },
+        "Waste": {
+          "distanceToVWC": 21.0,
+          "distanceToRecycling": 17.0,
+          "Operation": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Construction": {
+            "RecyclingRoomSize": 17.0
+          },
+          "Design": {
+            "RecyclingRoomSize": 17.0
+          }
+        },
+        "Material": {
+          "Assessment": "yes",
+          "Deveations": 1.0
+        },
+        "IndoorEnvironment": {
+          "LivingClass": "Gold"
+        }
+      },
+      {
+        "Name": "Backåkra 1",
+        "Developer": "Tobin Properties",
+        "TotalApartments": 76,
+        "Coordinates": {
+          "Lat": 6582730.9,
+          "Lng": 155291.9
+        },
+        "Requirement": {
+          "Bbr": 90,
+          "Energy": 55.0,
+          "Gsi": 0.6,
+          "BicycleParking": 2.5,
+          "CarParking": 0.5,
+          "ElectiralChargingPoint": 20,
+          "ConstructionWaste": 20,
+          "DistanceToVWC": 30,
+          "DistanceToRecycling": 50.0,
+          "IndoorEnvironment": "Gold"
+        },
+        "Energy": {
+          "Operation": {
+            "Total": 0.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Construction": {
+            "Total": 36.7,
+            "DistrictHeating": 1.2,
+            "ElectricityHeating": 8.8,
+            "DistrictHotWater": 1.4,
+            "ElectricityHotWater": 14.9,
+            "PropertyElectricity": 10.4,
+            "LocalElectricity": 2.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Design": {
+            "Total": 55.2,
+            "DistrictHeating": 16.3,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 28.6,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 10.3,
+            "LocalElectricity": 2.06,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          }
+        },
+        "GreenStructure": {
+          "Co2emissions": 0.0,
+          "Courtyard": 382.0,
+          "Roofs": 465.0,
+          "Operation": {
+            "Gsi": 0.0
+          },
+          "Construction": {
+            "Gsi": 0.64
+          },
+          "Design": {
+            "Gsi": 0.61
+          }
+        },
+        "Transport": {
+          "TotalBicycleParking": 199.0,
+          "BicycleParkingIndoor": 118.0,
+          "BicycleParkingOutdoor": 81.0,
+          "CarParkingSpace": 0.5,
+          "TotalcarParkingSpace": 38.0,
+          "ElectiralChargingPoint": 24.0,
+          "TotalElectiralChargingPoint": 9.0,
+          "Operation": {
+            "BicycleParking": 0.0
+          },
+          "Construction": {
+            "BicycleParking": 2.62
+          },
+          "Design": {
+            "BicycleParking": 2.64
+          }
+        },
+        "Construction": {
+          "ConstructionWaste": 0.0,
+          "EnergyRecovery": 0.0,
+          "MaterialRecycling": 0.0,
+          "Reuse": 0.0,
+          "Mixed": 0.0,
+          "LandsFill": 0.0,
+          "NotSpecified": 0.0
+        },
+        "Waste": {
+          "distanceToVWC": 65.0,
+          "distanceToRecycling": 55.0,
+          "Operation": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Construction": {
+            "RecyclingRoomSize": 74.7
+          },
+          "Design": {
+            "RecyclingRoomSize": 77.0
+          }
+        },
+        "Material": {
+          "Assessment": "yes",
+          "Deveations": 0.0
+        },
+        "IndoorEnvironment": {
+          "LivingClass": "Gold"
+        }
+      },
+      {
+        "Name": "Backåkra 8",
+        "Developer": "Einar Mattsson 1",
+        "TotalApartments": 81,
+        "Coordinates": {
+          "Lat": 6582735.1,
+          "Lng": 155335.3
+        },
+        "Requirement": {
+          "Bbr": 90,
+          "Energy": 55.0,
+          "Gsi": 0.6,
+          "BicycleParking": 2.5,
+          "CarParking": 0.5,
+          "ElectiralChargingPoint": 20,
+          "ConstructionWaste": 20,
+          "DistanceToVWC": 30,
+          "DistanceToRecycling": 50.0,
+          "IndoorEnvironment": "Gold"
+        },
+        "Energy": {
+          "Operation": {
+            "Total": 0.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Construction": {
+            "Total": 0.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Design": {
+            "Total": 52.0,
+            "DistrictHeating": 19.2,
+            "ElectricityHeating": 0.3,
+            "DistrictHotWater": 22.3,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 10.2,
+            "LocalElectricity": 3.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          }
+        },
+        "GreenStructure": {
+          "Co2emissions": 0.0,
+          "Courtyard": 382.0,
+          "Roofs": 465.0,
+          "Operation": {
+            "Gsi": 0.0
+          },
+          "Construction": {
+            "Gsi": 0.64
+          },
+          "Design": {
+            "Gsi": 0.61
+          }
+        },
+        "Transport": {
+          "TotalBicycleParking": 210.0,
+          "BicycleParkingIndoor": 145.0,
+          "BicycleParkingOutdoor": 65.0,
+          "CarParkingSpace": 0.48,
+          "TotalcarParkingSpace": 39.0,
+          "ElectiralChargingPoint": 23.0,
+          "TotalElectiralChargingPoint": 9.0,
+          "Operation": {
+            "BicycleParking": 0.0
+          },
+          "Construction": {
+            "BicycleParking": 0.0
+          },
+          "Design": {
+            "BicycleParking": 2.59
+          }
+        },
+        "Construction": {
+          "ConstructionWaste": 0.0,
+          "EnergyRecovery": 0.0,
+          "MaterialRecycling": 0.0,
+          "Reuse": 0.0,
+          "Mixed": 0.0,
+          "LandsFill": 0.0,
+          "NotSpecified": 0.0
+        },
+        "Waste": {
+          "distanceToVWC": 39.4,
+          "distanceToRecycling": 39.4,
+          "Operation": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Construction": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Design": {
+            "RecyclingRoomSize": 29.4
+          }
+        },
+        "Material": {
+          "Assessment": "yes",
+          "Deveations": 2.0
+        },
+        "IndoorEnvironment": {
+          "LivingClass": "Gold"
+        }
+      },
+      {
+        "Name": "Koppången 3",
+        "Developer": "HSB",
+        "TotalApartments": 62,
+        "Coordinates": {
+          "Lat": 6582819.9,
+          "Lng": 155458.8
+        },
+        "Requirement": {
+          "Bbr": 90,
+          "Energy": 55.0,
+          "Gsi": 0.6,
+          "BicycleParking": 2.5,
+          "CarParking": 0.5,
+          "ElectiralChargingPoint": 20,
+          "ConstructionWaste": 20,
+          "DistanceToVWC": 30,
+          "DistanceToRecycling": 50.0,
+          "IndoorEnvironment": "Gold"
+        },
+        "Energy": {
+          "Operation": {
+            "Total": 0.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Construction": {
+            "Total": 0.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Design": {
+            "Total": 49.8,
+            "DistrictHeating": 16.7,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 21.2,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 11.9,
+            "LocalElectricity": 2.3,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          }
+        },
+        "GreenStructure": {
+          "Co2emissions": 0.0,
+          "Courtyard": 451.0,
+          "Roofs": 465.0,
+          "Operation": {
+            "Gsi": 0.0
+          },
+          "Construction": {
+            "Gsi": 0.6
+          },
+          "Design": {
+            "Gsi": 0.61
+          }
+        },
+        "Transport": {
+          "TotalBicycleParking": 172.0,
+          "BicycleParkingIndoor": 126.0,
+          "BicycleParkingOutdoor": 46.0,
+          "CarParkingSpace": 0.5,
+          "TotalcarParkingSpace": 31.0,
+          "ElectiralChargingPoint": 26.0,
+          "TotalElectiralChargingPoint": 8.0,
+          "Operation": {
+            "BicycleParking": 0.0
+          },
+          "Construction": {
+            "BicycleParking": 2.79
+          },
+          "Design": {
+            "BicycleParking": 2.5
+          }
+        },
+        "Construction": {
+          "ConstructionWaste": 0.0,
+          "EnergyRecovery": 0.0,
+          "MaterialRecycling": 0.0,
+          "Reuse": 0.0,
+          "Mixed": 0.0,
+          "LandsFill": 0.0,
+          "NotSpecified": 0.0
+        },
+        "Waste": {
+          "distanceToVWC": 59.0,
+          "distanceToRecycling": 50.0,
+          "Operation": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Construction": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Design": {
+            "RecyclingRoomSize": 31.0
+          }
+        },
+        "Material": {
+          "Assessment": "yes",
+          "Deveations": 5.0
+        },
+        "IndoorEnvironment": {
+          "LivingClass": "Gold"
+        }
+      },
+      {
+        "Name": "Koppången 1",
+        "Developer": "Riksbyggen",
+        "TotalApartments": 49,
+        "Coordinates": {
+          "Lat": 6582804.5,
+          "Lng": 155422.8
+        },
+        "Requirement": {
+          "Bbr": 90,
+          "Energy": 55.0,
+          "Gsi": 0.6,
+          "BicycleParking": 2.5,
+          "CarParking": 0.5,
+          "ElectiralChargingPoint": 20,
+          "ConstructionWaste": 20,
+          "DistanceToVWC": 30,
+          "DistanceToRecycling": 50.0,
+          "IndoorEnvironment": "Gold"
+        },
+        "Energy": {
+          "Operation": {
+            "Total": 0.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Construction": {
+            "Total": 53.2,
+            "DistrictHeating": 0.8,
+            "ElectricityHeating": 20.1,
+            "DistrictHotWater": 0.8,
+            "ElectricityHotWater": 19.3,
+            "PropertyElectricity": 12.2,
+            "LocalElectricity": 2.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Design": {
+            "Total": 50.7,
+            "DistrictHeating": 2.2,
+            "ElectricityHeating": 22.1,
+            "DistrictHotWater": 1.1,
+            "ElectricityHotWater": 16.7,
+            "PropertyElectricity": 8.6,
+            "LocalElectricity": 2.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          }
+        },
+        "GreenStructure": {
+          "Co2emissions": 0.0,
+          "Courtyard": 451.0,
+          "Roofs": 465.0,
+          "Operation": {
+            "Gsi": 0.0
+          },
+          "Construction": {
+            "Gsi": 0.6
+          },
+          "Design": {
+            "Gsi": 0.61
+          }
+        },
+        "Transport": {
+          "TotalBicycleParking": 141.0,
+          "BicycleParkingIndoor": 113.0,
+          "BicycleParkingOutdoor": 28.0,
+          "CarParkingSpace": 0.51,
+          "TotalcarParkingSpace": 25.0,
+          "ElectiralChargingPoint": 48.0,
+          "TotalElectiralChargingPoint": 12.0,
+          "Operation": {
+            "BicycleParking": 0.0
+          },
+          "Construction": {
+            "BicycleParking": 2.88
+          },
+          "Design": {
+            "BicycleParking": 2.76
+          }
+        },
+        "Construction": {
+          "ConstructionWaste": 0.0,
+          "EnergyRecovery": 0.0,
+          "MaterialRecycling": 0.0,
+          "Reuse": 0.0,
+          "Mixed": 0.0,
+          "LandsFill": 0.0,
+          "NotSpecified": 0.0
+        },
+        "Waste": {
+          "distanceToVWC": 26.5,
+          "distanceToRecycling": 26.5,
+          "Operation": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Construction": {
+            "RecyclingRoomSize": 19.0
+          },
+          "Design": {
+            "RecyclingRoomSize": 19.0
+          }
+        },
+        "Material": {
+          "Assessment": "yes",
+          "Deveations": 10.0
+        },
+        "IndoorEnvironment": {
+          "LivingClass": "Gold"
+        }
+      },
+      {
+        "Name": "Koppången 4",
+        "Developer": "Einar Mattsson 2",
+        "TotalApartments": 145,
+        "Coordinates": {
+          "Lat": 6582747.3,
+          "Lng": 155465.7
+        },
+        "Requirement": {
+          "Bbr": 90,
+          "Energy": 55.0,
+          "Gsi": 0.6,
+          "BicycleParking": 2.5,
+          "CarParking": 0.5,
+          "ElectiralChargingPoint": 20,
+          "ConstructionWaste": 20,
+          "DistanceToVWC": 30,
+          "DistanceToRecycling": 50.0,
+          "IndoorEnvironment": "Gold"
+        },
+        "Energy": {
+          "Operation": {
+            "Total": 0.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Construction": {
+            "Total": 0.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Design": {
+            "Total": 54.0,
+            "DistrictHeating": 17.5,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 25.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 11.5,
+            "LocalElectricity": 2.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          }
+        },
+        "GreenStructure": {
+          "Co2emissions": 0.0,
+          "Courtyard": 371.0,
+          "Roofs": 465.0,
+          "Operation": {
+            "Gsi": 0.0
+          },
+          "Construction": {
+            "Gsi": 0.0
+          },
+          "Design": {
+            "Gsi": 0.69
+          }
+        },
+        "Transport": {
+          "TotalBicycleParking": 327.0,
+          "BicycleParkingIndoor": 282.0,
+          "BicycleParkingOutdoor": 45.0,
+          "CarParkingSpace": 0.42,
+          "TotalcarParkingSpace": 61.0,
+          "ElectiralChargingPoint": 20.0,
+          "TotalElectiralChargingPoint": 12.0,
+          "Operation": {
+            "BicycleParking": 0.0
+          },
+          "Construction": {
+            "BicycleParking": 0.0
+          },
+          "Design": {
+            "BicycleParking": 2.52
+          }
+        },
+        "Construction": {
+          "ConstructionWaste": 0.0,
+          "EnergyRecovery": 0.0,
+          "MaterialRecycling": 0.0,
+          "Reuse": 0.0,
+          "Mixed": 0.0,
+          "LandsFill": 0.0,
+          "NotSpecified": 0.0
+        },
+        "Waste": {
+          "distanceToVWC": 56.7,
+          "distanceToRecycling": 81.8,
+          "Operation": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Construction": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Design": {
+            "RecyclingRoomSize": 88.0
+          }
+        },
+        "Material": {
+          "Assessment": "yes",
+          "Deveations": 2.0
+        },
+        "IndoorEnvironment": {
+          "LivingClass": "Silver"
+        }
+      }
+    ]
+  },
+  {
+    "Name": "Gasverket",
+    "Stage": "Construction",
+    "Boundary": [],
+    "YearProjectStart": 2013,
+    "YearOccupancy": 2019,
+    "Area": 0,
+    "Apartments": [
+      {
+        "Name": "Hjorthagens idrottsplats 2",
+        "Developer": "Fastighetskontoret",
+        "TotalApartments": 0,
+        "Coordinates": {
+          "Lat": 6582442.0,
+          "Lng": 155307.0
+        },
+        "Requirement": {
+          "Bbr": 78,
+          "Energy": 53.0,
+          "Gsi": 0.6,
+          "BicycleParking": 0.0,
+          "CarParking": 0.0,
+          "ElectiralChargingPoint": 0,
+          "ConstructionWaste": 20,
+          "DistanceToVWC": 30,
+          "DistanceToRecycling": 50.0,
+          "IndoorEnvironment": "Gold"
+        },
+        "Energy": {
+          "Operation": {
+            "Total": 0.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Construction": {
+            "Total": 45.0,
+            "DistrictHeating": 20.5,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 2.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 23.4,
+            "LocalElectricity": 2.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Design": {
+            "Total": 45.0,
+            "DistrictHeating": 20.5,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 2.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 23.4,
+            "LocalElectricity": 2.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          }
+        },
+        "GreenStructure": {
+          "Co2emissions": 0.0,
+          "Courtyard": 591.0,
+          "Roofs": 2000.0,
+          "Operation": {
+            "Gsi": 0.0
+          },
+          "Construction": {
+            "Gsi": 0.0
+          },
+          "Design": {
+            "Gsi": 0.65
+          }
+        },
+        "Transport": {
+          "TotalBicycleParking": 56.0,
+          "BicycleParkingIndoor": 0.0,
+          "BicycleParkingOutdoor": 0.0,
+          "CarParkingSpace": 0.0,
+          "TotalcarParkingSpace": 2.0,
+          "ElectiralChargingPoint": 0.0,
+          "TotalElectiralChargingPoint": 0.0,
+          "Operation": {
+            "BicycleParking": 0.0
+          },
+          "Construction": {
+            "BicycleParking": 0.0
+          },
+          "Design": {
+            "BicycleParking": 0.0
+          }
+        },
+        "Construction": {
+          "ConstructionWaste": 0.0,
+          "EnergyRecovery": 0.0,
+          "MaterialRecycling": 0.0,
+          "Reuse": 0.0,
+          "Mixed": 0.0,
+          "LandsFill": 0.0,
+          "NotSpecified": 0.0
+        },
+        "Waste": {
+          "distanceToVWC": 30.0,
+          "distanceToRecycling": 33.0,
+          "Operation": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Construction": {
+            "RecyclingRoomSize": 21.0
+          },
+          "Design": {
+            "RecyclingRoomSize": 21.3
+          }
+        },
+        "Material": {
+          "Assessment": "yes",
+          "Deveations": 4.0
+        },
+        "IndoorEnvironment": {
+          "LivingClass": "Gold"
+        }
+      },
+      {
+        "Name": "Gasklockorna 4",
+        "Developer": "SISAB skola (new)",
+        "TotalApartments": 0,
+        "Coordinates": {
+          "Lat": 6582504.0,
+          "Lng": 155289.5
+        },
+        "Requirement": {
+          "Bbr": 102,
+          "Energy": 77.7,
+          "Gsi": 0.6,
+          "BicycleParking": 0.0,
+          "CarParking": 0.0,
+          "ElectiralChargingPoint": 0,
+          "ConstructionWaste": 20,
+          "DistanceToVWC": 30,
+          "DistanceToRecycling": 50.0,
+          "IndoorEnvironment": "Gold"
+        },
+        "Energy": {
+          "Operation": {
+            "Total": 0.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Construction": {
+            "Total": 71.0,
+            "DistrictHeating": 38.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 10.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 16.9,
+            "LocalElectricity": 2.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Design": {
+            "Total": 71.0,
+            "DistrictHeating": 38.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 10.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 16.9,
+            "LocalElectricity": 2.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          }
+        },
+        "GreenStructure": {
+          "Co2emissions": 0.0,
+          "Courtyard": 591.0,
+          "Roofs": 25.0,
+          "Operation": {
+            "Gsi": 0.0
+          },
+          "Construction": {
+            "Gsi": 0.59
+          },
+          "Design": {
+            "Gsi": 0.66
+          }
+        },
+        "Transport": {
+          "TotalBicycleParking": 136.0,
+          "BicycleParkingIndoor": 0.0,
+          "BicycleParkingOutdoor": 0.0,
+          "CarParkingSpace": 0.0,
+          "TotalcarParkingSpace": 2.0,
+          "ElectiralChargingPoint": 0.0,
+          "TotalElectiralChargingPoint": 0.0,
+          "Operation": {
+            "BicycleParking": 0.0
+          },
+          "Construction": {
+            "BicycleParking": 0.0
+          },
+          "Design": {
+            "BicycleParking": 0.0
+          }
+        },
+        "Construction": {
+          "ConstructionWaste": 0.0,
+          "EnergyRecovery": 0.0,
+          "MaterialRecycling": 0.0,
+          "Reuse": 0.0,
+          "Mixed": 0.0,
+          "LandsFill": 0.0,
+          "NotSpecified": 0.0
+        },
+        "Waste": {
+          "distanceToVWC": 0.0,
+          "distanceToRecycling": 0.0,
+          "Operation": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Construction": {
+            "RecyclingRoomSize": 35.0
+          },
+          "Design": {
+            "RecyclingRoomSize": 38.5
+          }
+        },
+        "Material": {
+          "Assessment": "yes",
+          "Deveations": 1.0
+        },
+        "IndoorEnvironment": {
+          "LivingClass": "Gold"
+        }
+      },
+      {
+        "Name": "Gasklockorna 4",
+        "Developer": "SISAB skola (old)",
+        "TotalApartments": 0,
+        "Coordinates": {
+          "Lat": 6582504.0,
+          "Lng": 155289.5
+        },
+        "Requirement": {
+          "Bbr": 0,
+          "Energy": 107.0,
+          "Gsi": 0.0,
+          "BicycleParking": 0.0,
+          "CarParking": 0.0,
+          "ElectiralChargingPoint": 0,
+          "ConstructionWaste": 0,
+          "DistanceToVWC": 0,
+          "DistanceToRecycling": 0.0,
+          "IndoorEnvironment": "Gold"
+        },
+        "Energy": {
+          "Operation": {
+            "Total": 0.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Construction": {
+            "Total": 105.37,
+            "DistrictHeating": 84.5,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 11.5,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 9.37,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Design": {
+            "Total": 104.1,
+            "DistrictHeating": 80.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 15.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 12.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          }
+        },
+        "GreenStructure": {
+          "Co2emissions": 0.0,
+          "Courtyard": 0.0,
+          "Roofs": 0.0,
+          "Operation": {
+            "Gsi": 0.0
+          },
+          "Construction": {
+            "Gsi": 0.0
+          },
+          "Design": {
+            "Gsi": 0.0
+          }
+        },
+        "Transport": {
+          "TotalBicycleParking": 0.0,
+          "BicycleParkingIndoor": 0.0,
+          "BicycleParkingOutdoor": 0.0,
+          "CarParkingSpace": 0.0,
+          "TotalcarParkingSpace": 0.0,
+          "ElectiralChargingPoint": 0.0,
+          "TotalElectiralChargingPoint": 0.0,
+          "Operation": {
+            "BicycleParking": 0.0
+          },
+          "Construction": {
+            "BicycleParking": 0.0
+          },
+          "Design": {
+            "BicycleParking": 0.0
+          }
+        },
+        "Construction": {
+          "ConstructionWaste": 0.0,
+          "EnergyRecovery": 0.0,
+          "MaterialRecycling": 0.0,
+          "Reuse": 0.0,
+          "Mixed": 0.0,
+          "LandsFill": 0.0,
+          "NotSpecified": 0.0
+        },
+        "Waste": {
+          "distanceToVWC": 0.0,
+          "distanceToRecycling": 0.0,
+          "Operation": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Construction": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Design": {
+            "RecyclingRoomSize": 0.0
+          }
+        },
+        "Material": {
+          "Assessment": "yes",
+          "Deveations": 0.0
+        },
+        "IndoorEnvironment": {
+          "LivingClass": "Gold"
+        }
+      },
+      {
+        "Name": "Hjorthagens idrottsplats 1",
+        "Developer": "SISAB förskola (new)",
+        "TotalApartments": 0,
+        "Coordinates": {
+          "Lat": 6582400.1,
+          "Lng": 155261.4
+        },
+        "Requirement": {
+          "Bbr": 97,
+          "Energy": 72.0,
+          "Gsi": 0.6,
+          "BicycleParking": 0.0,
+          "CarParking": 0.0,
+          "ElectiralChargingPoint": 0,
+          "ConstructionWaste": 20,
+          "DistanceToVWC": 30,
+          "DistanceToRecycling": 50.0,
+          "IndoorEnvironment": "Gold"
+        },
+        "Energy": {
+          "Operation": {
+            "Total": 0.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Construction": {
+            "Total": 0.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Design": {
+            "Total": 71.0,
+            "DistrictHeating": 62.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 2.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 9.0,
+            "LocalElectricity": 2.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          }
+        },
+        "GreenStructure": {
+          "Co2emissions": 0.0,
+          "Courtyard": 591.0,
+          "Roofs": 25.0,
+          "Operation": {
+            "Gsi": 0.0
+          },
+          "Construction": {
+            "Gsi": 0.0
+          },
+          "Design": {
+            "Gsi": 0.66
+          }
+        },
+        "Transport": {
+          "TotalBicycleParking": 39.0,
+          "BicycleParkingIndoor": 0.0,
+          "BicycleParkingOutdoor": 0.0,
+          "CarParkingSpace": 0.0,
+          "TotalcarParkingSpace": 0.0,
+          "ElectiralChargingPoint": 0.0,
+          "TotalElectiralChargingPoint": 0.0,
+          "Operation": {
+            "BicycleParking": 0.0
+          },
+          "Construction": {
+            "BicycleParking": 0.0
+          },
+          "Design": {
+            "BicycleParking": 0.0
+          }
+        },
+        "Construction": {
+          "ConstructionWaste": 0.0,
+          "EnergyRecovery": 0.0,
+          "MaterialRecycling": 0.0,
+          "Reuse": 0.0,
+          "Mixed": 0.0,
+          "LandsFill": 0.0,
+          "NotSpecified": 0.0
+        },
+        "Waste": {
+          "distanceToVWC": 23.6,
+          "distanceToRecycling": 23.0,
+          "Operation": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Construction": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Design": {
+            "RecyclingRoomSize": 20.0
+          }
+        },
+        "Material": {
+          "Assessment": "yes",
+          "Deveations": 1.0
+        },
+        "IndoorEnvironment": {
+          "LivingClass": "Gold"
+        }
+      },
+      {
+        "Name": "Hjorthagens idrottsplats 1",
+        "Developer": "SISAB förskola (old)",
+        "TotalApartments": 0,
+        "Coordinates": {
+          "Lat": 6582400.1,
+          "Lng": 155261.4
+        },
+        "Requirement": {
+          "Bbr": 0,
+          "Energy": 251.0,
+          "Gsi": 0.0,
+          "BicycleParking": 0.0,
+          "CarParking": 0.0,
+          "ElectiralChargingPoint": 0,
+          "ConstructionWaste": 0,
+          "DistanceToVWC": 0,
+          "DistanceToRecycling": 0.0,
+          "IndoorEnvironment": "Gold"
+        },
+        "Energy": {
+          "Operation": {
+            "Total": 0.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Construction": {
+            "Total": 0.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Design": {
+            "Total": 0.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          }
+        },
+        "GreenStructure": {
+          "Co2emissions": 0.0,
+          "Courtyard": 0.0,
+          "Roofs": 0.0,
+          "Operation": {
+            "Gsi": 0.0
+          },
+          "Construction": {
+            "Gsi": 0.0
+          },
+          "Design": {
+            "Gsi": 0.0
+          }
+        },
+        "Transport": {
+          "TotalBicycleParking": 0.0,
+          "BicycleParkingIndoor": 0.0,
+          "BicycleParkingOutdoor": 0.0,
+          "CarParkingSpace": 0.0,
+          "TotalcarParkingSpace": 0.0,
+          "ElectiralChargingPoint": 0.0,
+          "TotalElectiralChargingPoint": 0.0,
+          "Operation": {
+            "BicycleParking": 0.0
+          },
+          "Construction": {
+            "BicycleParking": 0.0
+          },
+          "Design": {
+            "BicycleParking": 0.0
+          }
+        },
+        "Construction": {
+          "ConstructionWaste": 0.0,
+          "EnergyRecovery": 0.0,
+          "MaterialRecycling": 0.0,
+          "Reuse": 0.0,
+          "Mixed": 0.0,
+          "LandsFill": 0.0,
+          "NotSpecified": 0.0
+        },
+        "Waste": {
+          "distanceToVWC": 0.0,
+          "distanceToRecycling": 0.0,
+          "Operation": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Construction": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Design": {
+            "RecyclingRoomSize": 0.0
+          }
+        },
+        "Material": {
+          "Assessment": "yes",
+          "Deveations": 0.0
+        },
+        "IndoorEnvironment": {
+          "LivingClass": "Gold"
+        }
+      }
+    ]
+  },
+  {
+    "Name": "Gasklocka 3 och 4",
+    "Stage": "Design",
+    "Boundary": [],
+    "YearProjectStart": 2009,
+    "YearOccupancy": 2021,
+    "Area": 0,
+    "Apartments": [
+      {
+        "Name": "Stålklockan 1",
+        "Developer": "Oscar Properties",
+        "TotalApartments": 318,
+        "Coordinates": {
+          "Lat": 6582294.7,
+          "Lng": 155130.5
+        },
+        "Requirement": {
+          "Bbr": 80,
+          "Energy": 54.5,
+          "Gsi": 0.6,
+          "BicycleParking": 2.5,
+          "CarParking": 0.5,
+          "ElectiralChargingPoint": 20,
+          "ConstructionWaste": 20,
+          "DistanceToVWC": 30,
+          "DistanceToRecycling": 50.0,
+          "IndoorEnvironment": "Gold"
+        },
+        "Energy": {
+          "Operation": {
+            "Total": 0.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Construction": {
+            "Total": 0.0,
+            "DistrictHeating": 0.0,
+            "ElectricityHeating": 0.0,
+            "DistrictHotWater": 0.0,
+            "ElectricityHotWater": 0.0,
+            "PropertyElectricity": 0.0,
+            "LocalElectricity": 0.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          },
+          "Design": {
+            "Total": 53.0,
+            "DistrictHeating": 3.3,
+            "ElectricityHeating": 24.4,
+            "DistrictHotWater": 3.9,
+            "ElectricityHotWater": 11.4,
+            "PropertyElectricity": 10.0,
+            "LocalElectricity": 2.0,
+            "LocalHeating": 0.0,
+            "RegionalEnergy": 0.0
+          }
+        },
+        "GreenStructure": {
+          "Co2emissions": 0.0,
+          "Courtyard": 6232.0,
+          "Roofs": 1489.0,
+          "Operation": {
+            "Gsi": 0.0
+          },
+          "Construction": {
+            "Gsi": 0.0
+          },
+          "Design": {
+            "Gsi": 0.76
+          }
+        },
+        "Transport": {
+          "TotalBicycleParking": 820.0,
+          "BicycleParkingIndoor": 700.0,
+          "BicycleParkingOutdoor": 120.0,
+          "CarParkingSpace": 0.48,
+          "TotalcarParkingSpace": 153.0,
+          "ElectiralChargingPoint": 20.0,
+          "TotalElectiralChargingPoint": 31.0,
+          "Operation": {
+            "BicycleParking": 2.58
+          },
+          "Construction": {
+            "BicycleParking": 0.0
+          },
+          "Design": {
+            "BicycleParking": 0.0
+          }
+        },
+        "Construction": {
+          "ConstructionWaste": 0.0,
+          "EnergyRecovery": 0.0,
+          "MaterialRecycling": 0.0,
+          "Reuse": 0.0,
+          "Mixed": 0.0,
+          "LandsFill": 0.0,
+          "NotSpecified": 0.0
+        },
+        "Waste": {
+          "distanceToVWC": 30.0,
+          "distanceToRecycling": 0.0,
+          "Operation": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Construction": {
+            "RecyclingRoomSize": 0.0
+          },
+          "Design": {
+            "RecyclingRoomSize": 101.0
+          }
+        },
+        "Material": {
+          "Assessment": "NA",
+          "Deveations": 5.0
+        },
+        "IndoorEnvironment": {
+          "LivingClass": "Gold"
+        }
+      }
+    ]
+  }
+]
