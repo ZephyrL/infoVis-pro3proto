@@ -54,6 +54,7 @@
         buildingNames.forEach(element => {
             element.setMap(map);
         });
+        nameSeaport.setMap(map);
 
         // map zoome change listener
         google.maps.event.addListener(map, "zoom_changed", function () {
@@ -165,12 +166,12 @@
             buildingPolygonGasverket, buildingPolygonVastra]
 
         // TODO: do something when click the polygons, e.g. show a large modal window
-        function polygonClickListener() {
-            document.getElementById("modal_button").click();
+        polygonClickListener = function () {
+            showPhaseModal(this.name);
         };
 
         // name of phase should disappear when put mouse on it
-        function polygonMouseOverListener() {
+        polygonMouseOverListener = function () {
             var name = this.name;
             switch (name) {
                 case "Brofastet":
@@ -195,7 +196,7 @@
         }
 
         // polygon name reappear on mouse out
-        function polygonMouseOutListener() {
+        polygonMouseOutListener = function () {
             var name = this.name;
             switch (name) {
                 case "Brofastet":
@@ -225,22 +226,23 @@
             element.addListener("mouseout", polygonMouseOutListener);
             element.setMap(map);
         });
-        
+
         buildingPolygonSeaport.setMap(map);
 
         // the gray area are under planning, if you are gonna show some info about it,
         // I suggest to make another listener for it
         // buildingPolygonSeaport.addListener("click", polygonClickListener);
-
+        markers = []
         building.forEach(function (item) {
             var marker = new google.maps.Marker({
                 position: new google.maps.LatLng(item.lat, item.lng),
                 icon: "asset/img/house-blue-res.png",
-                title: item.building,
+                building: item.building,
                 developer: item.developer,
                 phase: item.phase,
                 map: map
             });
+            markers.push(marker);
 
             var contentString = '<div id="infoWindowContent">' +
                 '<div id="siteNotice">' +
@@ -276,7 +278,7 @@
                 // and what really need to do here is to pop up new window
                 // and show detailed information of building
                 // trigger popup(this);
-
+                document.getElementById("modal-small-button").click();
             })
 
             marker.addListener('mouseout', function () {
@@ -291,6 +293,45 @@
         //     { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
 
 
+    }
+
+    // init icons
+    window.onload = function () {
+        var bar = document.getElementById("colorbar-houses");
+        var width = window.innerWidth * 0.4;
+        building.forEach(element => {
+            var icon = document.createElement("img");
+            icon.src = "asset/img/house-blue-res.png";
+            icon.classList = "colorbar-house";
+            icon.style.top = "-5px";
+            icon.name = element.building;
+            var string = Math.floor(Math.random() * width) + "px"
+            icon.style.left = string; // TODO: now its using random index
+            bar.appendChild(icon);
+
+            icon.addEventListener("mouseover", function () {
+                markers.forEach(element => {
+                    if (element.building === icon.name) {
+                        google.maps.event.trigger(element, 'mouseover')
+                    }
+                });
+            })
+            icon.addEventListener("mouseout", function () {
+                markers.forEach(element => {
+                    if (element.building === icon.name) {
+                        google.maps.event.trigger(element, 'mouseout')
+                    }
+                });
+            })
+
+            icon.addEventListener("click", function () {
+                markers.forEach(element => {
+                    if (element.building === icon.name) {
+                        google.maps.event.trigger(element, 'click')
+                    }
+                });
+            })
+        });
     }
 
     var coord = [

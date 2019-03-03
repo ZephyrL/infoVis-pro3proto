@@ -14,16 +14,6 @@ html, body {
 	}
 }
 
-/* .container {
-  background-color: #9191e9;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100vw;
-  height: 100vh;
-  visibility: hidden;
-} */
-
 .button {
 	/* text-decoration: none;
   font-size: 0.875rem;
@@ -40,8 +30,8 @@ html, body {
 .modal {
 	display: flex;
 	align-items: center;
-    justify-content: flex-end;
-    /* margin-right: 100px; */
+	justify-content: flex-end;
+	/* margin-right: 100px; */
 	position: fixed;
 	width: 100vw;
 	height: 100vh;
@@ -58,23 +48,30 @@ html, body {
 
 .modal-inner {
 	position: absolute;
-	top: 20%;
-	left: 70%;
-	/* bottom: -100vw; */
-	/* right: -100vh; */
 	display: flex;
 	align-items: center;
-	/* max-width: 800px;
-	max-height: 600px; */
-	width: 20%;
-	height: 60%;
 	background-color: #fff;
 	border-radius: 10px;
-	/* transform: rotate(32deg); */
 	transition: 0.2s ease-in-out;
 }
 
-.popup__photo {
+#modal-building {
+	top: 20%;
+	left: 70%;
+	width: 20%;
+	height: 60%;
+}
+
+#modal-phase {
+	top: 20%;
+	left: 20%;
+	width: 60%;
+	height: 60%;
+}
+
+/* --------- things inside the modal -------- */
+
+/* .modal__photo {
 	display: flex;
 	justify-content: flex-end;
 	align-items: flex-end;
@@ -83,21 +80,34 @@ html, body {
 	overflow: hidden;
 }
 
-.popup__photo img {
+.modal__photo img {
 	width: auto;
 	height: 100%;
+} */
+
+/* ----- sunburst chart style ----- */
+
+.modal__chart__large {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	width: 50%;
+	height: 100%;
+	overflow: hidden;
 }
 
-.popup__text {
+/* ----- text styles in phase modal ------ */
+
+.modal__text__large {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	width: 60%;
+	width: 50%;
 	height: 100%;
-	padding: 4rem;
+	padding: 2rem;
 }
 
-.popup__text h1 {
+.modal__text__large h1 {
 	font-size: 2rem;
 	font-weight: 600;
 	margin-bottom: 2rem;
@@ -105,7 +115,7 @@ html, body {
 	color: #0a0a0a;
 }
 
-.popup__text p {
+.modal__text__large p {
 	font-size: 0.875rem;
 	color: #686868;
 	line-height: 1.5;
@@ -122,7 +132,7 @@ html, body {
 	transform: rotate(0);
 }
 
-.popup__close {
+.modal__close {
 	position: absolute;
 	right: -1rem;
 	top: -1rem;

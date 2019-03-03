@@ -10,6 +10,9 @@
     <link href="asset/css/modal.css" rel="stylesheet">
     <link href="asset/css/frontpage.css" , rel="stylesheet">
 
+    <!-- libraries -->
+    <script src="asset/lib/sunburst.js"></script>
+
     <!-- data sources -->
     <script src="asset/data/building.js"></script>
 </head>
@@ -33,8 +36,7 @@
         <!-- page of main content -->
         <div id="map_container" style="display: none">
             <!-- header blank segment -->
-            <div class="header">
-                <!-- switch button -->
+            <!-- <div class="header">
                 <div class="switch_container">
                     <p>Switch compare mode
                         <label class="switch">
@@ -43,7 +45,7 @@
                         </label>
                     </p>
                 </div>
-            </div>
+            </div> -->
 
             <!-- filter on the left -->
             <div class="filter">
@@ -51,64 +53,64 @@
                     if there are numbers of developers,
                     should use javascript to generate list elements 
                     in asset/js/filterControl.js -->
-                    <p class="title">Categories</p>
-                    <ul id="myUL">
-                        <div class="dropdown">
-                            <button class="dropbtn">Energy use
-                                <i class="fa fa-caret-down"></i>
-                            </button>
-                            <div class="dropdown-content">
-                                <a href="#">Energy 1</a>
-                                <a href="#">Energy 2</a>
-                                <a href="#">Energy 3</a>
-                                <a href="#">Energy 4</a>
-                            </div>
+                <p class="title">Categories</p>
+                <ul id="myUL">
+                    <div class="dropdown">
+                        <button class="dropbtn">Energy use
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Energy 1</a>
+                            <a href="#">Energy 2</a>
+                            <a href="#">Energy 3</a>
+                            <a href="#">Energy 4</a>
                         </div>
-                        <div class="dropdown">
-                            <button class="dropbtn">Green structure
-                                <i class="fa fa-caret-down"></i>
-                            </button>
-                            <div class="dropdown-content">
-                                <a href="#">Green 1</a>
-                                <a href="#">Green 2</a>
-                                <a href="#">Green 3</a>
-                                <a href="#">Green 4</a>
-                            </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">Green structure
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Green 1</a>
+                            <a href="#">Green 2</a>
+                            <a href="#">Green 3</a>
+                            <a href="#">Green 4</a>
                         </div>
-                        <div class="dropdown">
-                            <button class="dropbtn">Transports
-                                <i class="fa fa-caret-down"></i>
-                            </button>
-                            <div class="dropdown-content">
-                                <a href="#">Transport 1</a>
-                                <a href="#">Transport 2</a>
-                                <a href="#">Transport 3</a>
-                                <a href="#">Transport 4</a>
-                            </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">Transports
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Transport 1</a>
+                            <a href="#">Transport 2</a>
+                            <a href="#">Transport 3</a>
+                            <a href="#">Transport 4</a>
                         </div>
-                        <div class="dropdown">
-                            <button class="dropbtn">Waste
-                                <i class="fa fa-caret-down"></i>
-                            </button>
-                            <div class="dropdown-content">
-                                <a href="#">Waste 1</a>
-                                <a href="#">Waste 2</a>
-                                <a href="#">Waste 3</a>
-                                <a href="#">Waste 4</a>
-                            </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">Waste
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Waste 1</a>
+                            <a href="#">Waste 2</a>
+                            <a href="#">Waste 3</a>
+                            <a href="#">Waste 4</a>
                         </div>
-                        <div class="dropdown">
-                            <button class="dropbtn">Developers
-                                <i class="fa fa-caret-down"></i>
-                            </button>
-                            <div class="dropdown-content">
-                                <a href="#">Developer 1</a>
-                                <a href="#">Developer 2</a>
-                                <a href="#">Developer 3</a>
-                                <a href="#">Developer 4</a>
-                            </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">Developers
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Developer 1</a>
+                            <a href="#">Developer 2</a>
+                            <a href="#">Developer 3</a>
+                            <a href="#">Developer 4</a>
                         </div>
-                    </ul>
+                    </div>
+                </ul>
             </div>
             <script src="asset/js/filterControl.js"></script>
 
@@ -116,71 +118,68 @@
             <div id="map" class="gm"></div>
             <script src="asset/js/mapControl.js"></script>
 
-            <div id="Seaport">
-                Stockholm Royal Seaport
-            </div>
-            <div id="Brofastet">
-                Brofastet
-            </div>
-            <div id="Gasklockan">
-                Gasklockan
-            </div>
-            <div id="Norra1">
-                Norra1
-            </div>
-            <div id="Norra2">
-                Norra2
-            </div>
-            <div id="Gasverket">
-                Gasverket
-            </div>
-            <div id="Vastra">
-                Vastra
-            </div>
-            <!-- TODO: initialize polygons -->
-            <!-- <script type="text/javascript" src="asset/js/global.js"></script> -->
+            <!-- map polygon name labels -->
+            <div id="Seaport"> Stockholm Royal Seaport </div>
+            <div id="Brofastet"> Brofastet </div>
+            <div id="Gasklockan"> Gasklockan </div>
+            <div id="Norra1"> Norra1 </div>
+            <div id="Norra2"> Norra2 </div>
+            <div id="Gasverket"> Gasverket </div>
+            <div id="Vastra"> Vastra </div>
 
-            <!-- modal window -->
-            <a class="button" id="modal_button" href="#modal">Open Modal</a>
-            <div class="modal" id="modal">
-                <div class="modal-inner">
-                    <!-- three.js canvas element -->
-                    <!-- <div id="canvas" class="building"> </div>
-                    <script src="asset/js/3dbuilding.js"></script> -->
+            <div id="colorbar" class="colorbar">
+                <p id="redcolor"> High Energy </p>
+                <div id="colorbar-houses"></div>
+                <p id="greencolor">Low Energy</p>
+            </div>
 
+            <!-- small modal window for buildings -->
+            <a class="button" id="modal-small-button" href="#modal-small"></a>
+            <div class="modal" id="modal-small">
+                <div class="modal-inner" id="modal-building">
                     <!-- box to show information, maybe charts -->
-                    <div class="information">
-                        <h1> Building Info</h1>
-                        <p>
+                    <div class="modal__text__small">
+                        <h1 id="modal-building-title"> Building Info</h1>
+                        <p id="modal-building-info">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a turpis placerat,
                             accumsan
                             risus et, vestibulum tortor. Vivamus leo sem, molestie non ex ac, cursus rhoncus leo.
                         </p>
                     </div>
+                    <div class="modal__chart__small" id="modal-building-chart"></div>
 
                     <!-- close button -->
-                    <a class="popup__close" href="#">X</a>
+                    <a class="modal__close" href="#">X</a>
                 </div>
             </div>
+
+            <!-- large modal window for phases -->
+            <a class="button" id="modal-large-button" href="#modal-large"></a>
+            <div class="modal" id="modal-large">
+                <div class="modal-inner" id="modal-phase">
+                    <!-- box to show information, maybe charts -->
+                    <div class="modal__text__large">
+                        <h1 id="modal-phase-title"> Building Info</h1>
+                        <p id="modal-phase-info">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a turpis placerat,
+                            accumsan
+                            risus et, vestibulum tortor. Vivamus leo sem, molestie non ex ac, cursus rhoncus leo.
+                        </p>
+                    </div>
+                    <div class="modal__chart__large" id="modal-phase-chart"></div>
+
+                    <!-- close button -->
+                    <a class="modal__close" href="#">X</a>
+                </div>
+            </div>
+            <script src="asset/js/modalControl.js"></script>
         </div>
 
         <!-- background of the main page -->
         <section class="background">
-            <div class="content-wrapper">
-                <!-- <p class="content-title"></p>
-                <p class="content-subtitle"></p> -->
-            </div>
+            <!-- <div class="content-wrapper"> </div> -->
         </section>
-        <!-- <section class="background">
-            <div class="content-wrapper">
-                <p class="content-title">Etiam consequat lectus.</p>
-                <p class="content-subtitle">Nullam tristique urna sed tellus ornare congue. Etiam vitae erat at nibh
-                    aliquam dapibus.</p>
-            </div>
-        </section> -->
-        <div class="imgBox">
-            <img src="asset/img/r2g-long.png" id="r2gbar">
-        </div>
+
     </div>
     <script src="asset/js/frontPage.js"></script>
     <script src="asset/js/filterControl.js"></script>
