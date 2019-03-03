@@ -29,9 +29,9 @@
             new google.maps.LatLng(59.359973, 18.094811),
             document.getElementById('Brofastet')
         );
-        nameGasklockan = new Popup(
+        nameGasklocka = new Popup(
             new google.maps.LatLng(59.356200, 18.090155),
-            document.getElementById('Gasklockan')
+            document.getElementById('Gasklocka')
         );
         nameNorra1 = new Popup(
             new google.maps.LatLng(59.357021, 18.086668),
@@ -50,7 +50,7 @@
             document.getElementById('Vastra')
         );
 
-        buildingNames = [nameBrofastet, nameGasklockan, nameNorra1, nameNorra2, nameGasverket, nameVastra];
+        buildingNames = [nameBrofastet, nameGasklocka, nameNorra1, nameNorra2, nameGasverket, nameVastra];
         buildingNames.forEach(element => {
             element.setMap(map);
         });
@@ -63,7 +63,7 @@
             if (zoomLevel >= 14 && zoomLevel <= 15) {
                 districtPolygon.setMap(map);
                 //buildingPolygonBrofastet.setMap(null);
-                //buildingPolygonGasklockan.setMap(null);
+                //buildingPolygonGasklocka.setMap(null);
                 //buildingPolygonNorra1.setMap(null);
                 //buildingPolygonNorra2.setMap(null);
                 //buildingPolygonGasverket.setMap(null);
@@ -73,7 +73,7 @@
             if (zoomLevel > 15 && zoomLevel <= 18) {
                 districtPolygon.setMap(null);
                 buildingPolygonBrofastet.setMap(map);
-                buildingPolygonGasklockan.setMap(map);
+                buildingPolygonGasklocka.setMap(map);
                 buildingPolygonNorra1.setMap(map);
                 buildingPolygonNorra2.setMap(map);
                 buildingPolygonGasverket.setMap(map);
@@ -87,8 +87,8 @@
             paths: coord,
             strokeColor: "#FFFFFF",
             strokeOpacity: 0.7,
-            fillColor: "#FFFFFF",
-            fillOpacity: 0.3,
+            // fillColor: "#FFFFFF",
+            // fillOpacity: 0.2,
             name: "Stockholm Royal Seaport"
         });
 
@@ -102,26 +102,26 @@
             paths: brofastet,
             strokeColor: "#FFFFFF",
             strokeOpacity: 0.7,
-            fillColor: "FFFFFF",
-            fillOpacity: 0.3,
+            fillColor: "#FFFFFF",
+            fillOpacity: 0.2,
             name: "Brofastet"
         });
 
-        var buildingPolygonGasklockan = new google.maps.Polygon({
-            paths: gasklockan,
+        var buildingPolygonGasklocka = new google.maps.Polygon({
+            paths: gasklocka,
             strokeColor: "#FFFFFF",
             strokeOpacity: 0.7,
-            fillColor: "FFFFFF",
-            fillOpacity: 0.3,
-            name: "Gasklockan"
+            fillColor: "#FFFFFF",
+            fillOpacity: 0.2,
+            name: "Gasklocka"
         });
 
         var buildingPolygonNorra1 = new google.maps.Polygon({
             paths: norra1,
             strokeColor: "#FFFFFF",
             strokeOpacity: 0.7,
-            fillColor: "FFFFFF",
-            fillOpacity: 0.3,
+            fillColor: "#FFFFFF",
+            fillOpacity: 0.2,
             name: "Norra 1"
         });
 
@@ -129,8 +129,8 @@
             paths: norra2,
             strokeColor: "#FFFFFF",
             strokeOpacity: 0.7,
-            fillColor: "FFFFFF",
-            fillOpacity: 0.3,
+            fillColor: "#FFFFFF",
+            fillOpacity: 0.2,
             name: "Norra 2"
         });
 
@@ -138,8 +138,8 @@
             paths: gasverket,
             strokeColor: "#FFFFFF",
             strokeOpacity: 0.7,
-            fillColor: "FFFFFF",
-            fillOpacity: 0.3,
+            fillColor: "#FFFFFF",
+            fillOpacity: 0.2,
             name: "Gasverket"
         });
 
@@ -147,8 +147,8 @@
             paths: vastra,
             strokeColor: "#FFFFFF",
             strokeOpacity: 0.7,
-            fillColor: "FFFFFF",
-            fillOpacity: 0.3,
+            fillColor: "#FFFFFF",
+            fillOpacity: 0.2,
             name: "Vastra"
         });
 
@@ -156,12 +156,12 @@
             paths: seaport,
             strokeColor: "#808080",
             strokeOpacity: 0.7,
-            fillColor: "808080",
-            fillOpacity: 0.3,
+            fillColor: "#5a5a5a",
+            fillOpacity: 0.5,
             name: "Seaport"
         });
 
-        buildingPolygons = [buildingPolygonBrofastet, buildingPolygonGasklockan,
+        buildingPolygons = [buildingPolygonBrofastet, buildingPolygonGasklocka,
             buildingPolygonNorra1, buildingPolygonNorra2,
             buildingPolygonGasverket, buildingPolygonVastra]
 
@@ -177,22 +177,23 @@
                 case "Brofastet":
                     nameBrofastet.setMap(null);
                     break;
-                case "Gasklockan":
-                    nameGasklockan.setMap(null);
+                case "Gasklocka":
+                    nameGasklocka.setMap(null);
                     break;
                 case "Gasverket":
                     nameGasverket.setMap(null);
                     break;
-                case "Norra1":
+                case "Norra 1":
                     nameNorra1.setMap(null);
                     break;
-                case "Norra2":
+                case "Norra 2":
                     nameNorra2.setMap(null);
                     break;
                 case "Vastra":
                     nameVastra.setMap(null);
                     break;
             }
+            this.setOptions({fillOpacity: "0"})
         }
 
         // polygon name reappear on mouse out
@@ -202,22 +203,23 @@
                 case "Brofastet":
                     nameBrofastet.setMap(map);
                     break;
-                case "Gasklockan":
-                    nameGasklockan.setMap(map);
+                case "Gasklocka":
+                    nameGasklocka.setMap(map);
                     break;
                 case "Gasverket":
                     nameGasverket.setMap(map);
                     break;
-                case "Norra1":
+                case "Norra 1":
                     nameNorra1.setMap(map);
                     break;
-                case "Norra2":
+                case "Norra 2":
                     nameNorra2.setMap(map);
                     break;
                 case "Vastra":
                     nameVastra.setMap(map);
                     break;
             }
+            this.setOptions({fillOpacity: "0.2"})
         }
 
         buildingPolygons.forEach(element => {
@@ -236,7 +238,7 @@
         building.forEach(function (item) {
             var marker = new google.maps.Marker({
                 position: new google.maps.LatLng(item.lat, item.lng),
-                icon: "asset/img/house-blue-res.png",
+                icon: "asset/img/yellow-light.png",
                 building: item.building,
                 developer: item.developer,
                 phase: item.phase,
@@ -301,7 +303,7 @@
         var width = window.innerWidth * 0.4;
         building.forEach(element => {
             var icon = document.createElement("img");
-            icon.src = "asset/img/house-blue-res.png";
+            icon.src = "asset/img/yellow-light.png";
             icon.classList = "colorbar-house";
             icon.style.top = "-5px";
             icon.name = element.building;
@@ -360,7 +362,7 @@
         { lat: 59.360135, lng: 18.092479 },
     ]
 
-    var gasklockan = [
+    var gasklocka = [
         { lat: 59.356824, lng: 18.089313 },
         { lat: 59.356358, lng: 18.088846 },
         { lat: 59.355275, lng: 18.089726 },

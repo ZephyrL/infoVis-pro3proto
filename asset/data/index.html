@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="alldata_raw.js"></script>
+</head>
+
+<body>
+    <p id="data"></p>
+    <script type="text/javascript">
+        var norra1 = [];
+        var norra2 = [];
+        var vastra = [];
+        var vartahamnen = [];
+        var brofastet = [];
+        var gasverket = [];
+        var gasklocka = [];
+        alldata.forEach(element => {
+            // document.getElementById("data").innerHTML += JSON.stringify(element);
+            switch (element.phase) {
+                case "Norra 1":
+                    norra1.push(element);
+                    break;
+                case "Norra 2":
+                    norra2.push(element);
+                    break;
+                case "Vastra":
+                    vastra.push(element);
+                    break;
+                case "Vartahamnene":
+                    vartahamnen.push(element);
+                    break;
+                case "Brofastet":
+                    brofastet.push(element);
+                    break;
+                case "Gasverket":
+                    gasverket.push(element);
+                    break;
+                case "Gaslocka":
+                    gasklocka.push(element);
+                    break;
+            }
+        });
+        document.getElementById("data").innerHTML += "var norra 1 = ["
+        norra1.forEach(element => {
+            document.getElementById("data").innerHTML += JSON.stringify(element) + ",";
+        });
+        document.getElementById("data").innerHTML += "]"
+    </script>
+</body>
+
+</html>
