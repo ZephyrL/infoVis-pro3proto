@@ -12,19 +12,23 @@
 
     <!-- libraries -->
     <script src="asset/lib/sunburst.js"></script>
-
-    <!-- data sources -->
-    <script src="asset/data/building.js"></script>
-    <script src="asset/data/alldata_raw.js"></script>
-</head>
-
-<body>
-    <!-- three.js module -->
-    <script src="asset/lib/three.js"></script>
+    <script src="asset/lib/analytics.js"></script>
+    <script src="asset/lib/chart.js"></script>
+    <script src="asset/lib/util.js"></script>
     <!-- jQuery module -->
     <script type="text/javascript" src="asset/lib/jquery.js"></script>
     <!-- underscore.js -->
     <script type="text/javascript" src="asset/lib/underscore.js"></script>
+
+    <!-- data sources -->
+    <script src="asset/data/building.js"></script>
+    <script src="asset/data/alldata_raw.js"></script>
+
+
+
+</head>
+
+<body>
 
     <div class="container">
         <!-- front page -->
@@ -151,6 +155,9 @@
             <div class="modal" id="modal-small">
                 <div class="modal-inner" id="modal-building">
                     <!-- box to show information, maybe charts -->
+                    <div class="modal__chart__small" id="modal-building-chart">
+                        <canvas id="modal-canvas"></canvas>
+                    </div>
                     <div class="modal__text__small">
                         <h1 id="modal-building-title"> Building Info</h1>
                         <p id="modal-building-info">
@@ -159,12 +166,12 @@
                             risus et, vestibulum tortor. Vivamus leo sem, molestie non ex ac, cursus rhoncus leo.
                         </p>
                     </div>
-                    <div class="modal__chart__small" id="modal-building-chart"></div>
 
                     <!-- close button -->
                     <a class="modal__close" id="modal-building-close" href="#">X</a>
                 </div>
             </div>
+            <script src="asset/js/buildingModalControl.js"></script>
 
             <!-- large modal window for phases -->
             <a class="button" id="modal-large-button" href="#modal-large"></a>

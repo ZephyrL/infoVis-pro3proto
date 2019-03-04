@@ -537,9 +537,9 @@
         alldata.forEach(e => {
             energyCost[e.building] = 0
             energyCost[e.building] += (e.constructionWaste != "NA") ? e.constructionWaste : -10000;
-            energyCost[e.building] += (e.energyRecovery != "NA") ? e.energyRecovery : -10000;
-            energyCost[e.building] += (e.materialRecycling != "NA") ? e.materialRecycling : -10000;
-            energyCost[e.building] += (e.reusedWaste != "NA") ? e.reusedWaste : -10000;
+            energyCost[e.building] -= (e.energyRecovery != "NA") ? e.energyRecovery : 10000;
+            energyCost[e.building] -= (e.materialRecycling != "NA") ? e.materialRecycling : 10000;
+            energyCost[e.building] -= (e.reusedWaste != "NA") ? e.reusedWaste : 10000;
             energyCost[e.building] += (e.mixedWaste != "NA") ? e.mixedWaste : -10000;
             energyCost[e.building] += (e.landsfill != "NA") ? e.landsfill : -10000;
             energyCost[e.building] += (e.notSpecifiedWaste != "NA") ? e.notSpecifiedWaste : -10000;
@@ -824,9 +824,9 @@
         alldata.forEach(e => {
             energyCost[e.building] = 0
             energyCost[e.building] += (e.constructionWaste != "NA") ? e.constructionWaste : -10000;
-            energyCost[e.building] += (e.energyRecovery != "NA") ? e.energyRecovery : -10000;
-            energyCost[e.building] += (e.materialRecycling != "NA") ? e.materialRecycling : -10000;
-            energyCost[e.building] += (e.reusedWaste != "NA") ? e.reusedWaste : -10000;
+            energyCost[e.building] -= (e.energyRecovery != "NA") ? e.energyRecovery : 10000;
+            energyCost[e.building] -= (e.materialRecycling != "NA") ? e.materialRecycling : 10000;
+            energyCost[e.building] -= (e.reusedWaste != "NA") ? e.reusedWaste : 10000;
             energyCost[e.building] += (e.mixedWaste != "NA") ? e.mixedWaste : -10000;
             energyCost[e.building] += (e.landsfill != "NA") ? e.landsfill : -10000;
             energyCost[e.building] += (e.notSpecifiedWaste != "NA") ? e.notSpecifiedWaste : -10000;

@@ -55,12 +55,7 @@ html, body {
 	transition: 0.2s ease-in-out;
 }
 
-#modal-building {
-	top: 20%;
-	left: 70%;
-	width: 20%;
-	height: 60%;
-}
+/* ----- sunburst chart style ----- */
 
 #modal-phase {
 	top: 20%;
@@ -68,24 +63,6 @@ html, body {
 	width: 60%;
 	height: 60%;
 }
-
-/* --------- things inside the modal -------- */
-
-/* .modal__photo {
-	display: flex;
-	justify-content: flex-end;
-	align-items: flex-end;
-	width: 40%;
-	height: 100%;
-	overflow: hidden;
-}
-
-.modal__photo img {
-	width: auto;
-	height: 100%;
-} */
-
-/* ----- sunburst chart style ----- */
 
 .modal__chart__large {
 	display: flex;
@@ -99,7 +76,6 @@ html, body {
 .sunburst-tooltip {
 	z-index: 1000;
 }
-
 
 /* ----- text styles in phase modal ------ */
 
@@ -127,6 +103,57 @@ html, body {
 	color: #686868;
 	line-height: 1.5;
 }
+
+/* ------ modal for building ------ */
+
+#modal-building {
+	top: 15%;
+	right: 10%;
+	width: 50%;
+	height: 70%;
+}
+
+.modal__chart__small {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	width: 60%;
+	height: 100%;
+	overflow: hidden;
+}
+
+/* ----- text styles in building modal ------ */
+
+.modal__text__small {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 50%;
+	height: 100%;
+	padding: 2rem;
+	padding-left: 4rem;
+	padding-right: 1rem;
+}
+
+.modal__text__small h1 {
+	font-size: 2rem;
+	font-weight: 600;
+	margin-bottom: 2rem;
+	text-transform: uppercase;
+	color: #0a0a0a;
+}
+
+.modal__text__small p {
+	font-size: 0.875rem;
+	color: #686868;
+	line-height: 1.5;
+}
+
+#modal-canvas {
+	padding: 1rem
+}
+
+/* ----- actions and animations ----- */
 
 .modal:target {
 	visibility: visible;
@@ -156,3 +183,19 @@ html, body {
 	cursor: pointer;
 	text-decoration: none;
 }
+
+/* --------- things inside the modal -------- */
+
+/* .modal__photo {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	width: 40%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.modal__photo img {
+	width: auto;
+	height: 100%;
+} */

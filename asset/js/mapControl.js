@@ -304,12 +304,7 @@
             })
 
             marker.addListener('click', function () {
-                // this.setIcon("asset/img/house-green.png");
-                // TODO: this is the function to change icon (color), 
-                // and what really need to do here is to pop up new window
-                // and show detailed information of building
-                // trigger popup(this);
-                document.getElementById("modal-small-button").click();
+                showBuildingModal(this.building);
             })
 
             marker.addListener('mouseout', function () {
@@ -334,6 +329,11 @@
 
         } else if (event.target.id == "modal-small") {
             document.getElementById("modal-building-close").click();
+            
+            // document.getElementById("modal-building-chart").innerHTML=""
+            // var canvas = document.createElement("canvas")
+            // canvas.id = "canvas"
+            document.getElementById("modal-building-chart").appendChild(canvas)
         }
     }
 

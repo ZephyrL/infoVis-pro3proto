@@ -3,7 +3,7 @@
         // trigger showing modal
         document.getElementById("modal-large-button").click();
 
-        dataset = selectData(phaseName);
+        var dataset = selectData(phaseName);
 
         var title = document.getElementById("modal-phase-title");
         var info = document.getElementById("modal-phase-info");

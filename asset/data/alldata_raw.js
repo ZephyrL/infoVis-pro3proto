@@ -74,7 +74,7 @@ var alldata = [
         "designSizeRecyclingRoom": "NA",
         "buildingMaterialAssessment": "yes",
         "numMaterialDeviation": "NA",
-        "indoorEnvironmentRequiremnt": "Gold",
+        "indoorEnvironmentRequirement": "Gold",
         "indoorEnvironment": "NA"
     },
     {
@@ -152,7 +152,7 @@ var alldata = [
         "designSizeRecyclingRoom": "NA",
         "buildingMaterialAssessment": "yes",
         "numMaterialDeviation": "NA",
-        "indoorEnvironmentRequiremnt": "Gold",
+        "indoorEnvironmentRequirement": "Gold",
         "indoorEnvironment": "NA"
     },
     {
@@ -230,7 +230,7 @@ var alldata = [
         "designSizeRecyclingRoom": "NA",
         "buildingMaterialAssessment": "yes",
         "numMaterialDeviation": "NA",
-        "indoorEnvironmentRequiremnt": "Gold",
+        "indoorEnvironmentRequirement": "Gold",
         "indoorEnvironment": "NA"
     },
     {
@@ -308,7 +308,7 @@ var alldata = [
         "designSizeRecyclingRoom": "NA",
         "buildingMaterialAssessment": "yes",
         "numMaterialDeviation": "NA",
-        "indoorEnvironmentRequiremnt": "Gold",
+        "indoorEnvironmentRequirement": "Gold",
         "indoorEnvironment": "NA"
     },
     {
@@ -386,7 +386,7 @@ var alldata = [
         "designSizeRecyclingRoom": "NA",
         "buildingMaterialAssessment": "yes",
         "numMaterialDeviation": "NA",
-        "indoorEnvironmentRequiremnt": "Gold",
+        "indoorEnvironmentRequirement": "Gold",
         "indoorEnvironment": "NA"
     },
     {
@@ -464,7 +464,7 @@ var alldata = [
         "designSizeRecyclingRoom": "NA",
         "buildingMaterialAssessment": "yes",
         "numMaterialDeviation": "NA",
-        "indoorEnvironmentRequiremnt": "Gold",
+        "indoorEnvironmentRequirement": "Gold",
         "indoorEnvironment": "NA"
     },
     {
@@ -542,7 +542,7 @@ var alldata = [
         "designSizeRecyclingRoom": "NA",
         "buildingMaterialAssessment": "yes",
         "numMaterialDeviation": "NA",
-        "indoorEnvironmentRequiremnt": "Gold",
+        "indoorEnvironmentRequirement": "Gold",
         "indoorEnvironment": "NA"
     },
     {
@@ -620,7 +620,7 @@ var alldata = [
         "designSizeRecyclingRoom": "NA",
         "buildingMaterialAssessment": "yes",
         "numMaterialDeviation": "NA",
-        "indoorEnvironmentRequiremnt": "Gold",
+        "indoorEnvironmentRequirement": "Gold",
         "indoorEnvironment": "NA"
     },
     {
@@ -698,7 +698,7 @@ var alldata = [
         "designSizeRecyclingRoom": "NA",
         "buildingMaterialAssessment": "yes",
         "numMaterialDeviation": "NA",
-        "indoorEnvironmentRequiremnt": "Gold",
+        "indoorEnvironmentRequirement": "Gold",
         "indoorEnvironment": "NA"
     },
     {
@@ -776,7 +776,7 @@ var alldata = [
         "designSizeRecyclingRoom": "NA",
         "buildingMaterialAssessment": "yes",
         "numMaterialDeviation": "NA",
-        "indoorEnvironmentRequiremnt": "Gold",
+        "indoorEnvironmentRequirement": "Gold",
         "indoorEnvironment": "NA"
     },
     {
@@ -854,7 +854,7 @@ var alldata = [
         "designSizeRecyclingRoom": "NA",
         "buildingMaterialAssessment": "yes",
         "numMaterialDeviation": "NA",
-        "indoorEnvironmentRequiremnt": "Gold",
+        "indoorEnvironmentRequirement": "Gold",
         "indoorEnvironment": "NA"
     },
     {
@@ -932,7 +932,7 @@ var alldata = [
         "designSizeRecyclingRoom": "NA",
         "buildingMaterialAssessment": "yes",
         "numMaterialDeviation": "NA",
-        "indoorEnvironmentRequiremnt": "Gold",
+        "indoorEnvironmentRequirement": "Gold",
         "indoorEnvironment": "NA"
     },
     {
@@ -1010,7 +1010,7 @@ var alldata = [
         "designSizeRecyclingRoom": "NA",
         "buildingMaterialAssessment": "yes",
         "numMaterialDeviation": "NA",
-        "indoorEnvironmentRequiremnt": "Gold",
+        "indoorEnvironmentRequirement": "Gold",
         "indoorEnvironment": "NA"
     },
     {
@@ -1088,7 +1088,7 @@ var alldata = [
         "designSizeRecyclingRoom": "NA",
         "buildingMaterialAssessment": "yes",
         "numMaterialDeviation": "NA",
-        "indoorEnvironmentRequiremnt": "Gold",
+        "indoorEnvironmentRequirement": "Gold",
         "indoorEnvironment": "NA"
     },
     {
@@ -1166,7 +1166,7 @@ var alldata = [
         "designSizeRecyclingRoom": "NA",
         "buildingMaterialAssessment": "yes",
         "numMaterialDeviation": "NA",
-        "indoorEnvironmentRequiremnt": "Gold",
+        "indoorEnvironmentRequirement": "Gold",
         "indoorEnvironment": "NA"
     },
     {
@@ -1244,7 +1244,7 @@ var alldata = [
         "designSizeRecyclingRoom": "NA",
         "buildingMaterialAssessment": "yes",
         "numMaterialDeviation": "NA",
-        "indoorEnvironmentRequiremnt": "Gold",
+        "indoorEnvironmentRequirement": "Gold",
         "indoorEnvironment": "NA"
     },
     {
@@ -1322,7 +1322,7 @@ var alldata = [
         "designSizeRecyclingRoom": "NA",
         "buildingMaterialAssessment": "yes",
         "numMaterialDeviation": "NA",
-        "indoorEnvironmentRequiremnt": "Gold",
+        "indoorEnvironmentRequirement": "Gold",
         "indoorEnvironment": "NA"
     },
     {
@@ -1400,7 +1400,7 @@ var alldata = [
         "designSizeRecyclingRoom": "NA",
         "buildingMaterialAssessment": "yes",
         "numMaterialDeviation": "NA",
-        "indoorEnvironmentRequiremnt": "Gold",
+        "indoorEnvironmentRequirement": "Gold",
         "indoorEnvironment": "NA"
     },
     {
@@ -1478,7 +1478,7 @@ var alldata = [
         "designSizeRecyclingRoom": "NA",
         "buildingMaterialAssessment": "yes",
         "numMaterialDeviation": "NA",
-        "indoorEnvironmentRequiremnt": "Gold",
+        "indoorEnvironmentRequirement": "Gold",
         "indoorEnvironment": "NA"
     },
     {
@@ -1556,7 +1556,7 @@ var alldata = [
         "designSizeRecyclingRoom": "NA",
         "buildingMaterialAssessment": "yes",
         "numMaterialDeviation": "NA",
-        "indoorEnvironmentRequiremnt": "Gold",
+        "indoorEnvironmentRequirement": "Gold",
         "indoorEnvironment": "NA"
     },
     {
@@ -1634,7 +1634,7 @@ var alldata = [
         "designSizeRecyclingRoom": "NA",
         "buildingMaterialAssessment": "yes",
         "numMaterialDeviation": "NA",
-        "indoorEnvironmentRequiremnt": "Gold",
+        "indoorEnvironmentRequirement": "Gold",
         "indoorEnvironment": "NA"
     },
     {
@@ -1712,7 +1712,7 @@ var alldata = [
         "designSizeRecyclingRoom": "NA",
         "buildingMaterialAssessment": "yes",
         "numMaterialDeviation": "NA",
-        "indoorEnvironmentRequiremnt": "Gold",
+        "indoorEnvironmentRequirement": "Gold",
         "indoorEnvironment": "NA"
     },
     {
@@ -1790,7 +1790,7 @@ var alldata = [
         "designSizeRecyclingRoom": "NA",
         "buildingMaterialAssessment": "yes",
         "numMaterialDeviation": 1,
-        "indoorEnvironmentRequiremnt": "Gold",
+        "indoorEnvironmentRequirement": "Gold",
         "indoorEnvironment": "Silver"
     },
     {
@@ -1868,7 +1868,7 @@ var alldata = [
         "designSizeRecyclingRoom": "NA",
         "buildingMaterialAssessment": "yes",
         "numMaterialDeviation": 0,
-        "indoorEnvironmentRequiremnt": "Gold",
+        "indoorEnvironmentRequirement": "Gold",
         "indoorEnvironment": "Gold"
     },
     {
@@ -1946,7 +1946,7 @@ var alldata = [
         "designSizeRecyclingRoom": "NA",
         "buildingMaterialAssessment": "yes",
         "numMaterialDeviation": 2,
-        "indoorEnvironmentRequiremnt": "Gold",
+        "indoorEnvironmentRequirement": "Gold",
         "indoorEnvironment": "Gold"
     },
     {
@@ -2024,7 +2024,7 @@ var alldata = [
         "designSizeRecyclingRoom": "NA",
         "buildingMaterialAssessment": "yes",
         "numMaterialDeviation": 6,
-        "indoorEnvironmentRequiremnt": "Gold",
+        "indoorEnvironmentRequirement": "Gold",
         "indoorEnvironment": "Gold"
     },
     {
@@ -2102,7 +2102,7 @@ var alldata = [
         "designSizeRecyclingRoom": "NA",
         "buildingMaterialAssessment": "yes",
         "numMaterialDeviation": 2,
-        "indoorEnvironmentRequiremnt": "Gold",
+        "indoorEnvironmentRequirement": "Gold",
         "indoorEnvironment": "Gold"
     },
     {
@@ -2180,7 +2180,7 @@ var alldata = [
         "designSizeRecyclingRoom": "NA",
         "buildingMaterialAssessment": "yes",
         "numMaterialDeviation": 0,
-        "indoorEnvironmentRequiremnt": "Gold",
+        "indoorEnvironmentRequirement": "Gold",
         "indoorEnvironment": "Gold"
     },
     {
@@ -2258,7 +2258,7 @@ var alldata = [
         "designSizeRecyclingRoom": "NA",
         "buildingMaterialAssessment": "yes",
         "numMaterialDeviation": 0,
-        "indoorEnvironmentRequiremnt": "Gold",
+        "indoorEnvironmentRequirement": "Gold",
         "indoorEnvironment": "Gold"
     },
     {
@@ -2336,7 +2336,7 @@ var alldata = [
         "designSizeRecyclingRoom": "NA",
         "buildingMaterialAssessment": "yes",
         "numMaterialDeviation": 1,
-        "indoorEnvironmentRequiremnt": "Gold",
+        "indoorEnvironmentRequirement": "Gold",
         "indoorEnvironment": "Gold"
     },
     {
@@ -2414,7 +2414,7 @@ var alldata = [
         "designSizeRecyclingRoom": "NA",
         "buildingMaterialAssessment": "yes",
         "numMaterialDeviation": 0,
-        "indoorEnvironmentRequiremnt": "Gold",
+        "indoorEnvironmentRequirement": "Gold",
         "indoorEnvironment": "Silver"
     },
     {
@@ -2492,7 +2492,7 @@ var alldata = [
         "designSizeRecyclingRoom": "NA",
         "buildingMaterialAssessment": "yes",
         "numMaterialDeviation": 0,
-        "indoorEnvironmentRequiremnt": "Gold",
+        "indoorEnvironmentRequirement": "Gold",
         "indoorEnvironment": "Gold"
     },
     {
@@ -2535,7 +2535,7 @@ var alldata = [
         "designRegionalGeneratedEnergy": 0,
         "co2": "NA",
         "greenRequirementLevel": 0.6,
-        "measuredGreen": "Not reported yet",
+        "measuredGreen": "NA",
         "estimatedGreen": 0.63,
         "designGreen": 0.71,
         "greenCourtyard": 285,
@@ -2570,7 +2570,7 @@ var alldata = [
         "designSizeRecyclingRoom": 49,
         "buildingMaterialAssessment": "yes",
         "numMaterialDeviation": 17,
-        "indoorEnvironmentRequiremnt": "Gold",
+        "indoorEnvironmentRequirement": "Gold",
         "indoorEnvironment": "Gold"
     },
     {
@@ -2613,7 +2613,7 @@ var alldata = [
         "designRegionalGeneratedEnergy": 0,
         "co2": "NA",
         "greenRequirementLevel": 0.6,
-        "measuredGreen": "Not reported yet",
+        "measuredGreen": "NA",
         "estimatedGreen": 0.63,
         "designGreen": 0.71,
         "greenCourtyard": 285,
@@ -2648,7 +2648,7 @@ var alldata = [
         "designSizeRecyclingRoom": 32.2,
         "buildingMaterialAssessment": "yes",
         "numMaterialDeviation": 4,
-        "indoorEnvironmentRequiremnt": "Gold",
+        "indoorEnvironmentRequirement": "Gold",
         "indoorEnvironment": "Gold"
     },
     {
@@ -2691,7 +2691,7 @@ var alldata = [
         "designRegionalGeneratedEnergy": 0,
         "co2": "NA",
         "greenRequirementLevel": 0.6,
-        "measuredGreen": "Not reported yet",
+        "measuredGreen": "NA",
         "estimatedGreen": 0.63,
         "designGreen": 0.71,
         "greenCourtyard": 285,
@@ -2726,7 +2726,7 @@ var alldata = [
         "designSizeRecyclingRoom": 0,
         "buildingMaterialAssessment": "yes",
         "numMaterialDeviation": 1,
-        "indoorEnvironmentRequiremnt": "Gold",
+        "indoorEnvironmentRequirement": "Gold",
         "indoorEnvironment": "Gold"
     },
     {
@@ -2769,7 +2769,7 @@ var alldata = [
         "designRegionalGeneratedEnergy": 0,
         "co2": "NA",
         "greenRequirementLevel": 0.6,
-        "measuredGreen": "Not reported yet",
+        "measuredGreen": "NA",
         "estimatedGreen": 0.64,
         "designGreen": 0.61,
         "greenCourtyard": 300,
@@ -2804,7 +2804,7 @@ var alldata = [
         "designSizeRecyclingRoom": 17,
         "buildingMaterialAssessment": "yes",
         "numMaterialDeviation": 1,
-        "indoorEnvironmentRequiremnt": "Gold",
+        "indoorEnvironmentRequirement": "Gold",
         "indoorEnvironment": "Gold"
     },
     {
@@ -2847,7 +2847,7 @@ var alldata = [
         "designRegionalGeneratedEnergy": 0,
         "co2": "NA",
         "greenRequirementLevel": 0.6,
-        "measuredGreen": "Not reported yet",
+        "measuredGreen": "NA",
         "estimatedGreen": 0.64,
         "designGreen": 0.61,
         "greenCourtyard": 382,
@@ -2882,7 +2882,7 @@ var alldata = [
         "designSizeRecyclingRoom": 77,
         "buildingMaterialAssessment": "yes",
         "numMaterialDeviation": 0,
-        "indoorEnvironmentRequiremnt": "Gold",
+        "indoorEnvironmentRequirement": "Gold",
         "indoorEnvironment": "Gold"
     },
     {
@@ -2925,7 +2925,7 @@ var alldata = [
         "designRegionalGeneratedEnergy": 0,
         "co2": "NA",
         "greenRequirementLevel": 0.6,
-        "measuredGreen": "Not reported yet",
+        "measuredGreen": "NA",
         "estimatedGreen": 0.64,
         "designGreen": 0.61,
         "greenCourtyard": 382,
@@ -2960,7 +2960,7 @@ var alldata = [
         "designSizeRecyclingRoom": 29.4,
         "buildingMaterialAssessment": "yes",
         "numMaterialDeviation": 2,
-        "indoorEnvironmentRequiremnt": "Gold",
+        "indoorEnvironmentRequirement": "Gold",
         "indoorEnvironment": "Gold"
     },
     {
@@ -3003,7 +3003,7 @@ var alldata = [
         "designRegionalGeneratedEnergy": 0,
         "co2": "NA",
         "greenRequirementLevel": 0.6,
-        "measuredGreen": "Not reported yet",
+        "measuredGreen": "NA",
         "estimatedGreen": 0.6,
         "designGreen": 0.61,
         "greenCourtyard": 451,
@@ -3038,7 +3038,7 @@ var alldata = [
         "designSizeRecyclingRoom": 31,
         "buildingMaterialAssessment": "yes",
         "numMaterialDeviation": 5,
-        "indoorEnvironmentRequiremnt": "Gold",
+        "indoorEnvironmentRequirement": "Gold",
         "indoorEnvironment": "Gold"
     },
     {
@@ -3081,7 +3081,7 @@ var alldata = [
         "designRegionalGeneratedEnergy": 0,
         "co2": "NA",
         "greenRequirementLevel": 0.6,
-        "measuredGreen": "Not reported yet",
+        "measuredGreen": "NA",
         "estimatedGreen": 0.6,
         "designGreen": 0.61,
         "greenCourtyard": 451,
@@ -3116,7 +3116,7 @@ var alldata = [
         "designSizeRecyclingRoom": 19,
         "buildingMaterialAssessment": "yes",
         "numMaterialDeviation": 10,
-        "indoorEnvironmentRequiremnt": "Gold",
+        "indoorEnvironmentRequirement": "Gold",
         "indoorEnvironment": "Gold"
     },
     {
@@ -3159,8 +3159,8 @@ var alldata = [
         "designRegionalGeneratedEnergy": 0,
         "co2": "NA",
         "greenRequirementLevel": 0.6,
-        "measuredGreen": "Not reported yet",
-        "estimatedGreen": "Not reported yet",
+        "measuredGreen": "NA",
+        "estimatedGreen": "NA",
         "designGreen": 0.69,
         "greenCourtyard": 371,
         "greenRoof": 465,
@@ -3194,7 +3194,7 @@ var alldata = [
         "designSizeRecyclingRoom": 88,
         "buildingMaterialAssessment": "yes",
         "numMaterialDeviation": 2,
-        "indoorEnvironmentRequiremnt": "Gold",
+        "indoorEnvironmentRequirement": "Gold",
         "indoorEnvironment": "Silver"
     },
     {
@@ -3237,8 +3237,8 @@ var alldata = [
         "designRegionalGeneratedEnergy": 0,
         "co2": "NA",
         "greenRequirementLevel": 0.6,
-        "measuredGreen": "Not reported yet",
-        "estimatedGreen": "Not reported yet",
+        "measuredGreen": "NA",
+        "estimatedGreen": "NA",
         "designGreen": 0.65,
         "greenCourtyard": 591,
         "greenRoof": 2000,
@@ -3272,7 +3272,7 @@ var alldata = [
         "designSizeRecyclingRoom": 21.3,
         "buildingMaterialAssessment": "yes",
         "numMaterialDeviation": 4,
-        "indoorEnvironmentRequiremnt": "Gold",
+        "indoorEnvironmentRequirement": "Gold",
         "indoorEnvironment": "Gold"
     },
     {
@@ -3315,7 +3315,7 @@ var alldata = [
         "designRegionalGeneratedEnergy": 0,
         "co2": "NA",
         "greenRequirementLevel": 0.6,
-        "measuredGreen": "Not reported yet",
+        "measuredGreen": "NA",
         "estimatedGreen": 0.59,
         "designGreen": 0.66,
         "greenCourtyard": 591,
@@ -3350,7 +3350,7 @@ var alldata = [
         "designSizeRecyclingRoom": 38.5,
         "buildingMaterialAssessment": "yes",
         "numMaterialDeviation": 1,
-        "indoorEnvironmentRequiremnt": "Gold",
+        "indoorEnvironmentRequirement": "Gold",
         "indoorEnvironment": "Gold"
     },
     // {
@@ -3428,7 +3428,7 @@ var alldata = [
     //     "designSizeRecyclingRoom": "NA",
     //     "buildingMaterialAssessment": "yes",
     //     "numMaterialDeviation": 0,
-    //     "indoorEnvironmentRequiremnt": "Gold",
+    //     "indoorEnvironmentRequirement": "Gold",
     //     "indoorEnvironment": "Gold"
     // },
     {
@@ -3471,8 +3471,8 @@ var alldata = [
         "designRegionalGeneratedEnergy": 0,
         "co2": "NA",
         "greenRequirementLevel": 0.6,
-        "measuredGreen": "Not reported yet",
-        "estimatedGreen": "Not reported yet",
+        "measuredGreen": "NA",
+        "estimatedGreen": "NA",
         "designGreen": 0.66,
         "greenCourtyard": 591,
         "greenRoof": 25,
@@ -3506,7 +3506,7 @@ var alldata = [
         "designSizeRecyclingRoom": 20,
         "buildingMaterialAssessment": "yes",
         "numMaterialDeviation": 1,
-        "indoorEnvironmentRequiremnt": "Gold",
+        "indoorEnvironmentRequirement": "Gold",
         "indoorEnvironment": "Gold"
     },
     // {
@@ -3584,7 +3584,7 @@ var alldata = [
     //     "designSizeRecyclingRoom": "NA",
     //     "buildingMaterialAssessment": "yes",
     //     "numMaterialDeviation": 0,
-    //     "indoorEnvironmentRequiremnt": "Gold",
+    //     "indoorEnvironmentRequirement": "Gold",
     //     "indoorEnvironment": "Gold"
     // },
     {
@@ -3627,8 +3627,8 @@ var alldata = [
         "designRegionalGeneratedEnergy": 0,
         "co2": "NA",
         "greenRequirementLevel": 0.6,
-        "measuredGreen": "Not reported yet",
-        "estimatedGreen": "Not reported yet",
+        "measuredGreen": "NA",
+        "estimatedGreen": "NA",
         "designGreen": 0.76,
         "greenCourtyard": 6232,
         "greenRoof": 1489,
@@ -3662,7 +3662,7 @@ var alldata = [
         "designSizeRecyclingRoom": 101,
         "buildingMaterialAssessment": "NA",
         "numMaterialDeviation": 5,
-        "indoorEnvironmentRequiremnt": "Gold",
+        "indoorEnvironmentRequirement": "Gold",
         "indoorEnvironment": "Gold"
     }
 ]
