@@ -90,7 +90,23 @@
             .width(width)
             .height(height)
             .color(d => d.color)
-            .tooltipContent(d => d.value)(document.getElementById("modal-phase-chart"))
+            .tooltipContent(d => {
+                if (d.value) {
+                    if (d.unit) {
+                        return d.value + " " + d.unit
+                    }
+                    else {
+                        return d.value
+                    }
+                } else {
+                    if (d.unit) {
+                        return "Category: " + d.name + " ( " + d.unit + ")"
+                    }
+                    else {
+                        return "Category: " + d.name;
+                    }
+                }
+            })(document.getElementById("modal-phase-chart"))
     }
 }
 
@@ -156,10 +172,12 @@ selectData = function (phaseName) {
             temp.name = element.building;
             temp.value = element.measuredTotalEnergy;
             temp.color = COLOR.red3
+            temp.unit = "kWh/m<sup>2</sup>"
             operation.children.push(temp);
         }
     });
     operation.value = operationEnergy;
+    operation.unit = "kWh/m<sup>2</sup>"
     operation.color = COLOR.red2
 
     // estimated energy and leaf nodes
@@ -174,10 +192,12 @@ selectData = function (phaseName) {
             temp.name = element.building;
             temp.value = element.estimatedTotalEnergy;
             temp.color = COLOR.red3
+            temp.unit = "kWh/m<sup>2</sup>"
             construction.children.push(temp);
         }
     });
     construction.value = constructionEnergy;
+    construction.unit = "kWh/m<sup>2</sup>"
     construction.color = COLOR.red2
 
     // designed energy and leaf noodes
@@ -192,14 +212,17 @@ selectData = function (phaseName) {
             temp.name = element.building;
             temp.value = element.designTotalEnergy;
             temp.color = COLOR.red3
+            temp.unit = "kWh/m<sup>2</sup>"
             design.children.push(temp);
         }
     });
     design.value = designEnergy;
+    design.unit = "kWh/m<sup>2</sup>"
     design.color = COLOR.red2
 
     energyUse.name = "Energy Use"
     energyUse.color = COLOR.red1
+    energyUse.unit = "kWh/m<sup>2</sup>"
     energyUse.children = []
     energyUse.children.push(operation)
     energyUse.children.push(construction)
@@ -216,10 +239,12 @@ selectData = function (phaseName) {
             temp.name = element.building;
             temp.value = element.co2;
             temp.color = COLOR.magenta2
+            temp.unit = "tonnes"
             co2.children.push(temp);
         }
     });
     co2.value = co2emission;
+    co2.unit = "tonnes"
     co2.color = COLOR.magenta1
 
     // green structure
@@ -245,6 +270,7 @@ selectData = function (phaseName) {
             temp.name = element.building;
             temp.value = element.greenCourtyard / 10;
             temp.color = COLOR.green3
+            temp.unit = "* 10 M<sup>2</sup>"
             courtyard.children.push(temp)
         }
         if (element.greenRoof != "NA") {
@@ -255,16 +281,20 @@ selectData = function (phaseName) {
             temp.name = element.building;
             temp.value = element.greenRoof / 10;
             temp.color = COLOR.green3
+            temp.unit = "* 10 M<sup>2</sup>"
             roof.children.push(temp)
         }
     });
     courtyard.value = courtyardArea;
     courtyard.color = COLOR.green2
+    courtyard.unit = "* 10 M<sup>2</sup>"
     roof.value = roofArea;
     roof.color = COLOR.green2
+    roof.unit = "* 10 M<sup>2</sup>"
 
     greenStructure.name = "Green Structure"
     greenStructure.color = COLOR.green1
+    greenStructure.unit = "* 10 M<sup>2</sup>"
     greenStructure.children = []
     greenStructure.children.push(courtyard)
     greenStructure.children.push(roof)
@@ -290,37 +320,44 @@ selectData = function (phaseName) {
             temp.name = element.building;
             temp.value = element.totalNumParking / 2;
             temp.color = COLOR.blue3
+            temp.unit = "* 2 slots"
             bicycle.children.push(temp)
         }
         if (element.numCarParkingSpace != "NA") {
-            numCar += element.numCarParkingSpace;
+            numCar += element.numCarParkingSpace / 2;
 
             var temp = new Object
             temp.name = element.building;
-            temp.value = element.numCarParkingSpace;
+            temp.value = element.numCarParkingSpace / 2;
+            temp.unit = "* 2 slots"
             temp.color = COLOR.blue3
             car.children.push(temp);
         }
 
         if (element.numElectricalCharging != "NA") {
-            numCharge += element.numElectricalCharging;
+            numCharge += element.numElectricalCharging / 2;
 
             var temp = new Object
             temp.name = element.building;
-            temp.value = element.numElectricalCharging;
+            temp.value = element.numElectricalCharging / 2;
             temp.color = COLOR.blue3
+            temp.unit = "* 2 slots"
             charge.children.push(temp);
         }
     });
     bicycle.value = numBicycle;
     bicycle.color = COLOR.blue2
+    bicycle.unit = "* 2 slots"
     car.value = numCar;
     car.color = COLOR.blue2
+    car.unit = "* 2 slots"
     charge.value = numCharge;
     charge.color = COLOR.blue2
+    charge.unit = "* 2 slots"
 
     transport.name = "Transportations"
     transport.color = COLOR.blue1
+    transport.unit = "* 2 slots"
     transport.children = []
     transport.children.push(bicycle)
     transport.children.push(car)
@@ -374,6 +411,7 @@ selectData = function (phaseName) {
             temp.name = e.building;
             temp.value = e.constructWaste
             temp.color = COLOR.yellow3
+            temp.unit = "kg/M<sup>2</sup>"
             constructWaste.children.push(temp)
         }
         if (e.energyRecovery != "NA") {
@@ -383,6 +421,7 @@ selectData = function (phaseName) {
             temp.name = e.building;
             temp.value = e.energyRecovery;
             temp.color = COLOR.yellow3
+            temp.unit = "kg/M<sup>2</sup>"
             energyRecovery.children.push(temp)
         }
         if (e.materialRecycling != "NA") {
@@ -392,6 +431,7 @@ selectData = function (phaseName) {
             temp.name = e.building;
             temp.value = e.materialRecycling
             temp.color = COLOR.yellow3
+            temp.unit = "kg/M<sup>2</sup>"
             materialRecycling.children.push(temp)
         }
         if (e.reusedWaste != "NA") {
@@ -401,6 +441,7 @@ selectData = function (phaseName) {
             temp.name = e.building;
             temp.value = e.reusedWaste
             temp.color = COLOR.yellow3
+            temp.unit = "kg/M<sup>2</sup>"
             reusedWaste.children.push(temp)
         }
         if (e.mixedWaste != "NA") {
@@ -410,6 +451,7 @@ selectData = function (phaseName) {
             temp.name = e.building;
             temp.value = e.mixedWaste
             temp.color = COLOR.yellow3
+            temp.waste = "kg/M<sup>2</sup>"
             mixedWaste.children.push(temp)
         }
         if (e.landsfill != "NA") {
@@ -419,6 +461,7 @@ selectData = function (phaseName) {
             temp.name = e.building;
             temp.value = e.landsfill
             temp.color = COLOR.yellow3
+            temp.unit = "kg/M<sup>2</sup>"
             landsfill.children.push(temp)
         }
         if (e.notSpecifiedWaste != "NA") {
@@ -428,6 +471,7 @@ selectData = function (phaseName) {
             temp.name = e.building;
             temp.value = e.notSpecifiedWaste
             temp.color = COLOR.yellow3
+            temp.unit = "kg/M<sup>2</sup>"
             notSpecified.children.push(temp)
         }
         if (e.distanceToVWC != "NA") {
@@ -438,6 +482,7 @@ selectData = function (phaseName) {
             temp.name = e.building;
             temp.value = e.distanceToVWC;
             temp.color = COLOR.yellow3
+            temp.unit = "M"
             distVWC.children.push(temp)
         }
         if (e.distanceToRecyclingRoom != "NA") {
@@ -448,6 +493,7 @@ selectData = function (phaseName) {
             temp.name = e.building;
             temp.value = e.distanceToRecyclingRoom;
             temp.color = COLOR.yellow3
+            temp.unit = "M"
             distRecycle.children.push(temp)
         }
     });
@@ -463,14 +509,23 @@ selectData = function (phaseName) {
     distRecycle.value = d2 / n2;
 
     constructWaste.color = COLOR.yellow2;
+    constructWaste.unit = "kg/M<sup>2</sup>"
     energyRecovery.color = COLOR.yellow2
+    energyRecovery.unit = "kg/M<sup>2</sup>"
     materialRecycling.color = COLOR.yellow2
+    materialRecycling.unit = "kg/M<sup>2</sup>"
     reusedWaste.color = COLOR.yellow2
+    reusedWaste.unit = "kg/M<sup>2</sup>"
     mixedWaste.color = COLOR.yellow2
+    mixedWaste.unit = "kg/M<sup>2</sup>"
     landsfill.color = COLOR.yellow2
+    landsfill.unit = "kg/M<sup>2</sup>"
     notSpecified.color = COLOR.yellow2
+    notSpecified.unit = "kg/M<sup>2</sup>"
     distVWC.color = COLOR.yellow2
+    distVWC.unit = "M"
     distRecycle.color = COLOR.yellow2
+    distRecycle.unit = "M"
 
     waste.name = "Wastes"
     waste.children = []
