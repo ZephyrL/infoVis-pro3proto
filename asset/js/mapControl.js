@@ -326,14 +326,8 @@
     window.onclick = function (event) {
         if (event.target.id == "modal-large") {
             document.getElementById("modal-phase-close").click();
-
         } else if (event.target.id == "modal-small") {
             document.getElementById("modal-building-close").click();
-            
-            // document.getElementById("modal-building-chart").innerHTML=""
-            // var canvas = document.createElement("canvas")
-            // canvas.id = "canvas"
-            document.getElementById("modal-building-chart").appendChild(canvas)
         }
     }
 
@@ -569,16 +563,16 @@ setColor = function (marker, color) {
 
 setHide = function (marker) {
     marker.setVisible(false)
-    document.getElementsByName(marker.building)[0].style.visibility="hidden"
+    document.getElementsByName(marker.building)[0].style.visibility = "hidden"
 }
 
-setShow = function (marker){
+setShow = function (marker) {
     marker.setVisible(true)
-    document.getElementsByName(marker.building)[0].style.visibility="visible"
+    document.getElementsByName(marker.building)[0].style.visibility = "visible"
 }
 
 setPosition = function (marker, percent) {
     var width = window.innerWidth * 0.4;
-    var string = Math.floor(percent * width)-15 + "px"
+    var string = Math.floor(percent * width) - 15 + "px"
     document.getElementsByName(marker.building)[0].style.left = string;
 }
