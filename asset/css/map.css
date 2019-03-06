@@ -28,7 +28,8 @@
     border-radius: 3px;
     box-shadow: 0px 2px 10px 1px rgba(0, 0, 0, 0.5);
 }
-.colorbar #redcolor{
+
+.colorbar #redcolor {
     font-size: 1rem;
     margin: 0;
     position: absolute;
@@ -37,7 +38,7 @@
     z-index: 1000;
 }
 
-.colorbar #greencolor{
+.colorbar #greencolor {
     font-size: 1rem;
     margin: 0;
     position: absolute;
@@ -46,17 +47,9 @@
     z-index: 1000;
 }
 
-
-.colorbar img{
+.colorbar img {
     position: absolute;
 }
-
-/* .imgBox {
-    position: absolute;
-    top: 90%;
-    left: 30%;
-    display: inline-block;
-} */
 
 #r2gbar {
     z-index: 4;
@@ -77,8 +70,6 @@ html, body {
     top: 0;
     left: 0;
     transform: translate(-50%, 0%);
-    /* Style the bubble. */
-    /* background-image: linear-gradient(to right, rgba(192, 192, 192, 0) 0%, rgba(192, 192, 192, 0.7) 10%, rgba(255, 255, 255, 0.7) 50%, rgba(192, 192, 192, 0.7) 90%, rgba(192, 192, 192, 0) 100%); */
     background-image: radial-gradient(rgba(255, 255, 255, 0.7) 0%, rgba(192, 192, 192, 0.7) 50%, rgba(192, 192, 192, 0) 100%);
     padding: 5px;
     border-radius: 5px;
@@ -86,7 +77,6 @@ html, body {
     font-size: 1rem;
     overflow-y: auto;
     max-height: 60px;
-    /* box-shadow: 0px 2px 10px 1px rgba(0, 0, 0, 0.5); */
 }
 
 /* JavaScript will position this div at the bottom of the popup tip. */
@@ -98,75 +88,3 @@ html, body {
     /* The max width of the info window. */
     width: 250px;
 }
-
-/* The parent of the bubble. A zero-height div at the top of the tip. */
-
-/* .popup-bubble-anchor { */
-
-/* Position the div a fixed distance above the tip. */
-
-/* position: absolute; */
-
-/* width: 100%; */
-
-/* bottom: TIP_HEIGHT= */
-
-/* 8px; */
-
-/* left: 0; */
-
-/* } */
-
-/* This element draws the tip. */
-
-/* .popup-bubble-anchor::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0; */
-
-/* Center the tip horizontally. */
-
-/* transform: translate(-50%, 0); */
-
-/* The tip is a https://css-tricks.com/snippets/css/css-triangle/ */
-
-/* width: 0;
-    height: 0; */
-
-/* The tip is 8px high, and 12px wide. */
-
-/* border-left: 6px solid transparent;
-    border-right: 6px solid transparent;
-    border-top: TIP_HEIGHT= */
-
-/* 8px solid white;
-} */
-
-/* ----- [Deprecated] header on the top ----- */
-
-/* .header {
-    height: 8%;
-    width: 100%;
-}
-
-.header div {
-    position: relative;
-    display: flex;
-    left: 75%;
-    width: 25%;
-    padding: 0;
-}
-
-.header p {
-    font-weight: bold;
-    vertical-align: middle;
-} */
-
-/* ----- [Deprecated] three.js canvas element ----- */
-
-/* .building {
-    width: 30%;
-    height: 80%;
-    padding: 10px;
-} */

@@ -42,10 +42,6 @@ html, body {
     background-image: url(https://i.postimg.cc/W14vywqg/photo-1424746219973-8fe3bd07d8e3.jpg);
 }
 
-/* .background:nth-child(3) {
-    background-image: url(https://i.postimg.cc/TY0xQ41T/photo-1433840496881-cbd845929862.jpg);
-} */
-
 /* Set stacking context of slides */
 
 .background:nth-child(1) {
@@ -55,10 +51,6 @@ html, body {
 .background:nth-child(2) {
     z-index: 1;
 }
-
-/* .background:nth-child(3) {
-    z-index: 1;
-} */
 
 .content-wrapper {
     height: 100vh;
@@ -79,22 +71,6 @@ html, body {
     font-size: 12vh;
     line-height: 1.4;
 }
-
-/* .background.up-scroll {
-    transform: translate3d(0, -15vh, 0);
-}
-
-.background.up-scroll .content-wrapper {
-    transform: translateY(15vh);
-}
-
-.background.up-scroll+.background {
-    transform: translate3d(0, 30vh, 0);
-}
-
-.background.up-scroll+.background .content-wrapper {
-    transform: translateY(30vh);
-} */
 
 .background.down-scroll {
     transform: translate3d(0, -130vh, 0);

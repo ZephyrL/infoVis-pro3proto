@@ -1,29 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,600&subset=latin-ext');
-* {
-	box-sizing: border-box;
-}
-
-html, body {
-	font-family: 'Raleway', sans-serif;
-	font-size: 16px;
-}
-
-@media screen and (max-width: 768px) {
-	html, body {
-		font-size: 12px;
-	}
-}
 
 .button {
-	/* text-decoration: none;
-  font-size: 0.875rem;
-  font-weight: 300;
-  text-transform: uppercase;
-  display: inline-block;
-  border-radius: 1.5rem;
-  background-color: #fff;
-  color: #9191e9;
-  padding: 1rem 2rem; */
 	visibility: hidden;
 }
 
@@ -183,19 +160,3 @@ html, body {
 	cursor: pointer;
 	text-decoration: none;
 }
-
-/* --------- things inside the modal -------- */
-
-/* .modal__photo {
-	display: flex;
-	justify-content: flex-end;
-	align-items: flex-end;
-	width: 40%;
-	height: 100%;
-	overflow: hidden;
-}
-
-.modal__photo img {
-	width: auto;
-	height: 100%;
-} */
