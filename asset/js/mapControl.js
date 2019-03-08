@@ -356,8 +356,7 @@
             icon.classList = "colorbar-house";
             icon.style.top = "-5px";
             icon.name = element.building;
-            var string = Math.floor(Math.random() * width) + "px"
-            icon.style.left = string; // TODO: now its using random index
+            icon.style.visibility = "hidden"
             bar.appendChild(icon);
 
             icon.addEventListener("mouseover", function () {
@@ -586,7 +585,9 @@ setShow = function (marker) {
 }
 
 setPosition = function (marker, percent) {
-    var width = window.innerWidth * 0.4;
-    var string = Math.floor(percent * width) - 15 + "px"
+    var width = window.innerWidth * 0.45;
+    var innerW = width * 0.7;
+    var offset = width * 0.15;
+    var string = Math.floor(percent * innerW + offset - 10) + "px"
     document.getElementsByName(marker.building)[0].style.left = string;
 }

@@ -1,31 +1,4 @@
 {
-
-    function shuffle(array) {
-        for (let i = array.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [array[i], array[j]] = [array[j], array[i]];
-        }
-        return array;
-    }
-
-    function toHex(i) {
-        return (i / 16).toString(16) + (i % 16).toString(16);
-    }
-
-    // $("#stage-operation").click(function (event) {
-    //     // TODO: sort the polygons using their :content as keys
-    //     // polygons.sort(compareFunction)
-    //     // polygons[0].setOptions({strokeColor: "#FFFFFF"});
-
-    //     // array = shuffle([0, 1, 2, 3]);
-    //     // for (let i = 0; i < 4; i++) {
-    //     //     var newColor = "#" + toHex(256/4*i) + toHex(256/4*(3-i)) + "00";
-    //     //     // alert(newColor);
-    //     //     polygons[array[i]].setOptions({ strokeColor: newColor });
-    //     //     polygons[array[i]].setOptions({ fillColor: newColor });
-    //     // }
-    //     // event.preventDefault(); // should enable this if there is any strange behavior on click.
-    // })
     clearFilter = function () {
         markers.forEach(e => {
             setColor(e, "yellow")
@@ -40,14 +13,27 @@
         alldata.forEach(e => {
             stages[e.building] = e.stage;
         });
+        $("#redcolor").html("In operation")
+        $("#greencolor").html("In operation")
+
+        var count = 0
         markers.forEach(e => {
             if (stages[e.building] == "In operation") {
+                count += 1
+            }
+        });
+        var cc = 1
+        for (let ii = 0; ii < markers.length; ii++) {
+            var e = markers[ii]
+            if (stages[e.building] == "In operation") {
                 setColor(e, "orange")
+                setPosition(e, cc / (count + 1))
+                cc += 1
             }
             else {
                 setHide(e)
             }
-        });
+        }
     })
     $("#stage-construction").click(function (event) {
         clearFilter();
@@ -56,14 +42,26 @@
         alldata.forEach(e => {
             stages[e.building] = e.stage;
         });
+        $("#redcolor").html("Construction")
+        $("#greencolor").html("Construction")
+        var count = 0
         markers.forEach(e => {
             if (stages[e.building] == "Construction") {
+                count += 1
+            }
+        });
+        var cc = 1
+        for (let ii = 0; ii < markers.length; ii++) {
+            var e = markers[ii]
+            if (stages[e.building] == "Construction") {
                 setColor(e, "azure")
+                setPosition(e, cc / (count + 1))
+                cc += 1
             }
             else {
                 setHide(e)
             }
-        });
+        }
     })
     $("#stage-design").click(function (event) {
         clearFilter();
@@ -72,14 +70,26 @@
         alldata.forEach(e => {
             stages[e.building] = e.stage;
         });
+        $("#redcolor").html("Designing")
+        $("#greencolor").html("Designing")
+        var count = 0
         markers.forEach(e => {
             if (stages[e.building] == "Design") {
-                setColor(e, "grass")
+                count += 1
+            }
+        });
+        var cc = 1
+        for (let ii = 0; ii < markers.length; ii++) {
+            var e = markers[ii]
+            if (stages[e.building] == "Design") {
+                setColor(e, "green")
+                setPosition(e, cc / (count + 1))
+                cc += 1
             }
             else {
                 setHide(e)
             }
-        });
+        }
     })
 
     // energy filters
@@ -563,7 +573,7 @@
             var percent = (cost - low) / (high - low)
             if (percent >= 0 && percent <= 1)
                 setPosition(e, 1 - percent)
-            if (percent > 1) setPosition(e, 0)
+            if (percent > 1) setPosition(e, -0.05)
             if (percent >= 0 && percent < 0.2) {
                 setColor(e, "green")
             } else if (percent >= 0.2 && percent < 0.4) {
@@ -604,7 +614,7 @@
             var percent = (cost - low) / (high - low)
             if (percent >= 0 && percent <= 1)
                 setPosition(e, 1 - percent)
-            if (percent > 1) setPosition(e, 0)
+            if (percent > 1) setPosition(e, -0.05)
             if (percent >= 0 && percent < 0.2) {
                 setColor(e, "green")
             } else if (percent >= 0.2 && percent < 0.4) {
@@ -859,7 +869,7 @@
     })
 
     // clear filter
-    $("#clear-filter").click(function(event){
+    $("#clear-filter").click(function (event) {
         clearFilter();
     })
 }
